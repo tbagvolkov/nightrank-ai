@@ -1,31 +1,34 @@
 export const metadata = {
   title: "Meilleurs sites webcams Québec | NightRank AI",
   description:
-    "Comparatif des meilleurs sites webcams au Québec et au Canada.",
+    "Comparatif des meilleurs sites webcams au Québec et au Canada : Jerkmate, LiveJasmin et BongaCams.",
 };
 
 const sites = [
   {
     name: "Jerkmate",
     note: "4.8/5",
-    desc: "Très populaire pour les webcams live et le trafic mobile.",
+    desc: "Très populaire pour les webcams live et l’expérience mobile.",
+    url: "/offres/jerkmate",
   },
   {
     name: "LiveJasmin",
     note: "4.7/5",
     desc: "Option premium avec une image de marque plus haut de gamme.",
+    url: "/offres/livejasmin",
   },
   {
     name: "BongaCams",
     note: "4.5/5",
     desc: "Plateforme internationale avec beaucoup de modèles disponibles.",
+    url: "/offres/bongacams",
   },
 ];
 
 export default function Page() {
   return (
     <main className="min-h-screen bg-black text-white">
-      <div className="max-w-6xl mx-auto px-6 py-20">
+      <section className="max-w-6xl mx-auto px-6 py-20">
         <a href="/comparatifs" className="text-pink-400">
           ← Retour comparatifs
         </a>
@@ -51,9 +54,12 @@ export default function Page() {
 
               <p className="text-gray-400 mb-8">{site.desc}</p>
 
-              <button className="bg-pink-600 px-6 py-3 rounded-xl">
+              <a
+                href={site.url}
+                className="inline-block bg-pink-600 hover:bg-pink-700 px-6 py-3 rounded-xl font-bold"
+              >
                 Voir l’offre
-              </button>
+              </a>
             </div>
           ))}
         </div>
@@ -75,7 +81,7 @@ export default function Page() {
             sur la discrétion, la vitesse et la simplicité.
           </p>
         </section>
-      </div>
+      </section>
     </main>
   );
 }

@@ -1,4 +1,5 @@
 import { cities, offers } from "./data";
+import AgeGate from "./AgeGate";
 
 export const metadata = {
 title: "NightRank AI | Meilleurs sites adultes au Québec",
@@ -9,6 +10,8 @@ description:
 export default function Home() {
 return (
 <main className="min-h-screen bg-black text-white">
+
+<AgeGate />
 
 <nav className="sticky top-0 z-50 flex justify-between items-center px-8 py-5 border-b border-zinc-900 bg-black">
 
@@ -320,6 +323,10 @@ Guide indépendant Québec • Canada
 <a href="/gaming">Gaming</a>
 
 </div>
+
+<p className="text-xs text-gray-600 mt-8">
+Contenu réservé aux adultes de 18 ans et plus.
+</p>
 
 </footer>
 

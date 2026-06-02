@@ -15,7 +15,7 @@ desc:
 
 {
 title: "Top rencontres adultes Québec",
-url: "/comparatifs/dating-quebec",
+url: "/comparatifs/top-rencontres-adultes-quebec",
 desc:
 "Classement des plateformes dating.",
 },

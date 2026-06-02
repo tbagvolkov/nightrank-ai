@@ -25,28 +25,40 @@ export const offers = [
   {
     name: "Jerkmate",
     category: "Cams",
-    description: "Site populaire de webcams live.",
-    url: "#",
+    description:
+      "Plateforme populaire de webcams live avec expérience premium.",
+    url: "/offres/jerkmate",
   },
 
   {
     name: "LiveJasmin",
     category: "Cams",
-    description: "Plateforme premium de live cams.",
-    url: "#",
+    description:
+      "Site webcam haut de gamme reconnu à l'international.",
+    url: "/offres/livejasmin",
   },
 
   {
-    name: "Ashley Madison",
-    category: "Dating",
-    description: "Rencontres discrètes au Canada.",
-    url: "#",
+    name: "BongaCams",
+    category: "Cams",
+    description:
+      "Grande sélection de modèles et diffusion en direct.",
+    url: "/offres/bongacams",
   },
 
   {
     name: "AdultFriendFinder",
     category: "Dating",
-    description: "Communauté adulte.",
-    url: "#",
+    description:
+      "Communauté adulte pour rencontres et connexions entre adultes.",
+    url: "/offres/adultfriendfinder",
+  },
+
+  {
+    name: "Sex Emulator",
+    category: "Gaming",
+    description:
+      "Jeu et simulation interactive pour adultes.",
+    url: "/offres/sexemulator",
   },
 ];
