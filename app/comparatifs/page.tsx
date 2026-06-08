@@ -22,7 +22,7 @@ desc:
 
 {
 title: "Gaming adulte",
-url: "/gaming",
+url: "/comparatifs/gaming-adulte-quebec",
 desc:
 "Découvrir la sélection gaming.",
 },
