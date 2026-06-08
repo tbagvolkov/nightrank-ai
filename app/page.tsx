@@ -270,33 +270,44 @@ function OfferBox({
       <h2 className="font-bold mb-5">{title}</h2>
 
       <div className="grid grid-cols-3 gap-3">
-        {items.map(([name, rating, desc, url]) => (
-          <a
-            key={name}
-            href={url}
-            className="bg-zinc-900 border border-zinc-800 rounded-xl p-4 hover:border-pink-500 transition"
-          >
-            <div className="h-24 rounded-lg bg-gradient-to-br from-pink-900/40 to-black border border-zinc-800 mb-4 flex items-center justify-center">
-              <span className="text-3xl">🔞</span>
-            </div>
+        {items.map(([name, rating, desc, url]) => {
+          const imageName = name
+            .toLowerCase()
+            .replace(/\s+/g, "")
+            .replace(/[^a-z0-9]/g, "");
 
-            <h3 className="text-lg font-bold mb-2 leading-tight">
-              {name}
-            </h3>
+          return (
+            <a
+              key={name}
+              href={url}
+              className="bg-zinc-900 border border-zinc-800 rounded-xl p-4 hover:border-pink-500 transition"
+            >
+              <div className="h-36 rounded-lg overflow-hidden border border-zinc-800 mb-4 bg-black">
+                <img
+                  src={`/offers/${imageName}.jpg`}
+                  alt={name}
+                  className="w-full h-full object-cover"
+                />
+              </div>
 
-            <p className="text-yellow-400 text-sm mb-2">
-              {rating} ★★★★★
-            </p>
+              <h3 className="text-xl font-bold mb-2 leading-tight text-white">
+                {name}
+              </h3>
 
-            <p className="text-xs text-gray-400 min-h-[48px]">
-              {desc}
-            </p>
+              <p className="text-yellow-400 text-sm mb-2">
+                {rating} ★★★★★
+              </p>
 
-            <span className="block mt-4 text-center bg-pink-600 py-2 rounded-lg text-sm font-bold">
-              {cta}
-            </span>
-          </a>
-        ))}
+              <p className="text-xs text-gray-400 min-h-[48px]">
+                {desc}
+              </p>
+
+              <span className="block mt-4 text-center bg-pink-600 py-2 rounded-lg text-sm font-bold">
+                {cta}
+              </span>
+            </a>
+          );
+        })}
       </div>
     </section>
   );

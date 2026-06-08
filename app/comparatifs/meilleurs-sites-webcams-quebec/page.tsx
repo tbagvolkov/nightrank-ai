@@ -1,87 +1,95 @@
 export const metadata = {
-  title: "Meilleurs sites webcams Québec | NightRank AI",
+  title: "Meilleurs sites webcams au Québec 2026 | NightRank AI",
   description:
-    "Comparatif des meilleurs sites webcams au Québec et au Canada : Jerkmate, LiveJasmin et BongaCams.",
+    "Comparatif des meilleurs sites webcams au Québec. Découvrez Jerkmate, LiveJasmin et BongaCams pour les utilisateurs du Québec et du Canada.",
 };
-
-const sites = [
-  {
-    name: "Jerkmate",
-    note: "4.8/5",
-    desc: "Très populaire pour les webcams live et l’expérience mobile.",
-    url: "/offres/jerkmate",
-  },
-  {
-    name: "LiveJasmin",
-    note: "4.7/5",
-    desc: "Option premium avec une image de marque plus haut de gamme.",
-    url: "/offres/livejasmin",
-  },
-  {
-    name: "BongaCams",
-    note: "4.5/5",
-    desc: "Plateforme internationale avec beaucoup de modèles disponibles.",
-    url: "/offres/bongacams",
-  },
-];
 
 export default function Page() {
   return (
-    <main className="min-h-screen bg-black text-white">
-      <section className="max-w-6xl mx-auto px-6 py-20">
-        <a href="/comparatifs" className="text-pink-400">
-          ← Retour comparatifs
-        </a>
+    <main className="min-h-screen bg-black text-white max-w-6xl mx-auto px-6 py-12">
 
-        <h1 className="text-5xl font-bold text-pink-500 mt-10 mb-6">
-          Meilleurs sites webcams au Québec
-        </h1>
+      <h1 className="text-5xl font-bold mb-6 text-pink-500">
+        Meilleurs sites webcams au Québec en 2026
+      </h1>
 
-        <p className="text-xl text-gray-300 mb-12">
-          Découvrez notre comparatif des plateformes webcams populaires pour les
-          utilisateurs du Québec et du Canada.
+      <p className="text-gray-300 text-lg mb-10">
+        Le marché des webcams adultes continue de croître au Québec. De
+        nombreux utilisateurs recherchent des plateformes sécurisées,
+        discrètes et faciles à utiliser. Nous avons comparé les principaux
+        sites disponibles afin de vous aider à choisir la meilleure option.
+      </p>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 mb-8">
+        <h2 className="text-3xl font-bold mb-4">
+          1. Jerkmate
+        </h2>
+
+        <p className="text-gray-300">
+          Jerkmate est l'une des plateformes webcams les plus populaires.
+          Son système intelligent permet de trouver rapidement des modèles
+          correspondant aux préférences de chaque utilisateur.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-6 mb-14">
-          {sites.map((site) => (
-            <div
-              key={site.name}
-              className="bg-zinc-900 border border-zinc-800 rounded-2xl p-8"
-            >
-              <p className="text-pink-400 mb-2">{site.note}</p>
-
-              <h2 className="text-3xl font-bold mb-4">{site.name}</h2>
-
-              <p className="text-gray-400 mb-8">{site.desc}</p>
-
-              <a
-                href={site.url}
-                className="inline-block bg-pink-600 hover:bg-pink-700 px-6 py-3 rounded-xl font-bold"
-              >
-                Voir l’offre
-              </a>
-            </div>
-          ))}
-        </div>
-
-        <section className="bg-zinc-900 border border-zinc-800 rounded-2xl p-8">
-          <h2 className="text-3xl font-bold mb-5">
-            Pourquoi comparer les sites webcams ?
-          </h2>
-
-          <p className="text-gray-300 mb-4">
-            Tous les sites webcams ne proposent pas la même expérience. Certains
-            sont mieux adaptés au trafic mobile, d’autres se démarquent par une
-            image plus premium ou une interface plus simple.
-          </p>
-
-          <p className="text-gray-300">
-            NightRank AI aide les utilisateurs québécois à choisir rapidement
-            une plateforme adaptée à leurs préférences, tout en mettant l’accent
-            sur la discrétion, la vitesse et la simplicité.
-          </p>
-        </section>
+        <button className="mt-4 bg-pink-600 px-6 py-3 rounded-xl font-bold">
+          Voir Jerkmate
+        </button>
       </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 mb-8">
+        <h2 className="text-3xl font-bold mb-4">
+          2. LiveJasmin
+        </h2>
+
+        <p className="text-gray-300">
+          LiveJasmin est reconnu pour son expérience premium, ses diffusions
+          haute qualité et sa réputation internationale.
+        </p>
+
+        <button className="mt-4 bg-pink-600 px-6 py-3 rounded-xl font-bold">
+          Voir LiveJasmin
+        </button>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 mb-8">
+        <h2 className="text-3xl font-bold mb-4">
+          3. BongaCams
+        </h2>
+
+        <p className="text-gray-300">
+          BongaCams propose un vaste choix de modèles et de catégories.
+          C'est une plateforme appréciée par les utilisateurs recherchant
+          variété et diversité.
+        </p>
+
+        <button className="mt-4 bg-pink-600 px-6 py-3 rounded-xl font-bold">
+          Voir BongaCams
+        </button>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ
+        </h2>
+
+        <h3 className="font-bold mb-2">
+          Quel est le meilleur site webcam au Québec ?
+        </h3>
+
+        <p className="text-gray-400 mb-6">
+          Jerkmate, LiveJasmin et BongaCams figurent parmi les plateformes
+          les plus populaires auprès des utilisateurs québécois.
+        </p>
+
+        <h3 className="font-bold mb-2">
+          Ces sites sont-ils accessibles au Canada ?
+        </h3>
+
+        <p className="text-gray-400">
+          Oui, les principales plateformes webcams acceptent généralement les
+          utilisateurs du Québec et du Canada.
+        </p>
+      </section>
+
     </main>
   );
 }
