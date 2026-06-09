@@ -247,7 +247,7 @@ export default function Home() {
           </div>
         </aside>
       </section>
-```tsx
+      
 <section className="max-w-[1400px] mx-auto px-6 py-20">
 
   <div className="bg-zinc-950 border border-zinc-800 rounded-3xl p-10">
