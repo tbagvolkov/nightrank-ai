@@ -247,6 +247,211 @@ export default function Home() {
           </div>
         </aside>
       </section>
+```tsx
+<section className="max-w-[1400px] mx-auto px-6 py-20">
+
+  <div className="bg-zinc-950 border border-zinc-800 rounded-3xl p-10">
+
+    <h2 className="text-4xl font-bold text-pink-500 mb-8">
+      Les meilleurs sites adultes au Québec en 2026
+    </h2>
+
+    <p className="text-gray-300 mb-6">
+      NightRank AI est un guide indépendant conçu pour aider les adultes du
+      Québec à découvrir les meilleures plateformes webcams, rencontres et
+      gaming. Notre objectif n'est pas de diffuser du contenu explicite mais de
+      comparer les plateformes les plus populaires afin de permettre aux
+      visiteurs de trouver rapidement les services qui correspondent à leurs
+      préférences.
+    </p>
+
+    <p className="text-gray-300 mb-6">
+      Le marché adulte évolue rapidement. Chaque année, de nouvelles plateformes
+      apparaissent alors que d'autres disparaissent. Pour les utilisateurs du
+      Québec, il est souvent difficile de savoir quelles plateformes sont
+      accessibles au Canada, lesquelles offrent la meilleure expérience mobile
+      et lesquelles bénéficient d'une réputation solide. C'est précisément la
+      mission de NightRank AI.
+    </p>
+
+    <p className="text-gray-300 mb-12">
+      Nous analysons les plateformes populaires, créons des comparatifs
+      détaillés, publions des avis indépendants et développons progressivement
+      une base de connaissances dédiée au Québec, à Montréal, Laval, Gatineau,
+      Sherbrooke et aux autres villes importantes de la province.
+    </p>
+
+    <div className="grid lg:grid-cols-3 gap-6 mb-12">
+
+      <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+        <h3 className="text-3xl font-bold text-pink-400 mb-4">
+          Webcams Québec
+        </h3>
+
+        <p className="text-gray-300 mb-5">
+          Découvrez notre sélection des meilleures plateformes webcams pour les
+          visiteurs du Québec. Nous comparons actuellement Jerkmate,
+          LiveJasmin et BongaCams afin de vous aider à trouver la plateforme la
+          plus adaptée à vos préférences.
+        </p>
+
+        <a
+          href="/comparatifs/meilleurs-sites-webcams-quebec"
+          className="text-pink-400 font-bold"
+        >
+          Voir le comparatif complet →
+        </a>
+      </div>
+
+      <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+        <h3 className="text-3xl font-bold text-pink-400 mb-4">
+          Rencontres Adultes
+        </h3>
+
+        <p className="text-gray-300 mb-5">
+          Les plateformes de rencontres adultes sont nombreuses. Notre guide
+          compare AdultFriendFinder, Sex Messenger et BBW Fun afin d'aider les
+          visiteurs à identifier les options les plus pertinentes.
+        </p>
+
+        <a
+          href="/comparatifs/top-rencontres-adultes-quebec"
+          className="text-pink-400 font-bold"
+        >
+          Voir le comparatif complet →
+        </a>
+      </div>
+
+      <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+        <h3 className="text-3xl font-bold text-pink-400 mb-4">
+          Gaming Adulte
+        </h3>
+
+        <p className="text-gray-300 mb-5">
+          Nous analysons également plusieurs jeux adultes populaires incluant
+          Sex Emulator, Hentai Heroes et Comix Harem afin d'offrir une catégorie
+          complémentaire aux webcams et aux rencontres.
+        </p>
+
+        <a
+          href="/comparatifs/gaming-adulte-quebec"
+          className="text-pink-400 font-bold"
+        >
+          Voir le comparatif complet →
+        </a>
+      </div>
+
+    </div>
+
+    <h2 className="text-4xl font-bold text-pink-500 mb-8">
+      Nos avis détaillés
+    </h2>
+
+    <p className="text-gray-300 mb-8">
+      En plus de nos comparatifs, nous publions des analyses détaillées pour
+      chaque plateforme importante. Ces guides présentent les avantages, les
+      limites, les fonctionnalités principales, notre note globale ainsi qu'une
+      FAQ dédiée.
+    </p>
+
+    <div className="flex flex-wrap gap-4 mb-12">
+
+      <a href="/offres/jerkmate" className="border border-pink-500 px-5 py-3 rounded-xl">
+        Avis Jerkmate
+      </a>
+
+      <a href="/offres/livejasmin" className="border border-pink-500 px-5 py-3 rounded-xl">
+        Avis LiveJasmin
+      </a>
+
+      <a href="/offres/bongacams" className="border border-pink-500 px-5 py-3 rounded-xl">
+        Avis BongaCams
+      </a>
+
+    </div>
+
+    <h2 className="text-4xl font-bold text-pink-500 mb-8">
+      Pourquoi NightRank AI ?
+    </h2>
+
+    <p className="text-gray-300 mb-6">
+      Contrairement à de nombreux annuaires génériques, NightRank AI adopte une
+      approche Québec-first. Notre objectif est de construire progressivement la
+      ressource francophone de référence pour les comparatifs webcams,
+      rencontres et gaming au Québec.
+    </p>
+
+    <p className="text-gray-300 mb-6">
+      Nous privilégions les guides détaillés, les avis complets et les analyses
+      transparentes plutôt que les listes génériques sans explication. Chaque
+      nouvelle page contribue à renforcer la qualité globale du site et à
+      améliorer l'expérience des visiteurs.
+    </p>
+
+    <p className="text-gray-300 mb-12">
+      Au fil du temps, NightRank AI continuera d'ajouter de nouveaux avis,
+      comparatifs, guides locaux et analyses approfondies afin de devenir une
+      référence incontournable dans son domaine.
+    </p>
+
+    <h2 className="text-4xl font-bold text-pink-500 mb-8">
+      Questions fréquentes
+    </h2>
+
+    <div className="space-y-6">
+
+      <div>
+        <h3 className="text-2xl font-bold mb-2">
+          Quel est le meilleur site webcam au Québec ?
+        </h3>
+
+        <p className="text-gray-300">
+          Jerkmate est actuellement notre choix global, tandis que LiveJasmin
+          est davantage orienté premium et BongaCams se distingue par sa
+          variété.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-2xl font-bold mb-2">
+          Quel est le meilleur site de rencontre adulte ?
+        </h3>
+
+        <p className="text-gray-300">
+          AdultFriendFinder reste l'une des références les plus connues du
+          secteur et fera partie de nos analyses détaillées.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-2xl font-bold mb-2">
+          Les plateformes sont-elles accessibles au Canada ?
+        </h3>
+
+        <p className="text-gray-300">
+          Les plateformes que nous analysons sont généralement accessibles aux
+          utilisateurs adultes du Québec et du Canada, sous réserve de leurs
+          conditions d'utilisation respectives.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-2xl font-bold mb-2">
+          NightRank AI héberge-t-il du contenu adulte ?
+        </h3>
+
+        <p className="text-gray-300">
+          Non. NightRank AI est un site de comparaison, d'avis et de contenu SEO.
+          Les visiteurs sont redirigés vers les plateformes partenaires.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+```
 
       <footer className="border-t border-zinc-900 py-14 text-center">
         <h3 className="text-3xl text-pink-500 font-bold mb-3">NightRank AI</h3>
