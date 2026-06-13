@@ -17,7 +17,10 @@ const articles = [
     title: "Comment choisir un site de rencontre adulte",
     slug: "choisir-site-rencontre",
   },
-
+  {
+    title: "AdultFriendFinder vs Sex Messenger",
+    slug: "adultfriendfinder-vs-sexmessenger",
+  },
   {
     title: "Tendances dating au Canada",
     slug: "dating-canada",

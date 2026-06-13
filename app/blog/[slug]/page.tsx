@@ -14,13 +14,20 @@ const articles = [
   description:
     "Comparatif complet entre Jerkmate et LiveJasmin pour les visiteurs adultes du Québec et du Canada.",
   category: "Webcams",
-},
+  },
   {
     title: "Comment choisir un site de rencontre adulte",
     slug: "choisir-site-rencontre",
     description:
       "Conseils pour comparer les plateformes de rencontres adultes au Québec et au Canada.",
     category: "Dating",
+  },
+  {
+  title: "AdultFriendFinder vs Sex Messenger : quel site choisir ?",
+  slug: "adultfriendfinder-vs-sexmessenger",
+  description:
+    "Comparatif complet entre AdultFriendFinder et Sex Messenger pour les utilisateurs adultes du Québec.",
+  category: "Dating",
   },
   {
     title: "Tendances dating au Canada en 2026",
@@ -492,7 +499,138 @@ if (slug === "jerkmate-vs-livejasmin") {
       </>
     );
   }
+if (slug === "adultfriendfinder-vs-sexmessenger") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          AdultFriendFinder vs Sex Messenger
+        </h2>
 
+        <p className="text-gray-300 mb-4">
+          AdultFriendFinder et Sex Messenger sont deux plateformes populaires
+          dans la catégorie des rencontres adultes. Même si leur objectif est
+          similaire, leur approche est différente.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          AdultFriendFinder est une plateforme généraliste connue depuis
+          longtemps, tandis que Sex Messenger adopte une approche plus directe
+          axée sur les échanges rapides.
+        </p>
+
+        <p className="text-gray-300">
+          Pour les visiteurs du Québec, le meilleur choix dépend surtout du type
+          d'expérience recherché.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Tableau comparatif
+        </h2>
+
+        <div className="overflow-x-auto">
+          <table className="w-full text-left">
+            <thead>
+              <tr className="border-b border-zinc-700 text-pink-400">
+                <th className="py-4 pr-4">Critère</th>
+                <th className="py-4 pr-4">AdultFriendFinder</th>
+                <th className="py-4 pr-4">Sex Messenger</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">Popularité</td>
+                <td className="py-4 pr-4">★★★★★</td>
+                <td className="py-4 pr-4">★★★★☆</td>
+              </tr>
+
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">Simplicité</td>
+                <td className="py-4 pr-4">★★★★☆</td>
+                <td className="py-4 pr-4">★★★★★</td>
+              </tr>
+
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">Audience</td>
+                <td className="py-4 pr-4">★★★★★</td>
+                <td className="py-4 pr-4">★★★★☆</td>
+              </tr>
+
+              <tr>
+                <td className="py-4 pr-4 font-bold">Note NightRank AI</td>
+                <td className="py-4 pr-4">4.8/5</td>
+                <td className="py-4 pr-4">4.6/5</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="grid lg:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-7">
+          <h2 className="text-3xl font-bold text-pink-500 mb-4">
+            Pourquoi choisir AdultFriendFinder ?
+          </h2>
+
+          <p className="text-gray-300 mb-6">
+            AdultFriendFinder est généralement notre recommandation principale
+            pour les visiteurs qui recherchent une plateforme connue avec une
+            audience importante.
+          </p>
+
+          <a
+            href="/offres/adultfriendfinder"
+            className="text-pink-400 font-bold"
+          >
+            Voir l'avis AdultFriendFinder →
+          </a>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-7">
+          <h2 className="text-3xl font-bold text-pink-500 mb-4">
+            Pourquoi choisir Sex Messenger ?
+          </h2>
+
+          <p className="text-gray-300 mb-6">
+            Sex Messenger convient davantage aux visiteurs qui souhaitent une
+            approche plus directe et centrée sur la messagerie.
+          </p>
+
+          <a
+            href="/offres/sexmessenger"
+            className="text-pink-400 font-bold"
+          >
+            Voir l'avis Sex Messenger →
+          </a>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Verdict NightRank AI
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          AdultFriendFinder reste notre choix généraliste grâce à sa notoriété
+          et à la taille de son audience.
+        </p>
+
+        <p className="text-gray-300">
+          Sex Messenger demeure une excellente alternative pour les visiteurs
+          qui préfèrent une expérience plus directe.
+        </p>
+      </section>
+
+      <FinalCta
+        title="Voir le comparatif rencontres complet"
+        href="/comparatifs/top-rencontres-adultes-quebec"
+      />
+    </>
+  );
+}
   if (slug === "dating-canada") {
     return (
       <>
@@ -588,6 +726,7 @@ if (slug === "jerkmate-vs-livejasmin") {
       </>
     );
   }
+  
 
   return null;
 }
