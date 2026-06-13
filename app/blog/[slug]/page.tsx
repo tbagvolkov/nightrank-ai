@@ -37,6 +37,13 @@ const articles = [
     category: "Dating",
   },
   {
+  title: "Meilleurs sites de rencontres adultes à Québec en 2026",
+  slug: "rencontres-adultes-quebec",
+  description:
+    "Guide complet des meilleures plateformes de rencontres adultes à Québec pour les célibataires québécois.",
+  category: "Dating",
+},
+  {
   title: "Meilleurs sites de rencontres adultes à Montréal en 2026",
   slug: "rencontres-adultes-montreal",
   description:
@@ -759,6 +766,136 @@ if (slug === "rencontres-adultes-montreal") {
         <p className="text-gray-300">
           Oui. Montréal figure parmi les villes canadiennes où les applications
           et plateformes de rencontres sont les plus utilisées.
+        </p>
+      </section>
+
+      <FinalCta
+        title="Voir le comparatif complet des rencontres"
+        href="/comparatifs/top-rencontres-adultes-quebec"
+      />
+    </>
+  );
+}
+if (slug === "rencontres-adultes-quebec") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Meilleurs sites de rencontres adultes à Québec en 2026
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Québec est l’une des villes les plus importantes de la province et un
+          marché intéressant pour les rencontres en ligne. Les adultes de la
+          région recherchent souvent des plateformes simples, discrètes et
+          accessibles depuis le Canada.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Entre les sites généralistes, les plateformes orientées messagerie et
+          les options plus spécialisées, il peut être difficile de savoir quelle
+          plateforme choisir. NightRank AI compare les principales options pour
+          aider les utilisateurs de Québec à prendre une décision plus claire.
+        </p>
+
+        <p className="text-gray-300">
+          Ce guide présente les plateformes de rencontres adultes les plus
+          pertinentes pour Québec en 2026.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Top plateformes recommandées
+        </h2>
+
+        <div className="space-y-6">
+          <div>
+            <h3 className="text-2xl font-bold text-pink-500 mb-2">
+              1. AdultFriendFinder
+            </h3>
+            <p className="text-gray-300">
+              Une plateforme généraliste très connue, utile pour les visiteurs
+              qui veulent commencer avec une option populaire et bien établie.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold text-pink-500 mb-2">
+              2. Sex Messenger
+            </h3>
+            <p className="text-gray-300">
+              Une option plus directe, orientée vers la messagerie et les
+              échanges rapides entre adultes.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold text-pink-500 mb-2">
+              3. BBW Fun
+            </h3>
+            <p className="text-gray-300">
+              Une plateforme plus spécialisée, intéressante pour les visiteurs
+              qui préfèrent une communauté plus ciblée.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Pourquoi les habitants de Québec utilisent-ils les sites de rencontres ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Les rencontres en ligne permettent de découvrir plus facilement des
+          personnes partageant des intérêts similaires, sans dépendre uniquement
+          des sorties ou du cercle social habituel.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Pour une ville comme Québec, les plateformes adultes peuvent offrir
+          une manière plus directe et discrète d’explorer différentes options de
+          rencontres.
+        </p>
+
+        <p className="text-gray-300">
+          C’est pourquoi les guides locaux comme celui-ci peuvent aider les
+          visiteurs à comparer les plateformes avant de cliquer sur une offre.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quel est le meilleur site de rencontres adultes à Québec ?
+        </h3>
+
+        <p className="text-gray-300 mb-6">
+          AdultFriendFinder est notre choix généraliste, Sex Messenger est une
+          bonne option pour la messagerie, et BBW Fun se distingue par son angle
+          plus spécialisé.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Ces plateformes sont-elles accessibles au Québec ?
+        </h3>
+
+        <p className="text-gray-300 mb-6">
+          Oui, les plateformes présentées sont généralement accessibles aux
+          utilisateurs adultes du Québec et du Canada.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          NightRank AI héberge-t-il des profils ?
+        </h3>
+
+        <p className="text-gray-300">
+          Non. NightRank AI est un site de comparaison et de guides. Les
+          visiteurs sont redirigés vers les plateformes partenaires.
         </p>
       </section>
 
