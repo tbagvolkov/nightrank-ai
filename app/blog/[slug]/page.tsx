@@ -9,6 +9,13 @@ const articles = [
     category: "Webcams",
   },
   {
+  title: "Jerkmate vs LiveJasmin : quel site webcam choisir en 2026 ?",
+  slug: "jerkmate-vs-livejasmin",
+  description:
+    "Comparatif complet entre Jerkmate et LiveJasmin pour les visiteurs adultes du Québec et du Canada.",
+  category: "Webcams",
+},
+  {
     title: "Comment choisir un site de rencontre adulte",
     slug: "choisir-site-rencontre",
     description:
@@ -190,7 +197,190 @@ function ArticleContent({ slug }: { slug: string }) {
       </>
     );
   }
+if (slug === "jerkmate-vs-livejasmin") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Jerkmate vs LiveJasmin : lequel choisir en 2026 ?
+        </h2>
 
+        <p className="text-gray-300 mb-4">
+          Jerkmate et LiveJasmin figurent parmi les plateformes webcams les plus
+          connues auprès des utilisateurs adultes du Québec et du Canada.
+          Même si les deux appartiennent à la même catégorie, leur approche
+          est différente.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Jerkmate met l'accent sur une expérience moderne, rapide et intuitive.
+          LiveJasmin adopte davantage un positionnement premium avec une image
+          haut de gamme reconnue à l'international.
+        </p>
+
+        <p className="text-gray-300">
+          Dans ce comparatif NightRank AI, nous analysons les forces de chaque
+          plateforme afin d'aider les visiteurs québécois à choisir celle qui
+          correspond le mieux à leurs préférences.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Tableau comparatif rapide
+        </h2>
+
+        <div className="overflow-x-auto">
+          <table className="w-full text-left">
+            <thead>
+              <tr className="border-b border-zinc-700 text-pink-400">
+                <th className="py-4 pr-4">Critère</th>
+                <th className="py-4 pr-4">Jerkmate</th>
+                <th className="py-4 pr-4">LiveJasmin</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">Facilité d'utilisation</td>
+                <td className="py-4 pr-4">★★★★★</td>
+                <td className="py-4 pr-4">★★★★☆</td>
+              </tr>
+
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">Image premium</td>
+                <td className="py-4 pr-4">★★★★☆</td>
+                <td className="py-4 pr-4">★★★★★</td>
+              </tr>
+
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">Popularité</td>
+                <td className="py-4 pr-4">★★★★★</td>
+                <td className="py-4 pr-4">★★★★★</td>
+              </tr>
+
+              <tr>
+                <td className="py-4 pr-4 font-bold">Note NightRank AI</td>
+                <td className="py-4 pr-4">4.8/5</td>
+                <td className="py-4 pr-4">4.7/5</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="grid lg:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-7">
+          <h2 className="text-3xl font-bold text-pink-500 mb-4">
+            Pourquoi choisir Jerkmate ?
+          </h2>
+
+          <p className="text-gray-300 mb-4">
+            Jerkmate est généralement notre recommandation principale pour les
+            visiteurs qui souhaitent une plateforme simple à comprendre,
+            moderne et efficace.
+          </p>
+
+          <p className="text-gray-300 mb-6">
+            Son interface intuitive et son positionnement généraliste en font
+            un excellent point de départ pour découvrir l'univers webcam.
+          </p>
+
+          <a
+            href="/offres/jerkmate"
+            className="text-pink-400 font-bold"
+          >
+            Voir l'avis Jerkmate →
+          </a>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-7">
+          <h2 className="text-3xl font-bold text-pink-500 mb-4">
+            Pourquoi choisir LiveJasmin ?
+          </h2>
+
+          <p className="text-gray-300 mb-4">
+            LiveJasmin conserve une forte réputation grâce à son image premium
+            et à son ancienneté dans l'industrie.
+          </p>
+
+          <p className="text-gray-300 mb-6">
+            Les visiteurs qui recherchent une expérience plus haut de gamme
+            apprécieront généralement davantage LiveJasmin.
+          </p>
+
+          <a
+            href="/offres/livejasmin"
+            className="text-pink-400 font-bold"
+          >
+            Voir l'avis LiveJasmin →
+          </a>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Quel est le meilleur choix pour le Québec ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Pour la majorité des visiteurs, Jerkmate demeure notre recommandation
+          principale grâce à sa simplicité d'utilisation et à son expérience
+          moderne.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          LiveJasmin reste cependant une excellente alternative pour les
+          utilisateurs qui préfèrent une plateforme davantage orientée premium.
+        </p>
+
+        <p className="text-gray-300">
+          Dans tous les cas, les deux plateformes figurent parmi les références
+          les plus connues dans notre comparatif webcams Québec.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          Jerkmate est-il meilleur que LiveJasmin ?
+        </h3>
+
+        <p className="text-gray-300 mb-6">
+          Tout dépend de vos préférences. Jerkmate est plus moderne et
+          accessible, tandis que LiveJasmin mise davantage sur une image
+          premium.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Les deux plateformes sont-elles accessibles au Canada ?
+        </h3>
+
+        <p className="text-gray-300 mb-6">
+          Oui, elles sont généralement accessibles aux utilisateurs adultes
+          du Québec et du Canada.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quelle plateforme recommande NightRank AI ?
+        </h3>
+
+        <p className="text-gray-300">
+          Jerkmate obtient actuellement notre meilleure note globale, mais
+          LiveJasmin demeure une excellente option premium.
+        </p>
+      </section>
+
+      <FinalCta
+        title="Voir le comparatif webcams complet"
+        href="/comparatifs/meilleurs-sites-webcams-quebec"
+      />
+    </>
+  );
+}
   if (slug === "choisir-site-rencontre") {
     return (
       <>
