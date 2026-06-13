@@ -33,6 +33,10 @@ const articles = [
     title: "Meilleurs sites de rencontres adultes à Québec en 2026",
     slug: "rencontres-adultes-quebec",
   },
+  {
+    title: "Meilleurs sites de rencontres adultes à Laval en 2026",
+    slug: "rencontres-adultes-laval",
+  },
 ];
 
 export default function BlogPage() {
