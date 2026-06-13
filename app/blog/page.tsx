@@ -25,6 +25,10 @@ const articles = [
     title: "Tendances dating au Canada",
     slug: "dating-canada",
   },
+  {
+    title: "Meilleurs sites de rencontres adultes à Montréal en 2026",
+    slug: "rencontres-adultes-montreal",
+  },
 ];
 
 export default function BlogPage() {

@@ -36,6 +36,13 @@ const articles = [
       "Aperçu des tendances de rencontres adultes au Canada, avec un angle Québec-first.",
     category: "Dating",
   },
+  {
+  title: "Meilleurs sites de rencontres adultes à Montréal en 2026",
+  slug: "rencontres-adultes-montreal",
+  description:
+    "Guide complet des meilleures plateformes de rencontres adultes à Montréal pour les célibataires québécois.",
+  category: "Dating",
+  },
 ];
 
 export async function generateStaticParams() {
@@ -626,6 +633,137 @@ if (slug === "adultfriendfinder-vs-sexmessenger") {
 
       <FinalCta
         title="Voir le comparatif rencontres complet"
+        href="/comparatifs/top-rencontres-adultes-quebec"
+      />
+    </>
+  );
+}
+if (slug === "rencontres-adultes-montreal") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Meilleurs sites de rencontres adultes à Montréal en 2026
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Montréal est la plus grande ville du Québec et l’un des marchés les
+          plus actifs pour les rencontres en ligne. Les célibataires montréalais
+          utilisent aujourd’hui de nombreuses plateformes afin de rencontrer de
+          nouvelles personnes de manière discrète et sécurisée.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Entre les applications généralistes et les plateformes spécialisées
+          pour adultes, il peut être difficile de savoir laquelle choisir.
+          NightRank AI analyse les principales options afin d’aider les
+          utilisateurs du Québec à trouver la plateforme la plus adaptée.
+        </p>
+
+        <p className="text-gray-300">
+          Ce guide présente les sites les plus populaires auprès des adultes de
+          Montréal en 2026.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Top plateformes recommandées
+        </h2>
+
+        <div className="space-y-6">
+          <div>
+            <h3 className="text-2xl font-bold text-pink-500 mb-2">
+              1. AdultFriendFinder
+            </h3>
+
+            <p className="text-gray-300">
+              Une des plateformes les plus connues au monde pour les rencontres
+              adultes. Très populaire auprès des utilisateurs canadiens grâce à
+              son importante communauté.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold text-pink-500 mb-2">
+              2. Sex Messenger
+            </h3>
+
+            <p className="text-gray-300">
+              Solution simple et rapide pour les adultes qui privilégient les
+              échanges directs et la messagerie.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold text-pink-500 mb-2">
+              3. BBW Fun
+            </h3>
+
+            <p className="text-gray-300">
+              Plateforme spécialisée qui attire une audience particulière et
+              possède une communauté active au Canada.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Pourquoi les Montréalais utilisent-ils les sites de rencontres ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Les horaires chargés, les déplacements et le mode de vie urbain
+          poussent de nombreux adultes à privilégier les plateformes en ligne.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Les applications permettent de rencontrer rapidement des personnes
+          partageant des intérêts similaires tout en conservant une certaine
+          discrétion.
+        </p>
+
+        <p className="text-gray-300">
+          Cette tendance continue de croître dans l’ensemble du Grand Montréal.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quel est le meilleur site de rencontres adultes à Montréal ?
+        </h3>
+
+        <p className="text-gray-300 mb-6">
+          AdultFriendFinder demeure l’une des plateformes les plus populaires
+          grâce à sa communauté importante.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Ces plateformes sont-elles accessibles au Québec ?
+        </h3>
+
+        <p className="text-gray-300 mb-6">
+          Oui, les principales plateformes internationales sont généralement
+          accessibles aux utilisateurs québécois majeurs.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Les rencontres en ligne sont-elles populaires à Montréal ?
+        </h3>
+
+        <p className="text-gray-300">
+          Oui. Montréal figure parmi les villes canadiennes où les applications
+          et plateformes de rencontres sont les plus utilisées.
+        </p>
+      </section>
+
+      <FinalCta
+        title="Voir le comparatif complet des rencontres"
         href="/comparatifs/top-rencontres-adultes-quebec"
       />
     </>
