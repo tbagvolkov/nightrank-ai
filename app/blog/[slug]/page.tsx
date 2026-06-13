@@ -57,6 +57,13 @@ const articles = [
     "Guide complet des meilleures plateformes de rencontres adultes à Laval pour les célibataires québécois.",
   category: "Dating",
 },
+{
+  title: "Meilleurs sites de rencontres adultes à Gatineau en 2026",
+  slug: "rencontres-adultes-gatineau",
+  description:
+    "Guide complet des meilleures plateformes de rencontres adultes à Gatineau pour les célibataires québécois.",
+  category: "Dating",
+},
 ];
 
 export async function generateStaticParams() {
@@ -1060,6 +1067,136 @@ if (slug === "rencontres-adultes-laval") {
           Oui. La proximité de Montréal et la croissance démographique de Laval
           contribuent à l’augmentation constante de l’utilisation des
           applications et sites de rencontres.
+        </p>
+      </section>
+
+      <FinalCta
+        title="Voir le comparatif complet des rencontres"
+        href="/comparatifs/top-rencontres-adultes-quebec"
+      />
+    </>
+  );
+}
+if (slug === "rencontres-adultes-gatineau") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Meilleurs sites de rencontres adultes à Gatineau en 2026
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Gatineau occupe une position particulière au Québec grâce à sa
+          proximité directe avec Ottawa. Cette réalité crée un bassin de
+          rencontres plus large, avec des utilisateurs francophones et
+          anglophones actifs dans la région de l’Outaouais.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Les plateformes de rencontres adultes peuvent donc être intéressantes
+          pour les résidents de Gatineau qui souhaitent élargir leurs options
+          au-delà de leur cercle social habituel.
+        </p>
+
+        <p className="text-gray-300">
+          Ce guide présente les plateformes les plus pertinentes pour les adultes
+          de Gatineau en 2026.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Top plateformes recommandées
+        </h2>
+
+        <div className="space-y-6">
+          <div>
+            <h3 className="text-2xl font-bold text-pink-500 mb-2">
+              1. AdultFriendFinder
+            </h3>
+            <p className="text-gray-300">
+              Une plateforme généraliste adaptée aux visiteurs qui veulent une
+              audience large et une option bien connue dans le dating adulte.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold text-pink-500 mb-2">
+              2. Sex Messenger
+            </h3>
+            <p className="text-gray-300">
+              Une solution plus directe, utile pour les personnes qui préfèrent
+              les échanges rapides et la messagerie.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold text-pink-500 mb-2">
+              3. BBW Fun
+            </h3>
+            <p className="text-gray-300">
+              Une plateforme plus spécialisée qui complète bien les options
+              généralistes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Pourquoi Gatineau est différente des autres villes ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Contrairement à plusieurs villes québécoises, Gatineau est directement
+          reliée à Ottawa. Cela signifie que les utilisateurs peuvent parfois
+          rencontrer des personnes provenant des deux côtés de la rivière des
+          Outaouais.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Cette proximité avec la capitale fédérale crée un marché plus mobile,
+          bilingue et diversifié. Les plateformes en ligne permettent de filtrer
+          plus facilement les préférences avant d’échanger.
+        </p>
+
+        <p className="text-gray-300">
+          Pour cette raison, Gatineau est une ville intéressante à cibler dans
+          une stratégie SEO locale Québec-first.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quel est le meilleur site de rencontres adultes à Gatineau ?
+        </h3>
+
+        <p className="text-gray-300 mb-6">
+          AdultFriendFinder est notre choix généraliste, Sex Messenger est une
+          bonne option pour les échanges rapides, et BBW Fun reste une option
+          plus ciblée.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Les plateformes sont-elles accessibles depuis Gatineau ?
+        </h3>
+
+        <p className="text-gray-300 mb-6">
+          Oui, les plateformes recommandées sont généralement accessibles aux
+          utilisateurs adultes du Québec et du Canada.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Gatineau est-elle intéressante pour les rencontres en ligne ?
+        </h3>
+
+        <p className="text-gray-300">
+          Oui. Sa proximité avec Ottawa crée un bassin de rencontres plus large
+          et diversifié.
         </p>
       </section>
 
