@@ -41,6 +41,10 @@ const articles = [
     title: "Meilleurs sites de rencontres adultes à Gatineau en 2026",
     slug: "rencontres-adultes-gatineau",
   },
+  {
+    title: "Meilleurs sites de rencontres adultes à Sherbrooke en 2026",
+    slug: "rencontres-adultes-sherbrooke",
+  },
 ];
 
 export default function BlogPage() {

@@ -58,6 +58,13 @@ const articles = [
   category: "Dating",
 },
 {
+  title: "Meilleurs sites de rencontres adultes à Sherbrooke en 2026",
+  slug: "rencontres-adultes-sherbrooke",
+  description:
+    "Guide complet des meilleures plateformes de rencontres adultes à Sherbrooke pour les célibataires québécois.",
+  category: "Dating",
+},
+{
   title: "Meilleurs sites de rencontres adultes à Gatineau en 2026",
   slug: "rencontres-adultes-gatineau",
   description:
@@ -1197,6 +1204,139 @@ if (slug === "rencontres-adultes-gatineau") {
         <p className="text-gray-300">
           Oui. Sa proximité avec Ottawa crée un bassin de rencontres plus large
           et diversifié.
+        </p>
+      </section>
+
+      <FinalCta
+        title="Voir le comparatif complet des rencontres"
+        href="/comparatifs/top-rencontres-adultes-quebec"
+      />
+    </>
+  );
+}
+if (slug === "rencontres-adultes-sherbrooke") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Meilleurs sites de rencontres adultes à Sherbrooke en 2026
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Sherbrooke est reconnue comme l’une des principales villes
+          universitaires du Québec. Grâce à sa population étudiante et à sa
+          croissance constante, les plateformes de rencontres en ligne y sont
+          particulièrement populaires.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Les adultes de Sherbrooke utilisent de plus en plus les applications
+          et sites spécialisés afin de rencontrer des personnes partageant les
+          mêmes intérêts, tout en conservant une certaine discrétion.
+        </p>
+
+        <p className="text-gray-300">
+          Ce guide présente les plateformes de rencontres adultes les plus
+          pertinentes pour Sherbrooke en 2026.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Top plateformes recommandées
+        </h2>
+
+        <div className="space-y-6">
+          <div>
+            <h3 className="text-2xl font-bold text-pink-500 mb-2">
+              1. AdultFriendFinder
+            </h3>
+
+            <p className="text-gray-300">
+              Une plateforme reconnue qui bénéficie d’une importante communauté
+              internationale et d’une forte notoriété au Canada.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold text-pink-500 mb-2">
+              2. Sex Messenger
+            </h3>
+
+            <p className="text-gray-300">
+              Une option populaire auprès des utilisateurs qui privilégient les
+              échanges rapides et les conversations directes.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold text-pink-500 mb-2">
+              3. BBW Fun
+            </h3>
+
+            <p className="text-gray-300">
+              Une plateforme spécialisée qui complète bien les options plus
+              généralistes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Pourquoi Sherbrooke est-elle différente ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          La présence de plusieurs établissements d’enseignement supérieur crée
+          une population jeune et dynamique. Cette réalité influence fortement
+          les habitudes numériques et l’utilisation des plateformes de
+          rencontres.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          De nombreux résidents privilégient les applications mobiles et les
+          plateformes permettant de rencontrer rapidement des personnes ayant
+          des intérêts communs.
+        </p>
+
+        <p className="text-gray-300">
+          Cette combinaison entre population étudiante, jeunes professionnels et
+          croissance régionale rend Sherbrooke particulièrement intéressante
+          pour les services de rencontres en ligne.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quel est le meilleur site de rencontres adultes à Sherbrooke ?
+        </h3>
+
+        <p className="text-gray-300 mb-6">
+          AdultFriendFinder demeure notre choix principal grâce à sa communauté
+          importante et à sa popularité internationale.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Les plateformes sont-elles accessibles au Québec ?
+        </h3>
+
+        <p className="text-gray-300 mb-6">
+          Oui. Les principales plateformes recommandées sont généralement
+          accessibles aux utilisateurs adultes du Québec.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Les rencontres en ligne sont-elles populaires à Sherbrooke ?
+        </h3>
+
+        <p className="text-gray-300">
+          Oui. La forte présence étudiante et la population active contribuent à
+          l’utilisation croissante des applications et plateformes de rencontres.
         </p>
       </section>
 
