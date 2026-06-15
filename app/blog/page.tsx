@@ -45,6 +45,10 @@ const articles = [
     title: "Meilleurs sites de rencontres adultes à Sherbrooke en 2026",
     slug: "rencontres-adultes-sherbrooke",
   },
+  {
+    title: "Cam to Cam Québec : les meilleures plateformes en 2026",
+    slug: "cam-to-cam-quebec",
+  },
 ];
 
 export default function BlogPage() {
