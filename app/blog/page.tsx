@@ -9,49 +9,60 @@ const articles = [
     title: "Meilleurs sites webcams au Québec",
     slug: "meilleurs-sites-webcams-quebec",
   },
+
+  {
+    title: "Cam to Cam Québec : les meilleures plateformes en 2026",
+    slug: "cam-to-cam-quebec",
+  },
+
   {
     title: "Jerkmate vs LiveJasmin",
     slug: "jerkmate-vs-livejasmin",
   },
+
   {
     title: "BongaCams vs Jerkmate",
     slug: "bongacams-vs-jerkmate",
   },
+  
   {
-    title: "Comment choisir un site de rencontre adulte",
-    slug: "choisir-site-rencontre",
+    title: "LiveJasmin vs BongaCams",
+    slug: "livejasmin-vs-bongacams",
   },
+
   {
     title: "AdultFriendFinder vs Sex Messenger",
     slug: "adultfriendfinder-vs-sexmessenger",
   },
+
   {
     title: "Tendances dating au Canada",
     slug: "dating-canada",
   },
+
   {
     title: "Meilleurs sites de rencontres adultes à Montréal en 2026",
     slug: "rencontres-adultes-montreal",
   },
+
   {
     title: "Meilleurs sites de rencontres adultes à Québec en 2026",
     slug: "rencontres-adultes-quebec",
   },
+
   {
     title: "Meilleurs sites de rencontres adultes à Laval en 2026",
     slug: "rencontres-adultes-laval",
   },
+
   {
     title: "Meilleurs sites de rencontres adultes à Gatineau en 2026",
     slug: "rencontres-adultes-gatineau",
   },
+
   {
     title: "Meilleurs sites de rencontres adultes à Sherbrooke en 2026",
     slug: "rencontres-adultes-sherbrooke",
-  },
-  {
-    title: "Cam to Cam Québec : les meilleures plateformes en 2026",
-    slug: "cam-to-cam-quebec",
   },
 ];
 
