@@ -14,6 +14,10 @@ const articles = [
     slug: "jerkmate-vs-livejasmin",
   },
   {
+    title: "BongaCams vs Jerkmate",
+    slug: "bongacams-vs-jerkmate",
+  },
+  {
     title: "Comment choisir un site de rencontre adulte",
     slug: "choisir-site-rencontre",
   },
