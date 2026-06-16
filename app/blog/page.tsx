@@ -29,6 +29,11 @@ const articles = [
     title: "LiveJasmin vs BongaCams",
     slug: "livejasmin-vs-bongacams",
   },
+  
+  {
+    title: "LiveJasmin Québec : avis, accès et alternatives en 2026",
+    slug: "livejasmin-quebec",
+  },
 
   {
     title: "AdultFriendFinder vs Sex Messenger",

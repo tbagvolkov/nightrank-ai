@@ -29,6 +29,13 @@ const articles = [
     "Comparatif complet entre LiveJasmin et BongaCams pour les utilisateurs adultes du Québec.",
   category: "Webcams",
 },
+{
+  title: "LiveJasmin Québec : avis, accès et alternatives en 2026",
+  slug: "livejasmin-quebec",
+  description:
+    "Guide complet sur LiveJasmin au Québec : avis, accès au Canada, alternatives webcam et comparatif avec Jerkmate et BongaCams.",
+  category: "Webcams",
+},
   {
     title: "Comment choisir un site de rencontre adulte",
     slug: "choisir-site-rencontre",
@@ -877,6 +884,303 @@ if (slug === "livejasmin-vs-bongacams") {
       <FinalCta
         title="Voir notre comparatif webcams Québec"
         href="/comparatifs/meilleurs-sites-webcams-quebec"
+      />
+    </>
+  );
+}
+if (slug === "livejasmin-quebec") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-4xl font-bold mb-6">
+          LiveJasmin Québec : avis, accès et alternatives en 2026
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          LiveJasmin fait partie des plateformes webcams les plus connues au
+          monde. Pour les utilisateurs adultes du Québec, elle représente une
+          option premium avec une image plus haut de gamme que plusieurs autres
+          sites de cam en direct.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Cette page NightRank AI analyse LiveJasmin avec un angle Québec :
+          accès au Canada, expérience utilisateur, points forts, limites,
+          alternatives et comparaison avec Jerkmate et BongaCams.
+        </p>
+
+        <p className="text-gray-300">
+          L’objectif est simple : aider les visiteurs québécois à comprendre si
+          LiveJasmin correspond vraiment à leurs attentes avant de cliquer vers
+          l’offre.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          LiveJasmin est-il accessible au Québec ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Oui, LiveJasmin est généralement accessible aux utilisateurs adultes
+          du Québec et du Canada. La plateforme est internationale et peut être
+          utilisée depuis Montréal, Québec, Laval, Gatineau, Sherbrooke et
+          plusieurs autres villes canadiennes.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Comme pour toute plateforme adulte, il est important d’être majeur, de
+          respecter les conditions d’utilisation et de vérifier les paramètres de
+          confidentialité avant de créer un compte.
+        </p>
+
+        <p className="text-gray-300">
+          LiveJasmin ne s’adresse pas seulement à un public anglophone. Même si
+          l’interface et les modèles varient selon les régions, la plateforme
+          reste pertinente pour les Canadiens francophones qui recherchent une
+          expérience webcam premium.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Pourquoi LiveJasmin est populaire ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          LiveJasmin se distingue par son positionnement haut de gamme. Là où
+          certaines plateformes misent surtout sur le volume de profils,
+          LiveJasmin met davantage l’accent sur l’image, la présentation et la
+          qualité de l’expérience.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Pour un visiteur québécois qui découvre les sites webcams, cette
+          approche peut être rassurante. Le site donne une impression plus
+          structurée et plus professionnelle que plusieurs alternatives.
+        </p>
+
+        <p className="text-gray-300">
+          C’est pour cette raison que LiveJasmin revient souvent dans les
+          comparatifs webcam premium aux côtés de Jerkmate et BongaCams.
+        </p>
+      </section>
+
+      <section className="grid lg:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Points forts de LiveJasmin
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>✓ Image premium et marque reconnue</li>
+            <li>✓ Interface moderne et professionnelle</li>
+            <li>✓ Expérience adaptée mobile et ordinateur</li>
+            <li>✓ Grande présence internationale</li>
+            <li>✓ Bonne alternative à Jerkmate</li>
+          </ul>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Points à considérer
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>• Expérience parfois plus premium que simple</li>
+            <li>• Moins direct que certaines plateformes modernes</li>
+            <li>• Peut ne pas convenir à ceux qui veulent surtout du volume</li>
+            <li>• BongaCams peut offrir plus de variété</li>
+            <li>• Jerkmate peut sembler plus rapide à prendre en main</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          LiveJasmin vs Jerkmate vs BongaCams
+        </h2>
+
+        <div className="overflow-x-auto">
+          <table className="w-full text-left">
+            <thead>
+              <tr className="border-b border-zinc-700 text-pink-400">
+                <th className="py-4 pr-4">Plateforme</th>
+                <th className="py-4 pr-4">Meilleur pour</th>
+                <th className="py-4 pr-4">Note</th>
+                <th className="py-4 pr-4">Avis</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">Jerkmate</td>
+                <td className="py-4 pr-4">Expérience moderne</td>
+                <td className="py-4 pr-4">4.8/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/offres/jerkmate" className="text-pink-400">
+                    Voir l’avis
+                  </a>
+                </td>
+              </tr>
+
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">LiveJasmin</td>
+                <td className="py-4 pr-4">Expérience premium</td>
+                <td className="py-4 pr-4">4.7/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/offres/livejasmin" className="text-pink-400">
+                    Voir l’avis
+                  </a>
+                </td>
+              </tr>
+
+              <tr>
+                <td className="py-4 pr-4 font-bold">BongaCams</td>
+                <td className="py-4 pr-4">Grande variété</td>
+                <td className="py-4 pr-4">4.5/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/offres/bongacams" className="text-pink-400">
+                    Voir l’avis
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          LiveJasmin pour les utilisateurs québécois
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Pour les visiteurs de Montréal, LiveJasmin peut être une bonne option
+          si l’objectif est de découvrir une plateforme webcam internationale
+          avec une image plus premium.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Pour les utilisateurs de Québec, Laval, Gatineau ou Sherbrooke,
+          l’intérêt principal reste le même : accéder à une plateforme stable,
+          reconnue et simple à comparer avec d’autres options comme Jerkmate et
+          BongaCams.
+        </p>
+
+        <p className="text-gray-300">
+          Dans une stratégie Québec-first, LiveJasmin est donc une page
+          importante, car elle renforce le cluster webcam de NightRank AI autour
+          des recherches “LiveJasmin Québec”, “webcam Québec” et “cam to cam
+          Québec”.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Notre avis final sur LiveJasmin Québec
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          LiveJasmin est une excellente option pour les visiteurs adultes du
+          Québec qui recherchent une plateforme webcam premium, reconnue et
+          bien présentée.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Jerkmate reste notre choix global pour une expérience plus moderne et
+          directe, tandis que BongaCams se distingue par sa variété. LiveJasmin,
+          de son côté, occupe une position claire : celle d’une plateforme plus
+          haut de gamme.
+        </p>
+
+        <p className="text-gray-300">
+          C’est pourquoi nous la recommandons surtout aux utilisateurs qui
+          privilégient la qualité de présentation et l’image de marque.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ — LiveJasmin Québec
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          LiveJasmin fonctionne-t-il au Québec ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          Oui, LiveJasmin est généralement accessible aux utilisateurs adultes
+          du Québec et du Canada.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          LiveJasmin est-il meilleur que Jerkmate ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          LiveJasmin est plus premium, tandis que Jerkmate est souvent plus
+          moderne et direct. Le meilleur choix dépend de vos préférences.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          LiveJasmin est-il meilleur que BongaCams ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          LiveJasmin est meilleur pour une expérience haut de gamme. BongaCams
+          est meilleur pour la variété et le grand choix de profils.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          NightRank AI héberge-t-il LiveJasmin ?
+        </h3>
+        <p className="text-gray-300">
+          Non. NightRank AI est un site de comparaison. Les visiteurs sont
+          redirigés vers les plateformes partenaires.
+        </p>
+      </section>
+
+      <section className="grid md:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold mb-5">
+            Pages liées
+          </h2>
+
+          <div className="grid gap-3 text-pink-400">
+            <a href="/comparatifs/meilleurs-sites-webcams-quebec">
+              Comparatif webcams Québec →
+            </a>
+            <a href="/blog/jerkmate-vs-livejasmin">
+              Jerkmate vs LiveJasmin →
+            </a>
+            <a href="/blog/livejasmin-vs-bongacams">
+              LiveJasmin vs BongaCams →
+            </a>
+            <a href="/blog/cam-to-cam-quebec">
+              Cam to Cam Québec →
+            </a>
+            <a href="/offres/livejasmin">
+              Avis LiveJasmin →
+            </a>
+          </div>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold mb-5">
+            Recherches ciblées
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>• LiveJasmin Québec</li>
+            <li>• LiveJasmin Canada</li>
+            <li>• webcam Québec</li>
+            <li>• cam to cam Québec</li>
+            <li>• meilleur site webcam Québec</li>
+          </ul>
+        </div>
+      </section>
+
+      <FinalCta
+        title="Voir l’avis complet LiveJasmin"
+        href="/offres/livejasmin"
       />
     </>
   );
