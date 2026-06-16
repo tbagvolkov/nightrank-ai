@@ -5,7 +5,7 @@ export const metadata = {
 };
 
 const affiliateLink =
-  "https://t.acrsmartcam.com/197466/7683/0?po=6533&aff_sub5=SF_006OG000004lmDN";
+  "https://bongacams4.com/track?v=2&c=826495";
 
 export default function BongaCamsPage() {
   return (

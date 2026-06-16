@@ -28,7 +28,7 @@ const offers = [
     name: "BongaCams",
     rating: "4.5/5",
     tag: "Meilleure variété",
-    url: "https://t.acrsmartcam.com/197466/7683/0?po=6533&aff_sub5=SF_006OG000004lmDN",
+    url: "https://bongacams4.com/track?v=2&c=826495",
     desc: "Site webcam international avec beaucoup de choix et de catégories.",
     strengths: ["Grande variété", "Beaucoup de modèles", "Accès simple"],
   },
