@@ -29,10 +29,18 @@ const articles = [
     title: "LiveJasmin vs BongaCams",
     slug: "livejasmin-vs-bongacams",
   },
+  {
+    title: "Jerkmate Québec : avis, accès et alternatives en 2026",
+    slug: "jerkmate-quebec",
+  },
   
   {
     title: "LiveJasmin Québec : avis, accès et alternatives en 2026",
     slug: "livejasmin-quebec",
+  },
+  {
+    title: "BongaCams Québec : avis, accès et alternatives en 2026",
+    slug: "bongacams-quebec",
   },
 
   {

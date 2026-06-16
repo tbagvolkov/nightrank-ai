@@ -30,10 +30,24 @@ const articles = [
   category: "Webcams",
 },
 {
+  title: "Jerkmate Québec : avis, accès et alternatives en 2026",
+  slug: "jerkmate-quebec",
+  description:
+    "Guide complet sur Jerkmate au Québec : avis, accès au Canada, comparatifs, avantages et alternatives.",
+  category: "Webcams",
+},
+{
   title: "LiveJasmin Québec : avis, accès et alternatives en 2026",
   slug: "livejasmin-quebec",
   description:
     "Guide complet sur LiveJasmin au Québec : avis, accès au Canada, alternatives webcam et comparatif avec Jerkmate et BongaCams.",
+  category: "Webcams",
+},
+{
+  title: "BongaCams Québec : avis, accès et alternatives en 2026",
+  slug: "bongacams-quebec",
+  description:
+    "Guide complet sur BongaCams au Québec : avis, accès au Canada, avantages, alternatives et comparatif avec Jerkmate et LiveJasmin.",
   category: "Webcams",
 },
   {
@@ -888,6 +902,215 @@ if (slug === "livejasmin-vs-bongacams") {
     </>
   );
 }
+if (slug === "jerkmate-quebec") {
+  return (
+    <>
+  <section className="bg-zinc-900 rounded-3xl p-8 mb-10">
+    <h2 className="text-4xl font-bold mb-6">
+      Jerkmate Québec : avis, accès et alternatives en 2026
+    </h2>
+
+    <p className="mb-4 text-zinc-300">
+      Jerkmate est devenu l’un des sites webcams les plus populaires auprès des
+      utilisateurs du Québec. Grâce à son système de recommandation intelligent,
+      sa grande variété de modèles et son interface moderne, la plateforme
+      attire chaque année davantage de visiteurs provenant de Montréal, Québec,
+      Laval, Gatineau et Sherbrooke.
+    </p>
+
+    <p className="mb-4 text-zinc-300">
+      Contrairement aux plateformes plus traditionnelles, Jerkmate met l’accent
+      sur la personnalisation. Les utilisateurs peuvent rapidement trouver des
+      modèles correspondant à leurs préférences et accéder à des expériences
+      interactives en direct.
+    </p>
+
+    <p className="text-zinc-300">
+      Dans ce guide complet, nous analysons les avantages de Jerkmate au
+      Québec, son fonctionnement, ses points forts et les meilleures
+      alternatives disponibles en 2026.
+    </p>
+  </section>
+
+  <section className="bg-zinc-900 rounded-3xl p-8 mb-10">
+    <h2 className="text-3xl font-bold mb-6">
+      Pourquoi Jerkmate est populaire au Québec ?
+    </h2>
+
+    <ul className="space-y-3 text-zinc-300">
+      <li>✓ Interface moderne et rapide</li>
+      <li>✓ Grand nombre de modèles en direct</li>
+      <li>✓ Recommandations personnalisées</li>
+      <li>✓ Compatible mobile et ordinateur</li>
+      <li>✓ Nombreuses catégories et préférences</li>
+      <li>✓ Accès simple pour les utilisateurs canadiens</li>
+    </ul>
+  </section>
+
+  <section className="bg-zinc-900 rounded-3xl p-8 mb-10">
+    <h2 className="text-3xl font-bold mb-6">
+      Comment fonctionne Jerkmate ?
+    </h2>
+
+    <p className="mb-4 text-zinc-300">
+      Le système de Jerkmate repose sur un moteur de recommandation qui
+      sélectionne automatiquement des modèles selon les préférences de
+      l’utilisateur. Cela permet de découvrir rapidement du contenu pertinent
+      sans devoir parcourir des centaines de profils.
+    </p>
+
+    <p className="mb-4 text-zinc-300">
+      Les utilisateurs peuvent accéder à des diffusions publiques ou choisir
+      des sessions privées plus personnalisées. Cette approche contribue à
+      améliorer l’expérience globale et explique en partie la croissance rapide
+      de la plateforme au Canada.
+    </p>
+
+    <p className="text-zinc-300">
+      Pour les visiteurs du Québec, l’expérience reste fluide grâce à une
+      infrastructure performante et à une interface adaptée aux appareils
+      mobiles modernes.
+    </p>
+  </section>
+
+  <section className="bg-zinc-900 rounded-3xl p-8 mb-10 overflow-x-auto">
+    <h2 className="text-3xl font-bold mb-6">
+      Comparatif des principales plateformes webcams
+    </h2>
+
+    <table className="w-full text-left">
+      <thead>
+        <tr className="border-b border-zinc-700">
+          <th className="p-3">Plateforme</th>
+          <th className="p-3">Personnalisation</th>
+          <th className="p-3">Variété</th>
+          <th className="p-3">Mobile</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr className="border-b border-zinc-800">
+          <td className="p-3 font-semibold">Jerkmate</td>
+          <td className="p-3">★★★★★</td>
+          <td className="p-3">★★★★★</td>
+          <td className="p-3">★★★★★</td>
+        </tr>
+
+        <tr className="border-b border-zinc-800">
+          <td className="p-3">LiveJasmin</td>
+          <td className="p-3">★★★★☆</td>
+          <td className="p-3">★★★★★</td>
+          <td className="p-3">★★★★★</td>
+        </tr>
+
+        <tr>
+          <td className="p-3">BongaCams</td>
+          <td className="p-3">★★★★☆</td>
+          <td className="p-3">★★★★★</td>
+          <td className="p-3">★★★★☆</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section className="bg-zinc-900 rounded-3xl p-8 mb-10">
+    <h2 className="text-3xl font-bold mb-6">
+      Jerkmate ou LiveJasmin ?
+    </h2>
+
+    <p className="mb-4 text-zinc-300">
+      LiveJasmin est souvent reconnu pour son image haut de gamme et ses
+      performances techniques. Jerkmate se distingue davantage par son moteur
+      de recommandation et sa simplicité d’utilisation.
+    </p>
+
+    <p className="text-zinc-300">
+      Pour les utilisateurs qui souhaitent découvrir rapidement de nouveaux
+      profils adaptés à leurs goûts, Jerkmate constitue souvent un excellent
+      choix.
+    </p>
+  </section>
+
+  <section className="bg-zinc-900 rounded-3xl p-8 mb-10">
+    <h2 className="text-3xl font-bold mb-6">
+      Alternatives à Jerkmate au Québec
+    </h2>
+
+    <ul className="space-y-3 text-zinc-300">
+      <li>• LiveJasmin</li>
+      <li>• BongaCams</li>
+      <li>• Cam to Cam Québec</li>
+      <li>• Sites webcams spécialisés</li>
+    </ul>
+  </section>
+
+  <section className="bg-zinc-900 rounded-3xl p-8 mb-10">
+    <h2 className="text-3xl font-bold mb-6">
+      FAQ – Jerkmate Québec
+    </h2>
+
+    <div className="space-y-6">
+      <div>
+        <h3 className="font-bold mb-2">
+          Jerkmate est-il disponible au Québec ?
+        </h3>
+        <p className="text-zinc-300">
+          Oui, la plateforme est accessible aux utilisateurs adultes du Québec.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold mb-2">
+          Jerkmate fonctionne-t-il sur mobile ?
+        </h3>
+        <p className="text-zinc-300">
+          Oui, le site est optimisé pour les téléphones intelligents et les
+          tablettes.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold mb-2">
+          Quelle est la meilleure alternative ?
+        </h3>
+        <p className="text-zinc-300">
+          LiveJasmin et BongaCams demeurent les principales alternatives en
+          2026.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-bold mb-2">
+          Pourquoi Jerkmate est-il populaire ?
+        </h3>
+        <p className="text-zinc-300">
+          Grâce à ses recommandations personnalisées, son interface moderne et
+          sa grande variété de modèles.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section className="bg-gradient-to-r from-pink-600 to-pink-800 rounded-3xl p-8">
+    <h2 className="text-3xl font-bold mb-4">
+      Découvrir Jerkmate
+    </h2>
+
+    <p className="mb-6">
+      Explorez l’une des plateformes webcams les plus populaires au Québec et
+      découvrez une expérience personnalisée adaptée à vos préférences.
+    </p>
+
+    <a
+      href="/offres/jerkmate"
+      className="inline-block bg-white text-black font-bold px-6 py-3 rounded-xl"
+    >
+      Voir l'offre Jerkmate
+    </a>
+  </section>
+</>
+  );
+}
 if (slug === "livejasmin-quebec") {
   return (
     <>
@@ -1181,6 +1404,277 @@ if (slug === "livejasmin-quebec") {
       <FinalCta
         title="Voir l’avis complet LiveJasmin"
         href="/offres/livejasmin"
+      />
+    </>
+  );
+}
+if (slug === "bongacams-quebec") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-4xl font-bold mb-6">
+          BongaCams Québec : avis, accès et alternatives en 2026
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          BongaCams est l’une des plateformes webcams les plus connues dans le
+          monde adulte. Pour les visiteurs du Québec, elle représente une
+          alternative intéressante à Jerkmate et LiveJasmin grâce à sa grande
+          variété de modèles, ses nombreuses catégories et son accès simple au
+          Canada.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Contrairement à LiveJasmin, qui mise davantage sur une image premium,
+          BongaCams se distingue surtout par le volume, la diversité et la
+          découverte rapide de profils en direct.
+        </p>
+
+        <p className="text-gray-300">
+          Dans ce guide NightRank AI, nous analysons BongaCams avec un angle
+          Québec : accès, points forts, limites, alternatives, comparatif et
+          avis final.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          BongaCams est-il accessible au Québec ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Oui, BongaCams est généralement accessible aux utilisateurs adultes du
+          Québec et du Canada. Les visiteurs de Montréal, Québec, Laval,
+          Gatineau, Sherbrooke et d’autres villes peuvent accéder à la
+          plateforme depuis un ordinateur ou un appareil mobile.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Comme pour toute plateforme adulte, il est important d’être majeur, de
+          vérifier les conditions d’utilisation et de respecter les règles de
+          confidentialité.
+        </p>
+
+        <p className="text-gray-300">
+          BongaCams peut être particulièrement intéressant pour les utilisateurs
+          qui veulent comparer plusieurs profils rapidement avant de choisir une
+          expérience webcam.
+        </p>
+      </section>
+
+      <section className="grid lg:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Points forts de BongaCams
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>✓ Très grande variété de profils</li>
+            <li>✓ Nombreuses catégories disponibles</li>
+            <li>✓ Plateforme connue mondialement</li>
+            <li>✓ Accessible au Canada</li>
+            <li>✓ Bonne option pour découvrir plusieurs styles</li>
+          </ul>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Points à considérer
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>• Interface parfois plus chargée que Jerkmate</li>
+            <li>• Expérience moins premium que LiveJasmin</li>
+            <li>• Beaucoup de choix peut rendre la sélection plus longue</li>
+            <li>• Mieux pour la variété que pour la simplicité</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          BongaCams vs Jerkmate vs LiveJasmin
+        </h2>
+
+        <div className="overflow-x-auto">
+          <table className="w-full text-left">
+            <thead>
+              <tr className="border-b border-zinc-700 text-pink-400">
+                <th className="py-4 pr-4">Plateforme</th>
+                <th className="py-4 pr-4">Meilleur pour</th>
+                <th className="py-4 pr-4">Note</th>
+                <th className="py-4 pr-4">Avis</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">Jerkmate</td>
+                <td className="py-4 pr-4">Expérience moderne</td>
+                <td className="py-4 pr-4">4.8/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/offres/jerkmate" className="text-pink-400">
+                    Voir l’avis
+                  </a>
+                </td>
+              </tr>
+
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">LiveJasmin</td>
+                <td className="py-4 pr-4">Expérience premium</td>
+                <td className="py-4 pr-4">4.7/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/offres/livejasmin" className="text-pink-400">
+                    Voir l’avis
+                  </a>
+                </td>
+              </tr>
+
+              <tr>
+                <td className="py-4 pr-4 font-bold">BongaCams</td>
+                <td className="py-4 pr-4">Grande variété</td>
+                <td className="py-4 pr-4">4.5/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/offres/bongacams" className="text-pink-400">
+                    Voir l’avis
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Pourquoi BongaCams peut intéresser les utilisateurs québécois ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Le marché québécois est intéressant pour les plateformes webcams parce
+          que les visiteurs recherchent souvent des expériences variées,
+          rapides et accessibles depuis mobile. BongaCams répond bien à cette
+          demande grâce à son grand choix de profils.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          À Montréal, la diversité du marché rend BongaCams pertinent pour les
+          visiteurs qui veulent explorer plusieurs catégories. À Québec, Laval,
+          Gatineau ou Sherbrooke, la plateforme peut aussi être utilisée comme
+          alternative à Jerkmate ou LiveJasmin.
+        </p>
+
+        <p className="text-gray-300">
+          Pour NightRank AI, BongaCams complète très bien le trio webcam
+          principal avec Jerkmate et LiveJasmin.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Notre avis final sur BongaCams Québec
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          BongaCams est une bonne option pour les visiteurs adultes du Québec
+          qui privilégient le choix, la variété et la découverte rapide de
+          nombreux profils.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Jerkmate reste généralement notre choix global pour une expérience
+          plus moderne. LiveJasmin est plus adapté aux visiteurs qui recherchent
+          une présentation premium. BongaCams, de son côté, est surtout fort
+          lorsqu’on veut explorer beaucoup d’options.
+        </p>
+
+        <p className="text-gray-300">
+          C’est pourquoi nous recommandons BongaCams comme troisième pilier du
+          cluster Webcams Québec de NightRank AI.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ — BongaCams Québec
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          BongaCams fonctionne-t-il au Québec ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          Oui, BongaCams est généralement accessible aux utilisateurs adultes du
+          Québec et du Canada.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          BongaCams est-il meilleur que Jerkmate ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          BongaCams offre plus de variété, tandis que Jerkmate est souvent plus
+          moderne et plus simple à utiliser.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          BongaCams est-il meilleur que LiveJasmin ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          BongaCams est meilleur pour le choix et la quantité de profils.
+          LiveJasmin est meilleur pour une expérience plus premium.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          NightRank AI héberge-t-il BongaCams ?
+        </h3>
+        <p className="text-gray-300">
+          Non. NightRank AI est un site de comparaison. Les visiteurs sont
+          redirigés vers les plateformes partenaires.
+        </p>
+      </section>
+
+      <section className="grid md:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold mb-5">
+            Pages liées
+          </h2>
+
+          <div className="grid gap-3 text-pink-400">
+            <a href="/comparatifs/meilleurs-sites-webcams-quebec">
+              Comparatif webcams Québec →
+            </a>
+            <a href="/blog/bongacams-vs-jerkmate">
+              BongaCams vs Jerkmate →
+            </a>
+            <a href="/blog/livejasmin-vs-bongacams">
+              LiveJasmin vs BongaCams →
+            </a>
+            <a href="/blog/cam-to-cam-quebec">
+              Cam to Cam Québec →
+            </a>
+            <a href="/offres/bongacams">
+              Avis BongaCams →
+            </a>
+          </div>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold mb-5">
+            Recherches ciblées
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>• BongaCams Québec</li>
+            <li>• BongaCams Canada</li>
+            <li>• webcam Québec</li>
+            <li>• cam to cam Québec</li>
+            <li>• meilleur site webcam Québec</li>
+          </ul>
+        </div>
+      </section>
+
+      <FinalCta
+        title="Voir l’avis complet BongaCams"
+        href="/offres/bongacams"
       />
     </>
   );
