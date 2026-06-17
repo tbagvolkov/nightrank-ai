@@ -42,6 +42,10 @@ const articles = [
     title: "BongaCams Québec : avis, accès et alternatives en 2026",
     slug: "bongacams-quebec",
   },
+  {
+    title: "ImLive Québec : avis, accès et alternatives en 2026",
+    slug: "imlive-quebec",
+  },
 
   {
     title: "AdultFriendFinder vs Sex Messenger",

@@ -44,6 +44,13 @@ const articles = [
   category: "Webcams",
 },
 {
+  title: "ImLive Québec : avis, accès et alternatives en 2026",
+  slug: "imlive-quebec",
+  description:
+    "Guide complet sur ImLive au Québec : avis, accès au Canada, alternatives webcam et comparatif avec Jerkmate, LiveJasmin et BongaCams.",
+  category: "Webcams",
+},
+{
   title: "BongaCams Québec : avis, accès et alternatives en 2026",
   slug: "bongacams-quebec",
   description:
@@ -1675,6 +1682,295 @@ if (slug === "bongacams-quebec") {
       <FinalCta
         title="Voir l’avis complet BongaCams"
         href="/offres/bongacams"
+      />
+    </>
+  );
+}
+if (slug === "imlive-quebec") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-4xl font-bold mb-6">
+          ImLive Québec : avis, accès et alternatives en 2026
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          ImLive est une plateforme webcam connue depuis longtemps dans
+          l’univers du live cam adulte. Pour les visiteurs du Québec, elle peut
+          représenter une alternative intéressante à Jerkmate, LiveJasmin et
+          BongaCams, surtout pour ceux qui recherchent une plateforme établie
+          avec une expérience webcam classique.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Contrairement à Jerkmate, qui mise beaucoup sur une expérience moderne
+          et directe, ImLive se positionne davantage comme une plateforme webcam
+          traditionnelle avec un grand choix de modèles et une présence
+          internationale.
+        </p>
+
+        <p className="text-gray-300">
+          Dans ce guide NightRank AI, nous analysons ImLive avec un angle
+          Québec : accès au Canada, points forts, limites, alternatives et
+          comparatif avec les principales plateformes webcam de notre classement.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          ImLive est-il accessible au Québec ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Oui, ImLive est généralement accessible aux utilisateurs adultes du
+          Québec et du Canada. Les visiteurs de Montréal, Québec, Laval,
+          Gatineau, Sherbrooke et d’autres villes peuvent utiliser la plateforme
+          depuis un ordinateur ou un appareil mobile.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Comme pour toute plateforme adulte, il est important d’être majeur, de
+          lire les conditions d’utilisation et de vérifier les paramètres de
+          confidentialité avant de créer un compte.
+        </p>
+
+        <p className="text-gray-300">
+          ImLive peut être utile pour les visiteurs qui souhaitent comparer une
+          plateforme webcam plus classique avec des options plus récentes comme
+          Jerkmate ou plus premium comme LiveJasmin.
+        </p>
+      </section>
+
+      <section className="grid lg:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Points forts de ImLive
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>✓ Plateforme webcam établie</li>
+            <li>✓ Bonne option pour diversifier les choix</li>
+            <li>✓ Accessible au Canada</li>
+            <li>✓ Expérience webcam classique</li>
+            <li>✓ Alternative intéressante à LiveJasmin et BongaCams</li>
+          </ul>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Points à considérer
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>• Moins moderne que Jerkmate</li>
+            <li>• Moins premium que LiveJasmin</li>
+            <li>• Moins orienté variété massive que BongaCams</li>
+            <li>• À comparer selon les préférences de l’utilisateur</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          ImLive vs Jerkmate vs LiveJasmin vs BongaCams
+        </h2>
+
+        <div className="overflow-x-auto">
+          <table className="w-full text-left">
+            <thead>
+              <tr className="border-b border-zinc-700 text-pink-400">
+                <th className="py-4 pr-4">Plateforme</th>
+                <th className="py-4 pr-4">Meilleur pour</th>
+                <th className="py-4 pr-4">Note</th>
+                <th className="py-4 pr-4">Avis</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">Jerkmate</td>
+                <td className="py-4 pr-4">Expérience moderne</td>
+                <td className="py-4 pr-4">4.8/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/offres/jerkmate" className="text-pink-400">
+                    Voir l’avis
+                  </a>
+                </td>
+              </tr>
+
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">LiveJasmin</td>
+                <td className="py-4 pr-4">Expérience premium</td>
+                <td className="py-4 pr-4">4.7/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/offres/livejasmin" className="text-pink-400">
+                    Voir l’avis
+                  </a>
+                </td>
+              </tr>
+
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">BongaCams</td>
+                <td className="py-4 pr-4">Grande variété</td>
+                <td className="py-4 pr-4">4.5/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/offres/bongacams" className="text-pink-400">
+                    Voir l’avis
+                  </a>
+                </td>
+              </tr>
+
+              <tr>
+                <td className="py-4 pr-4 font-bold">ImLive</td>
+                <td className="py-4 pr-4">Plateforme webcam classique</td>
+                <td className="py-4 pr-4">4.4/5</td>
+                <td className="py-4 pr-4">
+                  <a
+                    href="https://t.acrsmartcam.com/197466/2118/0?po=6533&aff_sub5=SF_006OG000004lmDN"
+                    target="_blank"
+                    rel="nofollow sponsored noopener noreferrer"
+                    className="text-pink-400"
+                  >
+                    Voir ImLive
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Pourquoi ImLive peut intéresser les utilisateurs québécois ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Les utilisateurs québécois qui comparent plusieurs sites webcams ne
+          recherchent pas tous la même chose. Certains veulent une plateforme
+          moderne et rapide, d’autres préfèrent une expérience premium, tandis
+          que certains veulent simplement une plateforme webcam établie et
+          facile à comprendre.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          ImLive entre dans cette dernière catégorie. Elle peut convenir aux
+          visiteurs qui veulent explorer une alternative plus classique aux
+          grands noms déjà présents dans le classement NightRank AI.
+        </p>
+
+        <p className="text-gray-300">
+          Pour cette raison, ImLive mérite une place dans le futur Top 5
+          Webcams Québec 2026, aux côtés de Jerkmate, LiveJasmin, BongaCams et
+          LivePrivates.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Notre avis final sur ImLive Québec
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          ImLive n’est pas forcément la plateforme la plus moderne du marché,
+          mais elle reste une option intéressante pour les visiteurs qui veulent
+          comparer plusieurs alternatives webcam avant de choisir.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Jerkmate garde notre préférence pour une expérience plus actuelle.
+          LiveJasmin reste le choix premium, tandis que BongaCams domine sur la
+          variété. ImLive complète bien la sélection comme plateforme webcam
+          classique et reconnue.
+        </p>
+
+        <p className="text-gray-300">
+          Pour NightRank AI, ImLive devient donc une offre utile pour enrichir
+          le cluster Webcams Québec et préparer une page Top 5 plus crédible.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ — ImLive Québec
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          ImLive fonctionne-t-il au Québec ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          Oui, ImLive est généralement accessible aux utilisateurs adultes du
+          Québec et du Canada.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          ImLive est-il meilleur que Jerkmate ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          Jerkmate est généralement plus moderne et plus direct. ImLive est une
+          alternative plus classique.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          ImLive est-il meilleur que LiveJasmin ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          LiveJasmin est plus premium. ImLive peut convenir aux utilisateurs qui
+          veulent simplement comparer une autre plateforme webcam établie.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          NightRank AI héberge-t-il ImLive ?
+        </h3>
+        <p className="text-gray-300">
+          Non. NightRank AI est un site de comparaison. Les visiteurs sont
+          redirigés vers les plateformes partenaires.
+        </p>
+      </section>
+
+      <section className="grid md:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold mb-5">
+            Pages liées
+          </h2>
+
+          <div className="grid gap-3 text-pink-400">
+            <a href="/comparatifs/meilleurs-sites-webcams-quebec">
+              Comparatif webcams Québec →
+            </a>
+            <a href="/blog/cam-to-cam-quebec">
+              Cam to Cam Québec →
+            </a>
+            <a href="/blog/jerkmate-quebec">
+              Jerkmate Québec →
+            </a>
+            <a href="/blog/livejasmin-quebec">
+              LiveJasmin Québec →
+            </a>
+            <a href="/blog/bongacams-quebec">
+              BongaCams Québec →
+            </a>
+          </div>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold mb-5">
+            Recherches ciblées
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>• ImLive Québec</li>
+            <li>• ImLive Canada</li>
+            <li>• webcam Québec</li>
+            <li>• cam to cam Québec</li>
+            <li>• meilleur site webcam Québec</li>
+          </ul>
+        </div>
+      </section>
+
+      <FinalCta
+        title="Découvrir ImLive"
+        href="https://t.acrsmartcam.com/197466/2118/0?po=6533&aff_sub5=SF_006OG000004lmDN"
       />
     </>
   );
