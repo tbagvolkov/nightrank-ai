@@ -57,6 +57,13 @@ const articles = [
     "Guide complet sur BongaCams au Québec : avis, accès au Canada, avantages, alternatives et comparatif avec Jerkmate et LiveJasmin.",
   category: "Webcams",
 },
+{
+  title: "LivePrivates Québec : avis, accès et alternatives en 2026",
+  slug: "liveprivates-quebec",
+  description:
+    "Guide complet sur LivePrivates au Québec : avis, accès au Canada, alternatives webcam et comparatif avec Jerkmate, LiveJasmin, BongaCams et ImLive.",
+  category: "Webcams",
+},
   {
     title: "Comment choisir un site de rencontre adulte",
     slug: "choisir-site-rencontre",
@@ -1971,6 +1978,305 @@ if (slug === "imlive-quebec") {
       <FinalCta
         title="Découvrir ImLive"
         href="https://t.acrsmartcam.com/197466/2118/0?po=6533&aff_sub5=SF_006OG000004lmDN"
+      />
+    </>
+  );
+}
+if (slug === "liveprivates-quebec") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-4xl font-bold mb-6">
+          LivePrivates Québec : avis, accès et alternatives en 2026
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          LivePrivates est une plateforme webcam adulte associée à l’écosystème
+          AWEmpire, le même réseau que LiveJasmin. Pour les visiteurs du Québec,
+          elle représente une alternative intéressante aux plateformes plus
+          connues comme Jerkmate, LiveJasmin, BongaCams et ImLive.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Son positionnement est différent : LivePrivates met davantage l’accent
+          sur les expériences privées, les modèles en direct et une approche
+          plus orientée interaction personnelle.
+        </p>
+
+        <p className="text-gray-300">
+          Dans ce guide NightRank AI, nous analysons LivePrivates avec un angle
+          Québec : accès au Canada, points forts, limites, alternatives et place
+          dans notre futur Top 5 Webcams Québec 2026.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          LivePrivates est-il accessible au Québec ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Oui, LivePrivates est généralement accessible aux utilisateurs adultes
+          du Québec et du Canada. Les visiteurs de Montréal, Québec, Laval,
+          Gatineau, Sherbrooke et d’autres villes peuvent accéder à la
+          plateforme depuis un ordinateur ou un appareil mobile.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Comme pour toute plateforme adulte, il est important d’être majeur, de
+          lire les conditions d’utilisation et de vérifier les paramètres de
+          confidentialité avant de créer un compte.
+        </p>
+
+        <p className="text-gray-300">
+          LivePrivates peut être particulièrement intéressant pour les visiteurs
+          qui cherchent une expérience webcam plus privée et personnalisée.
+        </p>
+      </section>
+
+      <section className="grid lg:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Points forts de LivePrivates
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>✓ Plateforme liée à l’écosystème AWEmpire</li>
+            <li>✓ Expérience orientée shows privés</li>
+            <li>✓ Alternative intéressante à LiveJasmin</li>
+            <li>✓ Accessible au Canada</li>
+            <li>✓ Compatible avec une stratégie webcam premium</li>
+          </ul>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Points à considérer
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>• Moins connu que LiveJasmin</li>
+            <li>• Moins grand public que Jerkmate</li>
+            <li>• Moins orienté variété massive que BongaCams</li>
+            <li>• À comparer selon les préférences de l’utilisateur</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          LivePrivates vs Jerkmate vs LiveJasmin vs BongaCams vs ImLive
+        </h2>
+
+        <div className="overflow-x-auto">
+          <table className="w-full text-left">
+            <thead>
+              <tr className="border-b border-zinc-700 text-pink-400">
+                <th className="py-4 pr-4">Plateforme</th>
+                <th className="py-4 pr-4">Meilleur pour</th>
+                <th className="py-4 pr-4">Note</th>
+                <th className="py-4 pr-4">Avis</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">Jerkmate</td>
+                <td className="py-4 pr-4">Expérience moderne</td>
+                <td className="py-4 pr-4">4.8/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/offres/jerkmate" className="text-pink-400">
+                    Voir l’avis
+                  </a>
+                </td>
+              </tr>
+
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">LiveJasmin</td>
+                <td className="py-4 pr-4">Expérience premium</td>
+                <td className="py-4 pr-4">4.7/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/offres/livejasmin" className="text-pink-400">
+                    Voir l’avis
+                  </a>
+                </td>
+              </tr>
+
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">BongaCams</td>
+                <td className="py-4 pr-4">Grande variété</td>
+                <td className="py-4 pr-4">4.5/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/offres/bongacams" className="text-pink-400">
+                    Voir l’avis
+                  </a>
+                </td>
+              </tr>
+
+              <tr className="border-b border-zinc-800">
+                <td className="py-4 pr-4 font-bold">ImLive</td>
+                <td className="py-4 pr-4">Plateforme webcam classique</td>
+                <td className="py-4 pr-4">4.4/5</td>
+                <td className="py-4 pr-4">
+                  <a href="/blog/imlive-quebec" className="text-pink-400">
+                    Lire l’avis
+                  </a>
+                </td>
+              </tr>
+
+              <tr>
+                <td className="py-4 pr-4 font-bold">LivePrivates</td>
+                <td className="py-4 pr-4">Shows privés</td>
+                <td className="py-4 pr-4">4.3/5</td>
+                <td className="py-4 pr-4">
+                  <a
+                    href="https://ctwmsg.com/?performerName=&siteId=lpr&cobrandId=&superCategoryName=girls&categoryName=girl&pageName=listpage&prm[psid]=tbagvolkov&prm[pstool]=205_1&prm[psprogram]=revs&prm[campaign_id]=&subAffId="
+                    target="_blank"
+                    rel="nofollow sponsored noopener noreferrer"
+                    className="text-pink-400"
+                  >
+                    Voir LivePrivates
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Pourquoi LivePrivates peut intéresser les utilisateurs québécois ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Les utilisateurs québécois ne recherchent pas tous la même expérience
+          webcam. Certains préfèrent une plateforme moderne comme Jerkmate,
+          d’autres une image premium comme LiveJasmin, ou encore une grande
+          variété de profils comme BongaCams.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          LivePrivates complète cette sélection en ajoutant une approche plus
+          centrée sur les interactions privées et les expériences personnalisées.
+          Cela en fait une option pertinente pour diversifier le classement
+          NightRank AI.
+        </p>
+
+        <p className="text-gray-300">
+          Avec Jerkmate, LiveJasmin, BongaCams et ImLive, LivePrivates permet de
+          construire un Top 5 Webcams Québec plus complet et crédible.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Notre avis final sur LivePrivates Québec
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          LivePrivates n’est pas forcément la marque webcam la plus connue du
+          grand public, mais elle apporte une option intéressante pour les
+          visiteurs qui recherchent une expérience plus privée.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Jerkmate reste notre choix global, LiveJasmin demeure le choix
+          premium, BongaCams domine sur la variété et ImLive complète la
+          sélection comme plateforme classique. LivePrivates ajoute une nuance
+          importante : l’expérience privée.
+        </p>
+
+        <p className="text-gray-300">
+          Pour NightRank AI, LivePrivates est donc un bon cinquième choix dans
+          le futur classement Webcams Québec 2026.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ — LivePrivates Québec
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          LivePrivates fonctionne-t-il au Québec ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          Oui, LivePrivates est généralement accessible aux utilisateurs adultes
+          du Québec et du Canada.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          LivePrivates est-il lié à LiveJasmin ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          LivePrivates fait partie de l’écosystème AWEmpire, comme LiveJasmin,
+          mais son positionnement est différent.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          LivePrivates est-il meilleur que Jerkmate ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          Jerkmate est généralement plus moderne et direct. LivePrivates peut
+          mieux convenir aux visiteurs qui cherchent une expérience privée.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          NightRank AI héberge-t-il LivePrivates ?
+        </h3>
+        <p className="text-gray-300">
+          Non. NightRank AI est un site de comparaison. Les visiteurs sont
+          redirigés vers les plateformes partenaires.
+        </p>
+      </section>
+
+      <section className="grid md:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold mb-5">
+            Pages liées
+          </h2>
+
+          <div className="grid gap-3 text-pink-400">
+            <a href="/comparatifs/meilleurs-sites-webcams-quebec">
+              Comparatif webcams Québec →
+            </a>
+            <a href="/blog/cam-to-cam-quebec">
+              Cam to Cam Québec →
+            </a>
+            <a href="/blog/jerkmate-quebec">
+              Jerkmate Québec →
+            </a>
+            <a href="/blog/livejasmin-quebec">
+              LiveJasmin Québec →
+            </a>
+            <a href="/blog/bongacams-quebec">
+              BongaCams Québec →
+            </a>
+            <a href="/blog/imlive-quebec">
+              ImLive Québec →
+            </a>
+          </div>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold mb-5">
+            Recherches ciblées
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>• LivePrivates Québec</li>
+            <li>• LivePrivates Canada</li>
+            <li>• webcam Québec</li>
+            <li>• cam to cam Québec</li>
+            <li>• meilleur site webcam Québec</li>
+          </ul>
+        </div>
+      </section>
+
+      <FinalCta
+        title="Découvrir LivePrivates"
+        href="https://ctwmsg.com/?performerName=&siteId=lpr&cobrandId=&superCategoryName=girls&categoryName=girl&pageName=listpage&prm[psid]=tbagvolkov&prm[pstool]=205_1&prm[psprogram]=revs&prm[campaign_id]=&subAffId="
       />
     </>
   );

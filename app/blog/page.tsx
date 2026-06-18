@@ -46,6 +46,10 @@ const articles = [
     title: "ImLive Québec : avis, accès et alternatives en 2026",
     slug: "imlive-quebec",
   },
+  {
+    title: "LivePrivates Québec : avis, accès et alternatives en 2026",
+    slug: "liveprivates-quebec",
+  },
 
   {
     title: "AdultFriendFinder vs Sex Messenger",
