@@ -50,6 +50,10 @@ const articles = [
     title: "LivePrivates Québec : avis, accès et alternatives en 2026",
     slug: "liveprivates-quebec",
   },
+  {
+    title: "Top 5 Webcams Québec 2026 : comparatif complet",
+    slug: "top-5-webcams-quebec-2026",
+  },
 
   {
     title: "AdultFriendFinder vs Sex Messenger",

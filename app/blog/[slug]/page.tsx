@@ -64,6 +64,13 @@ const articles = [
     "Guide complet sur LivePrivates au Québec : avis, accès au Canada, alternatives webcam et comparatif avec Jerkmate, LiveJasmin, BongaCams et ImLive.",
   category: "Webcams",
 },
+{
+  title: "Top 5 Webcams Québec 2026 : comparatif complet",
+  slug: "top-5-webcams-quebec-2026",
+  description:
+    "Découvrez notre classement des meilleurs sites webcams au Québec en 2026 : Jerkmate, LiveJasmin, BongaCams, ImLive et LivePrivates.",
+  category: "Webcams",
+},
   {
     title: "Comment choisir un site de rencontre adulte",
     slug: "choisir-site-rencontre",
@@ -2277,6 +2284,220 @@ if (slug === "liveprivates-quebec") {
       <FinalCta
         title="Découvrir LivePrivates"
         href="https://ctwmsg.com/?performerName=&siteId=lpr&cobrandId=&superCategoryName=girls&categoryName=girl&pageName=listpage&prm[psid]=tbagvolkov&prm[pstool]=205_1&prm[psprogram]=revs&prm[campaign_id]=&subAffId="
+      />
+    </>
+  );
+}
+if (slug === "top-5-webcams-quebec-2026") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-4xl font-bold mb-6">
+          Top 5 Webcams Québec 2026 : comparatif complet
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Le marché des webcams adultes continue de croître au Québec. Entre les
+          plateformes premium, les sites axés sur la variété et les nouvelles
+          expériences interactives, il peut être difficile de savoir quelle
+          plateforme choisir.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Pour aider les visiteurs québécois, NightRank AI a comparé les
+          principales plateformes disponibles au Canada afin d’établir un
+          classement objectif basé sur l’expérience utilisateur, la qualité des
+          modèles, la variété, l’accessibilité et la réputation.
+        </p>
+
+        <p className="text-gray-300">
+          Voici notre classement des meilleurs sites webcams au Québec en 2026.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10 overflow-x-auto">
+        <h2 className="text-3xl font-bold mb-6">
+          Classement général
+        </h2>
+
+        <table className="w-full text-left">
+          <thead>
+            <tr className="border-b border-zinc-700 text-pink-400">
+              <th className="py-4 pr-4">Position</th>
+              <th className="py-4 pr-4">Plateforme</th>
+              <th className="py-4 pr-4">Spécialité</th>
+              <th className="py-4 pr-4">Note</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4 font-bold">#1</td>
+              <td className="py-4 pr-4">Jerkmate</td>
+              <td className="py-4 pr-4">Expérience moderne</td>
+              <td className="py-4 pr-4">4.8/5</td>
+            </tr>
+
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4 font-bold">#2</td>
+              <td className="py-4 pr-4">LiveJasmin</td>
+              <td className="py-4 pr-4">Premium</td>
+              <td className="py-4 pr-4">4.7/5</td>
+            </tr>
+
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4 font-bold">#3</td>
+              <td className="py-4 pr-4">BongaCams</td>
+              <td className="py-4 pr-4">Grande variété</td>
+              <td className="py-4 pr-4">4.5/5</td>
+            </tr>
+
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4 font-bold">#4</td>
+              <td className="py-4 pr-4">ImLive</td>
+              <td className="py-4 pr-4">Plateforme classique</td>
+              <td className="py-4 pr-4">4.4/5</td>
+            </tr>
+
+            <tr>
+              <td className="py-4 pr-4 font-bold">#5</td>
+              <td className="py-4 pr-4">LivePrivates</td>
+              <td className="py-4 pr-4">Shows privés</td>
+              <td className="py-4 pr-4">4.3/5</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          #1 Jerkmate
+        </h2>
+
+        <p className="text-gray-300">
+          Jerkmate conserve la première place grâce à son interface moderne, son
+          moteur de recommandation intelligent et sa capacité à proposer
+          rapidement des profils correspondant aux préférences de l’utilisateur.
+        </p>
+
+        <a
+          href="/blog/jerkmate-quebec"
+          className="inline-block mt-4 text-pink-400"
+        >
+          Lire notre avis complet →
+        </a>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          #2 LiveJasmin
+        </h2>
+
+        <p className="text-gray-300">
+          LiveJasmin reste la référence premium. La plateforme est reconnue pour
+          son image haut de gamme et son expérience utilisateur très soignée.
+        </p>
+
+        <a
+          href="/blog/livejasmin-quebec"
+          className="inline-block mt-4 text-pink-400"
+        >
+          Lire notre avis complet →
+        </a>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          #3 BongaCams
+        </h2>
+
+        <p className="text-gray-300">
+          BongaCams est une excellente option pour les visiteurs qui veulent un
+          grand choix de profils et de catégories.
+        </p>
+
+        <a
+          href="/blog/bongacams-quebec"
+          className="inline-block mt-4 text-pink-400"
+        >
+          Lire notre avis complet →
+        </a>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          #4 ImLive
+        </h2>
+
+        <p className="text-gray-300">
+          ImLive complète le classement avec une approche plus traditionnelle
+          mais toujours pertinente pour les amateurs de webcams.
+        </p>
+
+        <a
+          href="/blog/imlive-quebec"
+          className="inline-block mt-4 text-pink-400"
+        >
+          Lire notre avis complet →
+        </a>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          #5 LivePrivates
+        </h2>
+
+        <p className="text-gray-300">
+          LivePrivates se démarque par son orientation vers les expériences
+          privées et personnalisées.
+        </p>
+
+        <a
+          href="/blog/liveprivates-quebec"
+          className="inline-block mt-4 text-pink-400"
+        >
+          Lire notre avis complet →
+        </a>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ — Top 5 Webcams Québec
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quel est le meilleur site webcam au Québec ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          Selon notre classement 2026, Jerkmate occupe la première position.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quel site est le plus premium ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          LiveJasmin reste notre référence premium.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quel site offre le plus de variété ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          BongaCams se distingue par son grand choix de profils et de catégories.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quel site est recommandé pour les shows privés ?
+        </h3>
+        <p className="text-gray-300">
+          LivePrivates est la plateforme la plus orientée vers les expériences
+          privées.
+        </p>
+      </section>
+
+      <FinalCta
+        title="Découvrir les meilleurs sites webcams"
+        href="/comparatifs/meilleurs-sites-webcams-quebec"
       />
     </>
   );
