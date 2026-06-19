@@ -62,6 +62,10 @@ const articles = [
     title: "Joi AI Québec : avis, accès et alternatives en 2026",
     slug: "joi-ai-quebec",
   },
+  {
+    title: "Lovescape Québec : avis, accès et alternatives en 2026",
+    slug: "lovescape-quebec",
+  },
 
   {
     title: "AdultFriendFinder vs Sex Messenger",
