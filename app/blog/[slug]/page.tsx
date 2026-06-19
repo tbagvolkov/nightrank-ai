@@ -78,6 +78,13 @@ const articles = [
     "Guide complet sur OurDream AI au Québec : avis, fonctionnalités, alternatives et comparaison avec Joi AI et Lovescape.",
   category: "AI",
 },
+{
+  title: "Joi AI Québec : avis, accès et alternatives en 2026",
+  slug: "joi-ai-quebec",
+  description:
+    "Guide complet sur Joi AI au Québec : avis, fonctionnalités, alternatives et comparaison avec OurDream AI et Lovescape.",
+  category: "AI",
+},
   {
     title: "Comment choisir un site de rencontre adulte",
     slug: "choisir-site-rencontre",
@@ -2755,6 +2762,259 @@ if (slug === "ourdream-ai-quebec") {
       <FinalCta
         title="Découvrir OurDream AI"
         href="https://t.vlmai-1.com/197466/7710?aff_sub5=SF_006OG000004lmDN"
+      />
+    </>
+  );
+}
+if (slug === "joi-ai-quebec") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-4xl font-bold mb-6">
+          Joi AI Québec : avis, accès et alternatives en 2026
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Joi AI est une plateforme de compagnon virtuel basée sur
+          l’intelligence artificielle. Elle s’adresse aux utilisateurs qui
+          veulent discuter avec des personnages IA, explorer des conversations
+          personnalisées et découvrir une expérience plus immersive qu’un simple
+          chatbot classique.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Pour les visiteurs du Québec, Joi AI peut être une option intéressante
+          dans la catégorie AI girlfriend, AI companion et chat IA
+          conversationnel. Elle complète bien OurDream AI et Lovescape dans le
+          futur cluster IA de NightRank AI.
+        </p>
+
+        <p className="text-gray-300">
+          Dans ce guide, nous analysons Joi AI avec un angle Québec :
+          fonctionnalités, avantages, limites, alternatives et comparaison avec
+          les autres plateformes IA sélectionnées.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Qu’est-ce que Joi AI ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Joi AI est une plateforme permettant d’échanger avec des personnages
+          virtuels alimentés par l’intelligence artificielle. L’objectif est de
+          proposer une expérience conversationnelle plus naturelle,
+          personnalisée et engageante.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          La plateforme se situe dans le même univers que les compagnons IA,
+          les AI girlfriends et les chatbots relationnels. Elle peut intéresser
+          les utilisateurs qui cherchent une interaction plus créative, plus
+          flexible et plus personnalisée.
+        </p>
+
+        <p className="text-gray-300">
+          Ce type de service connaît une croissance rapide, notamment au Canada,
+          où les utilisateurs découvrent progressivement les applications IA
+          orientées conversation et divertissement.
+        </p>
+      </section>
+
+      <section className="grid lg:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Points forts de Joi AI
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>✓ Plateforme orientée compagnon IA</li>
+            <li>✓ Expérience conversationnelle personnalisée</li>
+            <li>✓ Bonne alternative à OurDream AI</li>
+            <li>✓ Accessible aux utilisateurs du Québec</li>
+            <li>✓ Sujet SEO intéressant et encore jeune</li>
+          </ul>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Points à considérer
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>• Catégorie encore récente</li>
+            <li>• Qualité variable selon les personnages</li>
+            <li>• Fonctionnalités pouvant changer rapidement</li>
+            <li>• À comparer avec OurDream AI et Lovescape</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10 overflow-x-auto">
+        <h2 className="text-3xl font-bold mb-6">
+          Joi AI vs OurDream AI vs Lovescape
+        </h2>
+
+        <table className="w-full text-left">
+          <thead>
+            <tr className="border-b border-zinc-700 text-pink-400">
+              <th className="py-4 pr-4">Plateforme</th>
+              <th className="py-4 pr-4">Meilleur pour</th>
+              <th className="py-4 pr-4">Personnalisation</th>
+              <th className="py-4 pr-4">Note</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4 font-bold">OurDream AI</td>
+              <td className="py-4 pr-4">Choix global IA</td>
+              <td className="py-4 pr-4">★★★★★</td>
+              <td className="py-4 pr-4">4.8/5</td>
+            </tr>
+
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4 font-bold">Joi AI</td>
+              <td className="py-4 pr-4">Compagnon IA conversationnel</td>
+              <td className="py-4 pr-4">★★★★☆</td>
+              <td className="py-4 pr-4">4.6/5</td>
+            </tr>
+
+            <tr>
+              <td className="py-4 pr-4 font-bold">Lovescape</td>
+              <td className="py-4 pr-4">Expérience IA romantique</td>
+              <td className="py-4 pr-4">★★★★☆</td>
+              <td className="py-4 pr-4">4.5/5</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Pourquoi Joi AI peut intéresser les utilisateurs québécois ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Le Québec est un marché intéressant pour les applications d’IA
+          conversationnelle parce que les utilisateurs recherchent de plus en
+          plus des expériences numériques personnalisées. Les compagnons IA
+          répondent à cette demande en proposant des échanges interactifs,
+          disponibles à tout moment.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Joi AI peut attirer les visiteurs qui veulent découvrir une expérience
+          de chat IA plus personnalisée, sans nécessairement passer par une
+          application de rencontre classique ou une plateforme webcam.
+        </p>
+
+        <p className="text-gray-300">
+          C’est exactement ce qui rend la catégorie IA intéressante pour
+          NightRank AI : elle crée un pont entre le dating, les compagnons
+          virtuels et les nouvelles technologies.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Notre avis final sur Joi AI Québec
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Joi AI est une option intéressante pour les utilisateurs québécois qui
+          veulent explorer l’univers des compagnons IA et du chat
+          conversationnel personnalisé.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          OurDream AI reste notre choix global pour lancer le cluster IA, mais
+          Joi AI mérite une place importante grâce à son positionnement clair
+          dans les conversations IA et les compagnons virtuels.
+        </p>
+
+        <p className="text-gray-300">
+          Avec OurDream AI et Lovescape, Joi AI contribue à créer un vrai
+          pilier IA pour NightRank AI.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ — Joi AI Québec
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          Joi AI est-il accessible au Québec ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          Oui, Joi AI est généralement accessible aux utilisateurs du Québec et
+          du Canada.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Joi AI est-il une AI girlfriend ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          Joi AI appartient à la catégorie des compagnons IA et peut être utilisé
+          comme expérience de chat IA relationnel ou romantique.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quelle est la meilleure alternative à Joi AI ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          OurDream AI et Lovescape sont les deux alternatives principales que
+          nous recommandons dans cette catégorie.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Joi AI remplace-t-il une vraie relation ?
+        </h3>
+        <p className="text-gray-300">
+          Non. Joi AI est une expérience numérique de divertissement et de
+          conversation. Elle ne remplace pas une relation humaine réelle.
+        </p>
+      </section>
+
+      <section className="grid md:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold mb-5">
+            Pages liées
+          </h2>
+
+          <div className="grid gap-3 text-pink-400">
+            <a href="/blog/ourdream-ai-quebec">
+              OurDream AI Québec →
+            </a>
+            <a href="/blog/lovescape-quebec">
+              Lovescape Québec →
+            </a>
+            <a href="/blog/meilleurs-ai-companions-quebec-2026">
+              Meilleurs AI Companions Québec →
+            </a>
+          </div>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold mb-5">
+            Recherches ciblées
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>• Joi AI Québec</li>
+            <li>• AI girlfriend Québec</li>
+            <li>• compagnon IA Canada</li>
+            <li>• chat IA romantique</li>
+            <li>• application IA conversationnelle</li>
+          </ul>
+        </div>
+      </section>
+
+      <FinalCta
+        title="Découvrir Joi AI"
+        href="https://t.vlmai-1.com/197466/7875?aff_sub5=SF_006OG000004lmDN"
       />
     </>
   );

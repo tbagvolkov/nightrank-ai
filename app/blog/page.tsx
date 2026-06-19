@@ -58,6 +58,10 @@ const articles = [
     title: "OurDream AI Québec : avis, accès et alternatives en 2026",
     slug: "ourdream-ai-quebec",
   },
+  {
+    title: "Joi AI Québec : avis, accès et alternatives en 2026",
+    slug: "joi-ai-quebec",
+  },
 
   {
     title: "AdultFriendFinder vs Sex Messenger",
