@@ -2,17 +2,17 @@ import { cities } from "./data";
 import AgeGate from "./AgeGate";
 
 export const metadata = {
-  title: "NightRank AI | Meilleurs sites adultes au Québec",
+  title: "NightRank AI | Meilleurs sites adultes et AI au Québec",
   description:
-    "Guide Québec-first des meilleurs sites webcams, rencontres adultes, gaming et comparatifs au Canada.",
+    "Guide Québec-first des meilleurs sites webcams, rencontres adultes, gaming adulte et compagnons IA au Canada.",
 };
 
 const topPlatforms = [
   ["Jerkmate", "4.8/5", "/offres/jerkmate"],
   ["LiveJasmin", "4.7/5", "/offres/livejasmin"],
   ["BongaCams", "4.5/5", "/offres/bongacams"],
-  ["AdultFriendFinder", "4.4/5", "/offres/adultfriendfinder"],
-  ["Sex Messenger", "4.3/5", "/offres/sexmessenger"],
+  ["OurDream AI", "4.8/5", "/blog/ourdream-ai-quebec"],
+  ["Joi AI", "4.6/5", "/blog/joi-ai-quebec"],
 ];
 
 const webcams = [
@@ -33,6 +33,12 @@ const gaming = [
   ["Comix Harem", "4.3/5", "Univers comics et collection.", "/offres/comixharem"],
 ];
 
+const aiCompanions = [
+  ["OurDream AI", "4.8/5", "Compagnon IA complet et personnalisable.", "/blog/ourdream-ai-quebec"],
+  ["Joi AI", "4.6/5", "Assistant conversationnel IA moderne.", "/blog/joi-ai-quebec"],
+  ["Lovescape", "4.7/5", "Expérience immersive de compagnon virtuel.", "/blog/lovescape-quebec"],
+];
+
 export default function Home() {
   const popularCities = cities.slice(0, 5);
 
@@ -50,6 +56,7 @@ export default function Home() {
             <a href="/cams" className="hover:text-pink-400">Webcams</a>
             <a href="/dating" className="hover:text-pink-400">Rencontres</a>
             <a href="/gaming" className="hover:text-pink-400">Gaming</a>
+            <a href="/blog/ourdream-ai-quebec" className="hover:text-pink-400">AI</a>
             <a href="/comparatifs" className="hover:text-pink-400">Comparatifs</a>
             <a href="/blog" className="hover:text-pink-400">Blog</a>
           </div>
@@ -57,8 +64,6 @@ export default function Home() {
       </nav>
 
       <section className="max-w-[1800px] mx-auto px-6 py-5 grid xl:grid-cols-[260px_1fr_300px] gap-5">
-
-        {/* LEFT SIDEBAR */}
         <aside className="hidden xl:flex flex-col gap-5">
           <div className="bg-zinc-950/90 border border-zinc-800 rounded-2xl p-5">
             <h3 className="font-bold mb-5">🏆 TOP PLATEFORMES</h3>
@@ -77,10 +82,7 @@ export default function Home() {
               ))}
             </div>
 
-            <a
-              href="/comparatifs"
-              className="block text-center mt-6 border border-pink-500 text-pink-400 py-3 rounded-xl"
-            >
+            <a href="/comparatifs" className="block text-center mt-6 border border-pink-500 text-pink-400 py-3 rounded-xl">
               Voir tous les classements
             </a>
           </div>
@@ -103,9 +105,7 @@ export default function Home() {
           </div>
         </aside>
 
-        {/* CENTER */}
         <div>
-          {/* HERO */}
           <section className="relative min-h-[560px] rounded-3xl overflow-hidden border border-zinc-800">
             <img
               src="/hero.jpg"
@@ -122,64 +122,65 @@ export default function Home() {
               </p>
 
               <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-7">
-                Les meilleurs sites webcams, rencontres et gaming{" "}
+                Les meilleurs sites webcams, rencontres, gaming et AI{" "}
                 <span className="text-pink-500">au Québec</span>
               </h1>
 
               <p className="text-xl text-gray-200 max-w-2xl mb-8">
-                Comparez les meilleures plateformes adultes. Guides locaux, avis
-                détaillés et offres pour Canadiens francophones.
+                Comparez les meilleures plateformes adultes et compagnons IA.
+                Guides locaux, avis détaillés et offres pour Canadiens francophones.
               </p>
 
               <div className="flex flex-wrap gap-3 mb-8 text-sm">
-                <span className="bg-black/60 border border-zinc-700 px-4 py-3 rounded-xl">🛡️ 9 offres vérifiées</span>
+                <span className="bg-black/60 border border-zinc-700 px-4 py-3 rounded-xl">🛡️ Offres vérifiées</span>
                 <span className="bg-black/60 border border-zinc-700 px-4 py-3 rounded-xl">⚜️ Québec-first</span>
                 <span className="bg-black/60 border border-zinc-700 px-4 py-3 rounded-xl">📅 Mise à jour 2026</span>
-                <span className="bg-black/60 border border-zinc-700 px-4 py-3 rounded-xl">🔒 100% sécurisé</span>
+                <span className="bg-black/60 border border-zinc-700 px-4 py-3 rounded-xl">🤖 Section AI</span>
               </div>
 
-              <div className="flex flex-col md:flex-row gap-4">
-                <a
-                  href="/comparatifs/meilleurs-sites-webcams-quebec"
-                  className="bg-pink-600 hover:bg-pink-700 px-10 py-4 rounded-xl font-bold text-center"
-                >
+              <div className="flex flex-wrap gap-4">
+                <a href="/comparatifs/meilleurs-sites-webcams-quebec" className="bg-pink-600 hover:bg-pink-700 px-8 py-4 rounded-xl font-bold text-center">
                   📹 Voir les webcams
                 </a>
 
-                <a
-                  href="/comparatifs/top-rencontres-adultes-quebec"
-                  className="border border-pink-500 hover:bg-pink-500/10 px-10 py-4 rounded-xl font-bold text-center"
-                >
+                <a href="/comparatifs/top-rencontres-adultes-quebec" className="border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center">
                   ❤️ Rencontres adultes
+                </a>
+
+                <a href="/gaming" className="border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center">
+                  🎮 Gaming adulte
+                </a>
+
+                <a href="/blog/ourdream-ai-quebec" className="border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center">
+                  🤖 AI Companions
                 </a>
               </div>
             </div>
           </section>
 
-          {/* OFFERS ROW */}
-          <div className="grid lg:grid-cols-3 gap-5 mt-5">
+          <div className="grid lg:grid-cols-4 gap-5 mt-5">
             <OfferBox title="💗 WEBCAMS POPULAIRES" items={webcams} cta="Voir l’offre" />
             <OfferBox title="❤️ RENCONTRES POPULAIRES" items={dating} cta="Découvrir" />
             <OfferBox title="🎮 GAMING POPULAIRE" items={gaming} cta="Voir le jeu" />
+            <OfferBox title="🤖 AI COMPANIONS" items={aiCompanions} cta="Découvrir" />
           </div>
 
-          {/* GUIDES */}
           <section className="mt-5 bg-zinc-950/90 border border-zinc-800 rounded-2xl p-5">
             <div className="flex justify-between items-center mb-5">
               <h2 className="font-bold text-xl">GUIDES ET COMPARATIFS POPULAIRES</h2>
               <a href="/blog" className="text-pink-400 text-sm">Voir tous les guides</a>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-4">
+            <div className="grid md:grid-cols-4 gap-4">
               <Guide title="Meilleurs sites webcams au Québec" href="/comparatifs/meilleurs-sites-webcams-quebec" />
               <Guide title="Top rencontres adultes Québec" href="/comparatifs/top-rencontres-adultes-quebec" />
               <Guide title="Gaming adulte au Québec" href="/comparatifs/gaming-adulte-quebec" />
+              <Guide title="OurDream AI Québec" href="/blog/ourdream-ai-quebec" />
             </div>
           </section>
 
-          {/* TRUST BAR */}
           <section className="mt-5 grid md:grid-cols-5 gap-4">
-            {["9 offres vérifiées", "987+ avis clients", "100% indépendant", "Québec First", "18+ sécurisé"].map((item) => (
+            {["Webcams", "Rencontres", "Gaming", "AI Companions", "Québec First"].map((item) => (
               <div key={item} className="bg-zinc-950/90 border border-zinc-800 rounded-2xl p-5 text-center">
                 <p className="text-pink-400 text-2xl mb-2">✦</p>
                 <p className="font-bold">{item}</p>
@@ -188,18 +189,13 @@ export default function Home() {
           </section>
         </div>
 
-        {/* RIGHT SIDEBAR */}
         <aside className="hidden xl:flex flex-col gap-5">
           <div className="bg-zinc-950/90 border border-zinc-800 rounded-2xl p-5">
             <h3 className="font-bold mb-5">📍 VILLES POPULAIRES</h3>
 
             <div className="space-y-4">
               {popularCities.map((city) => (
-                <a
-                  key={city.slug}
-                  href={`/webcam/${city.slug}`}
-                  className="flex justify-between items-center hover:text-pink-400"
-                >
+                <a key={city.slug} href={`/webcam/${city.slug}`} className="flex justify-between items-center hover:text-pink-400">
                   <span>
                     <strong>{city.name}</strong>
                     <br />
@@ -210,10 +206,7 @@ export default function Home() {
               ))}
             </div>
 
-            <a
-              href="/comparatifs"
-              className="block text-center mt-6 border border-pink-500 text-pink-400 py-3 rounded-xl"
-            >
+            <a href="/comparatifs" className="block text-center mt-6 border border-pink-500 text-pink-400 py-3 rounded-xl">
               Toutes les villes
             </a>
           </div>
@@ -224,9 +217,9 @@ export default function Home() {
             <div className="space-y-3 text-sm">
               <a href="/webcam/montreal" className="block hover:text-pink-400">⌘ Webcam Montréal</a>
               <a href="/dating/quebec" className="block hover:text-pink-400">⌘ Rencontre adulte Québec</a>
-              <a href="/offres/bbwfun" className="block hover:text-pink-400">⌘ BBW Dating Québec</a>
-              <a href="/offres/jerkmate" className="block hover:text-pink-400">⌘ Jerkmate avis 2026</a>
-              <a href="/offres/sexmessenger" className="block hover:text-pink-400">⌘ Sex Messenger avis</a>
+              <a href="/blog/ourdream-ai-quebec" className="block hover:text-pink-400">⌘ OurDream AI Québec</a>
+              <a href="/blog/joi-ai-quebec" className="block hover:text-pink-400">⌘ Joi AI Québec</a>
+              <a href="/blog/lovescape-quebec" className="block hover:text-pink-400">⌘ Lovescape Québec</a>
             </div>
           </div>
 
@@ -234,224 +227,151 @@ export default function Home() {
             <h3 className="font-bold mb-5">✍️ DERNIERS GUIDES</h3>
 
             <div className="space-y-4 text-sm">
-              <a href="/comparatifs/meilleurs-sites-webcams-quebec" className="block hover:text-pink-400">
-                Meilleurs sites webcams au Québec en 2026
+              <a href="/blog/top-5-webcams-quebec-2026" className="block hover:text-pink-400">
+                Top 5 Webcams Québec 2026
               </a>
-              <a href="/comparatifs/top-rencontres-adultes-quebec" className="block hover:text-pink-400">
-                Top rencontres adultes au Québec
+              <a href="/blog/ourdream-ai-quebec" className="block hover:text-pink-400">
+                OurDream AI Québec
               </a>
-              <a href="/comparatifs/gaming-adulte-quebec" className="block hover:text-pink-400">
-                Gaming adulte au Québec
+              <a href="/blog/joi-ai-quebec" className="block hover:text-pink-400">
+                Joi AI Québec
+              </a>
+              <a href="/blog/lovescape-quebec" className="block hover:text-pink-400">
+                Lovescape Québec
               </a>
             </div>
           </div>
         </aside>
       </section>
-      
-<section className="max-w-[1400px] mx-auto px-6 py-20">
 
-  <div className="bg-zinc-950 border border-zinc-800 rounded-3xl p-10">
+      <section className="max-w-[1400px] mx-auto px-6 py-20">
+        <div className="bg-zinc-950 border border-zinc-800 rounded-3xl p-10">
+          <h2 className="text-4xl font-bold text-pink-500 mb-8">
+            Les meilleurs sites adultes et AI au Québec en 2026
+          </h2>
 
-    <h2 className="text-4xl font-bold text-pink-500 mb-8">
-      Les meilleurs sites adultes au Québec en 2026
-    </h2>
+          <p className="text-gray-300 mb-6">
+            NightRank AI est un guide indépendant conçu pour aider les adultes du
+            Québec à découvrir les meilleures plateformes webcams, rencontres,
+            gaming adulte et compagnons virtuels alimentés par l’intelligence
+            artificielle.
+          </p>
 
-    <p className="text-gray-300 mb-6">
-      NightRank AI est un guide indépendant conçu pour aider les adultes du
-      Québec à découvrir les meilleures plateformes webcams, rencontres et
-      gaming. Notre objectif n'est pas de diffuser du contenu explicite mais de
-      comparer les plateformes les plus populaires afin de permettre aux
-      visiteurs de trouver rapidement les services qui correspondent à leurs
-      préférences.
-    </p>
+          <p className="text-gray-300 mb-6">
+            Le marché adulte évolue rapidement. En plus des webcams et des sites
+            de rencontres, les plateformes AI comme OurDream AI, Joi AI et
+            Lovescape deviennent une nouvelle catégorie importante.
+          </p>
 
-    <p className="text-gray-300 mb-6">
-      Le marché adulte évolue rapidement. Chaque année, de nouvelles plateformes
-      apparaissent alors que d'autres disparaissent. Pour les utilisateurs du
-      Québec, il est souvent difficile de savoir quelles plateformes sont
-      accessibles au Canada, lesquelles offrent la meilleure expérience mobile
-      et lesquelles bénéficient d'une réputation solide. C'est précisément la
-      mission de NightRank AI.
-    </p>
+          <p className="text-gray-300 mb-12">
+            Nous analysons les plateformes populaires, créons des comparatifs
+            détaillés, publions des avis indépendants et développons
+            progressivement une base de connaissances dédiée au Québec, à
+            Montréal, Laval, Gatineau, Sherbrooke et aux autres villes de la
+            province.
+          </p>
 
-    <p className="text-gray-300 mb-12">
-      Nous analysons les plateformes populaires, créons des comparatifs
-      détaillés, publions des avis indépendants et développons progressivement
-      une base de connaissances dédiée au Québec, à Montréal, Laval, Gatineau,
-      Sherbrooke et aux autres villes importantes de la province.
-    </p>
+          <div className="grid lg:grid-cols-4 gap-6 mb-12">
+            <CategoryCard
+              title="Webcams Québec"
+              text="Découvrez notre sélection des meilleures plateformes webcams pour les visiteurs du Québec : Jerkmate, LiveJasmin, BongaCams, ImLive et LivePrivates."
+              href="/comparatifs/meilleurs-sites-webcams-quebec"
+            />
 
-    <div className="grid lg:grid-cols-3 gap-6 mb-12">
+            <CategoryCard
+              title="Rencontres Adultes"
+              text="Comparez AdultFriendFinder, Sex Messenger et BBW Fun afin d’identifier les options de rencontres adultes les plus pertinentes."
+              href="/comparatifs/top-rencontres-adultes-quebec"
+            />
 
-      <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-        <h3 className="text-3xl font-bold text-pink-400 mb-4">
-          Webcams Québec
-        </h3>
+            <CategoryCard
+              title="Gaming Adulte"
+              text="Nous analysons plusieurs jeux adultes populaires incluant Sex Emulator, Hentai Heroes et Comix Harem."
+              href="/comparatifs/gaming-adulte-quebec"
+            />
 
-        <p className="text-gray-300 mb-5">
-          Découvrez notre sélection des meilleures plateformes webcams pour les
-          visiteurs du Québec. Nous comparons actuellement Jerkmate,
-          LiveJasmin et BongaCams afin de vous aider à trouver la plateforme la
-          plus adaptée à vos préférences.
-        </p>
+            <CategoryCard
+              title="AI Companions"
+              text="Découvrez les nouvelles plateformes de compagnons virtuels IA comme OurDream AI, Joi AI et Lovescape."
+              href="/blog/ourdream-ai-quebec"
+            />
+          </div>
 
-        <a
-          href="/comparatifs/meilleurs-sites-webcams-quebec"
-          className="text-pink-400 font-bold"
-        >
-          Voir le comparatif complet →
-        </a>
-      </div>
+          <h2 className="text-4xl font-bold text-pink-500 mb-8">
+            Nos avis détaillés
+          </h2>
 
-      <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-        <h3 className="text-3xl font-bold text-pink-400 mb-4">
-          Rencontres Adultes
-        </h3>
+          <p className="text-gray-300 mb-8">
+            En plus de nos comparatifs, nous publions des analyses détaillées
+            pour chaque plateforme importante : avantages, limites,
+            fonctionnalités principales, note globale et FAQ dédiée.
+          </p>
 
-        <p className="text-gray-300 mb-5">
-          Les plateformes de rencontres adultes sont nombreuses. Notre guide
-          compare AdultFriendFinder, Sex Messenger et BBW Fun afin d'aider les
-          visiteurs à identifier les options les plus pertinentes.
-        </p>
+          <div className="flex flex-wrap gap-4 mb-12">
+            <ReviewButton href="/offres/jerkmate" label="Avis Jerkmate" />
+            <ReviewButton href="/offres/livejasmin" label="Avis LiveJasmin" />
+            <ReviewButton href="/offres/bongacams" label="Avis BongaCams" />
+            <ReviewButton href="/blog/ourdream-ai-quebec" label="Avis OurDream AI" />
+            <ReviewButton href="/blog/joi-ai-quebec" label="Avis Joi AI" />
+            <ReviewButton href="/blog/lovescape-quebec" label="Avis Lovescape" />
+          </div>
 
-        <a
-          href="/comparatifs/top-rencontres-adultes-quebec"
-          className="text-pink-400 font-bold"
-        >
-          Voir le comparatif complet →
-        </a>
-      </div>
+          <h2 className="text-4xl font-bold text-pink-500 mb-8">
+            Pourquoi NightRank AI ?
+          </h2>
 
-      <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-        <h3 className="text-3xl font-bold text-pink-400 mb-4">
-          Gaming Adulte
-        </h3>
+          <p className="text-gray-300 mb-6">
+            Contrairement à de nombreux annuaires génériques, NightRank AI adopte
+            une approche Québec-first. Notre objectif est de construire
+            progressivement la ressource francophone de référence pour les
+            comparatifs webcams, rencontres, gaming et intelligence artificielle
+            au Québec.
+          </p>
 
-        <p className="text-gray-300 mb-5">
-          Nous analysons également plusieurs jeux adultes populaires incluant
-          Sex Emulator, Hentai Heroes et Comix Harem afin d'offrir une catégorie
-          complémentaire aux webcams et aux rencontres.
-        </p>
+          <p className="text-gray-300 mb-6">
+            Nous privilégions les guides détaillés, les avis complets et les
+            analyses transparentes plutôt que les listes génériques sans
+            explication.
+          </p>
 
-        <a
-          href="/comparatifs/gaming-adulte-quebec"
-          className="text-pink-400 font-bold"
-        >
-          Voir le comparatif complet →
-        </a>
-      </div>
+          <p className="text-gray-300 mb-12">
+            Au fil du temps, NightRank AI continuera d’ajouter de nouveaux avis,
+            comparatifs, guides locaux et analyses approfondies afin de devenir
+            une référence incontournable dans son domaine.
+          </p>
 
-    </div>
+          <h2 className="text-4xl font-bold text-pink-500 mb-8">
+            Questions fréquentes
+          </h2>
 
-    <h2 className="text-4xl font-bold text-pink-500 mb-8">
-      Nos avis détaillés
-    </h2>
+          <div className="space-y-6">
+            <Faq
+              question="Quel est le meilleur site webcam au Québec ?"
+              answer="Jerkmate est actuellement notre choix global, tandis que LiveJasmin est davantage orienté premium et BongaCams se distingue par sa variété."
+            />
 
-    <p className="text-gray-300 mb-8">
-      En plus de nos comparatifs, nous publions des analyses détaillées pour
-      chaque plateforme importante. Ces guides présentent les avantages, les
-      limites, les fonctionnalités principales, notre note globale ainsi qu'une
-      FAQ dédiée.
-    </p>
+            <Faq
+              question="Quel est le meilleur site de rencontre adulte ?"
+              answer="AdultFriendFinder reste l’une des références les plus connues du secteur et fait partie de nos analyses détaillées."
+            />
 
-    <div className="flex flex-wrap gap-4 mb-12">
+            <Faq
+              question="Qu’est-ce qu’un AI Companion ?"
+              answer="Un AI Companion est un compagnon virtuel basé sur l’intelligence artificielle capable d’interagir avec l’utilisateur à travers des conversations personnalisées."
+            />
 
-      <a href="/offres/jerkmate" className="border border-pink-500 px-5 py-3 rounded-xl">
-        Avis Jerkmate
-      </a>
+            <Faq
+              question="Quel est le meilleur AI Companion au Québec ?"
+              answer="OurDream AI est actuellement notre recommandation principale, suivi par Joi AI et Lovescape."
+            />
 
-      <a href="/offres/livejasmin" className="border border-pink-500 px-5 py-3 rounded-xl">
-        Avis LiveJasmin
-      </a>
-
-      <a href="/offres/bongacams" className="border border-pink-500 px-5 py-3 rounded-xl">
-        Avis BongaCams
-      </a>
-
-    </div>
-
-    <h2 className="text-4xl font-bold text-pink-500 mb-8">
-      Pourquoi NightRank AI ?
-    </h2>
-
-    <p className="text-gray-300 mb-6">
-      Contrairement à de nombreux annuaires génériques, NightRank AI adopte une
-      approche Québec-first. Notre objectif est de construire progressivement la
-      ressource francophone de référence pour les comparatifs webcams,
-      rencontres et gaming au Québec.
-    </p>
-
-    <p className="text-gray-300 mb-6">
-      Nous privilégions les guides détaillés, les avis complets et les analyses
-      transparentes plutôt que les listes génériques sans explication. Chaque
-      nouvelle page contribue à renforcer la qualité globale du site et à
-      améliorer l'expérience des visiteurs.
-    </p>
-
-    <p className="text-gray-300 mb-12">
-      Au fil du temps, NightRank AI continuera d'ajouter de nouveaux avis,
-      comparatifs, guides locaux et analyses approfondies afin de devenir une
-      référence incontournable dans son domaine.
-    </p>
-
-    <h2 className="text-4xl font-bold text-pink-500 mb-8">
-      Questions fréquentes
-    </h2>
-
-    <div className="space-y-6">
-
-      <div>
-        <h3 className="text-2xl font-bold mb-2">
-          Quel est le meilleur site webcam au Québec ?
-        </h3>
-
-        <p className="text-gray-300">
-          Jerkmate est actuellement notre choix global, tandis que LiveJasmin
-          est davantage orienté premium et BongaCams se distingue par sa
-          variété.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-2xl font-bold mb-2">
-          Quel est le meilleur site de rencontre adulte ?
-        </h3>
-
-        <p className="text-gray-300">
-          AdultFriendFinder reste l'une des références les plus connues du
-          secteur et fera partie de nos analyses détaillées.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-2xl font-bold mb-2">
-          Les plateformes sont-elles accessibles au Canada ?
-        </h3>
-
-        <p className="text-gray-300">
-          Les plateformes que nous analysons sont généralement accessibles aux
-          utilisateurs adultes du Québec et du Canada, sous réserve de leurs
-          conditions d'utilisation respectives.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-2xl font-bold mb-2">
-          NightRank AI héberge-t-il du contenu adulte ?
-        </h3>
-
-        <p className="text-gray-300">
-          Non. NightRank AI est un site de comparaison, d'avis et de contenu SEO.
-          Les visiteurs sont redirigés vers les plateformes partenaires.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-```
+            <Faq
+              question="NightRank AI héberge-t-il du contenu adulte ?"
+              answer="Non. NightRank AI est un site de comparaison, d’avis et de contenu SEO. Les visiteurs sont redirigés vers les plateformes partenaires."
+            />
+          </div>
+        </div>
+      </section>
 
       <footer className="border-t border-zinc-900 py-14 text-center">
         <h3 className="text-3xl text-pink-500 font-bold mb-3">NightRank AI</h3>
@@ -482,17 +402,9 @@ function OfferBox({
             .replace(/[^a-z0-9]/g, "");
 
           return (
-            <a
-              key={name}
-              href={url}
-              className="bg-zinc-900 border border-zinc-800 rounded-xl p-4 hover:border-pink-500 transition"
-            >
+            <a key={name} href={url} className="bg-zinc-900 border border-zinc-800 rounded-xl p-4 hover:border-pink-500 transition">
               <div className="h-36 rounded-lg overflow-hidden border border-zinc-800 mb-4 bg-black">
-                <img
-                  src={`/offers/${imageName}.jpg`}
-                  alt={name}
-                  className="w-full h-full object-cover"
-                />
+                <img src={`/offers/${imageName}.jpg`} alt={name} className="w-full h-full object-cover" />
               </div>
 
               <h3 className="text-xl font-bold mb-2 leading-tight text-white">
@@ -520,12 +432,57 @@ function OfferBox({
 
 function Guide({ title, href }: { title: string; href: string }) {
   return (
-    <a
-      href={href}
-      className="bg-gradient-to-br from-zinc-900 to-pink-950/40 border border-zinc-800 rounded-xl p-5 hover:border-pink-500 transition"
-    >
-      <h3 className="font-bold mb-2">{title}</h3>
-      <p className="text-gray-400 text-sm">Comparatif complet 2026</p>
+    <a href={href} className="bg-zinc-900 border border-zinc-800 rounded-xl p-5 hover:border-pink-500 transition">
+      <h3 className="font-bold mb-3">{title}</h3>
+      <p className="text-pink-400 text-sm">Lire →</p>
     </a>
+  );
+}
+
+function CategoryCard({
+  title,
+  text,
+  href,
+}: {
+  title: string;
+  text: string;
+  href: string;
+}) {
+  return (
+    <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+      <h3 className="text-3xl font-bold text-pink-400 mb-4">
+        {title}
+      </h3>
+
+      <p className="text-gray-300 mb-5">
+        {text}
+      </p>
+
+      <a href={href} className="text-pink-400 font-bold">
+        Voir le guide →
+      </a>
+    </div>
+  );
+}
+
+function ReviewButton({ href, label }: { href: string; label: string }) {
+  return (
+    <a href={href} className="border border-pink-500 px-5 py-3 rounded-xl hover:bg-pink-500/10">
+      {label}
+    </a>
+  );
+}
+
+function Faq({ question, answer }: { question: string; answer: string }) {
+  return (
+    <div>
+      <h3 className="text-2xl font-bold mb-2">
+        {question}
+      </h3>
+
+      <p className="text-gray-300">
+        {answer}
+      </p>
+    </div>
   );
 }
