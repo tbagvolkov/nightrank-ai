@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Guide Québec-first des webcams, rencontres adultes, comparatifs et gaming adulte. Découvrez les meilleures plateformes disponibles au Québec et au Canada.",
+    "Guide Québec-first des webcams, rencontres adultes, comparatifs, IA et gaming adulte au Canada.",
 
   keywords: [
     "webcam Québec",
@@ -23,12 +23,23 @@ export const metadata: Metadata = {
     "BongaCams avis",
     "AdultFriendFinder avis",
     "NightRank AI",
+    "AI girlfriend",
+    "AI chat",
+    "Lovescape",
+    "gaming adulte",
   ],
+
+  verification: {
+    other: {
+      "mylead-verification":
+        "39d94ff229ba489af44c9c3cf2f78b8a",
+    },
+  },
 
   openGraph: {
     title: "NightRank AI | Meilleurs sites adultes au Québec",
     description:
-      "Comparatifs, avis et guides des meilleures plateformes webcams, dating et gaming adulte au Québec.",
+      "Comparatifs webcams, rencontres adultes, IA et gaming adulte pour le Québec et le Canada.",
     url: "https://nightrankai.com",
     siteName: "NightRank AI",
     locale: "fr_CA",
@@ -43,9 +54,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="fr">
       <body>{children}</body>
