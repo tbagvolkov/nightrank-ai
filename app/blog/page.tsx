@@ -66,6 +66,10 @@ const articles = [
     title: "Lovescape Québec : avis, accès et alternatives en 2026",
     slug: "lovescape-quebec",
   },
+  {
+    title: "DarLink AI Québec : avis, accès et alternatives en 2026",
+    slug: "darlink-ai-quebec",
+  },
 
   {
     title: "AdultFriendFinder vs Sex Messenger",

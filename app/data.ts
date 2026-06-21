@@ -22,43 +22,23 @@ export const cities = [
 ];
 
 export const offers = [
-  {
-    name: "Jerkmate",
-    category: "Cams",
-    description:
-      "Plateforme populaire de webcams live avec expérience premium.",
-    url: "/offres/jerkmate",
-  },
+  { name: "Jerkmate", category: "Cams", description: "Plateforme populaire de webcams live avec expérience premium.", url: "/offres/jerkmate" },
+  { name: "LiveJasmin", category: "Cams", description: "Site webcam haut de gamme reconnu à l'international.", url: "/offres/livejasmin" },
+  { name: "BongaCams", category: "Cams", description: "Grande sélection de modèles et diffusion en direct.", url: "/offres/bongacams" },
+  { name: "ImLive", category: "Cams", description: "Plateforme webcam internationale proposant des modèles en direct.", url: "/offres/imlive" },
+  { name: "LivePrivates", category: "Cams", description: "Plateforme orientée shows privés et interactions personnalisées.", url: "/offres/liveprivates" },
 
-  {
-    name: "LiveJasmin",
-    category: "Cams",
-    description:
-      "Site webcam haut de gamme reconnu à l'international.",
-    url: "/offres/livejasmin",
-  },
+  { name: "AdultFriendFinder", category: "Dating", description: "Communauté adulte pour rencontres et connexions entre adultes.", url: "/offres/adultfriendfinder" },
+  { name: "Sex Messenger", category: "Dating", description: "Plateforme de rencontres et discussions entre adultes.", url: "/offres/sexmessenger" },
+  { name: "BBW Fun", category: "Dating", description: "Site de rencontres spécialisé BBW et admirateurs.", url: "/offres/bbwfun" },
 
-  {
-    name: "BongaCams",
-    category: "Cams",
-    description:
-      "Grande sélection de modèles et diffusion en direct.",
-    url: "/offres/bongacams",
-  },
+  { name: "Sex Emulator", category: "Gaming", description: "Simulation interactive pour adultes.", url: "/offres/sexemulator" },
+  { name: "Hentai Heroes", category: "Gaming", description: "Jeu RPG adulte avec progression et collection.", url: "/offres/hentaiheroes" },
+  { name: "Comix Harem", category: "Gaming", description: "Jeu adulte inspiré des univers comics et manga.", url: "/offres/comixharem" },
 
-  {
-    name: "AdultFriendFinder",
-    category: "Dating",
-    description:
-      "Communauté adulte pour rencontres et connexions entre adultes.",
-    url: "/offres/adultfriendfinder",
-  },
-
-  {
-    name: "Sex Emulator",
-    category: "Gaming",
-    description:
-      "Jeu et simulation interactive pour adultes.",
-    url: "/offres/sexemulator",
-  },
+  { name: "JOI AI", category: "AI", description: "Compagnon virtuel IA avec conversations immersives.", url: "/blog/joi-ai-quebec" },
+  { name: "OurDream AI", category: "AI", description: "AI Girlfriend populaire avec personnalisation avancée.", url: "/blog/ourdream-ai-quebec" },
+  { name: "Lovescape AI", category: "AI", description: "Compagnon virtuel basé sur l'intelligence artificielle.", url: "/blog/lovescape-quebec" },
+  { name: "Luvr AI", category: "AI", description: "Compagnon IA moderne offrant une expérience immersive.", url: "/blog/luvr-ai-quebec" },
+  { name: "DarLink AI", category: "AI", description: "Plateforme AI Girlfriend et roleplay avec personnages avancés.", url: "/blog/darlink-ai-quebec" },
 ];
