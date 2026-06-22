@@ -99,6 +99,13 @@ const articles = [
     "Guide complet sur DarLink AI au Québec : avis, fonctionnalités, AI Girlfriend, roleplay IA, accès au Canada et alternatives.",
   category: "AI",
 },
+{
+  title: "Candy AI Québec : avis, accès et alternatives en 2026",
+  slug: "candy-ai-quebec",
+  description:
+    "Découvrez Candy AI, une plateforme populaire d'AI Girlfriend et de compagnon virtuel accessible au Québec et au Canada.",
+  category: "AI",
+},
   {
     title: "Comment choisir un site de rencontre adulte",
     slug: "choisir-site-rencontre",
@@ -3661,6 +3668,235 @@ if (slug === "darlink-ai-quebec") {
       <FinalCta
         title="Découvrir DarLink AI"
         href="https://t.vlmai-1.com/197466/10344/0?aff_sub5=SF_006OG000004lmDN"
+      />
+    </>
+  );
+}
+if (slug === "candy-ai-quebec") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-4xl font-bold mb-6">
+          Candy AI Québec : avis, accès et alternatives en 2026
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Candy AI est aujourd'hui l'une des plateformes d'AI Girlfriend les
+          plus connues dans le secteur des compagnons virtuels alimentés par
+          l'intelligence artificielle. Accessible au Québec et partout au
+          Canada, elle permet de discuter avec des personnages IA
+          personnalisables dans une expérience immersive.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Grâce à son interface moderne, ses conversations naturelles et ses
+          nombreuses options de personnalisation, Candy AI attire de plus en
+          plus d'utilisateurs intéressés par les AI Companions.
+        </p>
+
+        <p className="text-gray-300">
+          Dans cet avis complet NightRank AI, nous analysons Candy AI pour les
+          utilisateurs du Québec : fonctionnalités, avantages, limites,
+          alternatives et verdict final.
+        </p>
+
+        <a
+          href="https://t.vlmai-1.com/197466/7793?aff_sub5=SF_006OG000004lmDN"
+          target="_blank"
+          rel="nofollow sponsored noopener noreferrer"
+          className="inline-block mt-6 bg-pink-600 hover:bg-pink-700 px-6 py-3 rounded-xl font-bold"
+        >
+          Découvrir Candy AI
+        </a>
+      </section>
+
+      <section className="grid lg:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Points forts
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>✓ AI Girlfriend avancée</li>
+            <li>✓ Conversations naturelles</li>
+            <li>✓ Personnalisation poussée</li>
+            <li>✓ Interface moderne</li>
+            <li>✓ Compatible mobile et ordinateur</li>
+            <li>✓ Accessible au Canada</li>
+          </ul>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Points à considérer
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>• Certaines fonctions sont premium</li>
+            <li>• Principalement disponible en anglais</li>
+            <li>• Nécessite une connexion Internet</li>
+            <li>• À comparer avec Joi AI et OurDream AI</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Pourquoi Candy AI est populaire ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Candy AI est l'une des plateformes qui a contribué à populariser le
+          concept d'AI Girlfriend auprès du grand public. Son objectif est de
+          proposer des conversations immersives avec des personnages virtuels
+          capables d'interagir de façon naturelle.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Les utilisateurs peuvent personnaliser leur compagnon IA selon leurs
+          préférences et créer une expérience plus proche d'une conversation
+          réelle que celle offerte par un simple chatbot.
+        </p>
+
+        <p className="text-gray-300">
+          Cette approche explique pourquoi Candy AI figure régulièrement parmi
+          les plateformes les plus recherchées dans le secteur des compagnons
+          virtuels.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10 overflow-x-auto">
+        <h2 className="text-3xl font-bold mb-6">
+          Candy AI vs autres AI Companions
+        </h2>
+
+        <table className="w-full text-left">
+          <thead>
+            <tr className="border-b border-zinc-700 text-pink-400">
+              <th className="py-4 pr-4">Plateforme</th>
+              <th className="py-4 pr-4">Spécialité</th>
+              <th className="py-4 pr-4">Note</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4">Joi AI</td>
+              <td className="py-4 pr-4">Conversation IA</td>
+              <td className="py-4 pr-4">4.8/5</td>
+            </tr>
+
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4">OurDream AI</td>
+              <td className="py-4 pr-4">Choix global</td>
+              <td className="py-4 pr-4">4.8/5</td>
+            </tr>
+
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4">Candy AI</td>
+              <td className="py-4 pr-4">AI Girlfriend</td>
+              <td className="py-4 pr-4">4.7/5</td>
+            </tr>
+
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4">DarLink AI</td>
+              <td className="py-4 pr-4">Roleplay IA</td>
+              <td className="py-4 pr-4">4.7/5</td>
+            </tr>
+
+            <tr>
+              <td className="py-4 pr-4">Lovescape</td>
+              <td className="py-4 pr-4">Immersion</td>
+              <td className="py-4 pr-4">4.5/5</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Candy AI au Québec
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Candy AI est utilisé à Montréal, Québec, Laval, Gatineau,
+          Sherbrooke, Longueuil, Trois-Rivières, Lévis, Saguenay,
+          Terrebonne, Saint-Jérôme, Repentigny, Brossard,
+          Drummondville, Granby, Blainville, Saint-Hyacinthe,
+          Rimouski, Shawinigan et Victoriaville.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Les utilisateurs québécois recherchent de plus en plus des
+          plateformes d'AI Companion permettant des conversations
+          personnalisées et accessibles à toute heure.
+        </p>
+
+        <p className="text-gray-300">
+          Candy AI répond à cette demande grâce à ses personnages IA et
+          à son expérience immersive.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Alternatives à Candy AI
+        </h2>
+
+        <div className="grid md:grid-cols-4 gap-4">
+          <a href="/blog/joi-ai-quebec" className="bg-zinc-950 border border-zinc-800 rounded-2xl p-5">
+            Joi AI
+          </a>
+
+          <a href="/blog/ourdream-ai-quebec" className="bg-zinc-950 border border-zinc-800 rounded-2xl p-5">
+            OurDream AI
+          </a>
+
+          <a href="/blog/darlink-ai-quebec" className="bg-zinc-950 border border-zinc-800 rounded-2xl p-5">
+            DarLink AI
+          </a>
+
+          <a href="/blog/lovescape-quebec" className="bg-zinc-950 border border-zinc-800 rounded-2xl p-5">
+            Lovescape
+          </a>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ — Candy AI Québec
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          Candy AI est-il accessible au Québec ?
+        </h3>
+
+        <p className="text-gray-300 mb-6">
+          Oui, Candy AI est accessible aux utilisateurs du Québec et du Canada.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Candy AI est-il une AI Girlfriend ?
+        </h3>
+
+        <p className="text-gray-300 mb-6">
+          Oui, Candy AI fait partie des plateformes AI Girlfriend les plus
+          populaires actuellement.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quelle alternative à Candy AI ?
+        </h3>
+
+        <p className="text-gray-300">
+          Joi AI, OurDream AI, DarLink AI et Lovescape sont les principales
+          alternatives.
+        </p>
+      </section>
+
+      <FinalCta
+        title="Découvrir Candy AI"
+        href="https://t.vlmai-1.com/197466/7793?aff_sub5=SF_006OG000004lmDN"
       />
     </>
   );

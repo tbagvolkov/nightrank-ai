@@ -70,6 +70,10 @@ const articles = [
     title: "DarLink AI Québec : avis, accès et alternatives en 2026",
     slug: "darlink-ai-quebec",
   },
+  {
+    title: "Candy AI Québec : avis, accès et alternatives en 2026",
+    slug: "candy-ai-quebec",
+  },
 
   {
     title: "AdultFriendFinder vs Sex Messenger",
