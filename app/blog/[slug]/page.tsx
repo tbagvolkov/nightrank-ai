@@ -106,6 +106,13 @@ const articles = [
     "Découvrez Candy AI, une plateforme populaire d'AI Girlfriend et de compagnon virtuel accessible au Québec et au Canada.",
   category: "AI",
 },
+{
+  title: "Top 5 AI Girlfriends Québec 2026 : comparatif complet",
+  slug: "top-5-ai-girlfriends-quebec-2026",
+  description:
+    "Classement complet des meilleures AI Girlfriends accessibles au Québec : Joi AI, OurDream AI, Candy AI, DarLink AI et Lovescape.",
+  category: "AI",
+},
   {
     title: "Comment choisir un site de rencontre adulte",
     slug: "choisir-site-rencontre",
@@ -2533,6 +2540,327 @@ if (slug === "top-5-webcams-quebec-2026") {
       <FinalCta
         title="Découvrir les meilleurs sites webcams"
         href="/comparatifs/meilleurs-sites-webcams-quebec"
+      />
+    </>
+  );
+}
+if (slug === "top-5-ai-girlfriends-quebec-2026") {
+  return (
+    <>
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-4xl font-bold mb-6">
+          Top 5 AI Girlfriends Québec 2026 : comparatif complet
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Les AI Girlfriends et compagnons virtuels IA connaissent une croissance
+          rapide au Québec. Ces plateformes permettent de discuter avec des
+          personnages alimentés par l’intelligence artificielle, de créer des
+          conversations personnalisées et d’explorer des expériences numériques
+          plus immersives.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          NightRank AI compare ici les 5 plateformes IA les plus pertinentes pour
+          les utilisateurs du Québec : Joi AI, OurDream AI, Candy AI, DarLink AI
+          et Lovescape.
+        </p>
+
+        <p className="text-gray-300">
+          Ce classement sert de page pilier pour notre cluster IA et aide les
+          visiteurs à choisir la plateforme la plus adaptée à leurs préférences.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10 overflow-x-auto">
+        <h2 className="text-3xl font-bold mb-6">
+          Classement rapide
+        </h2>
+
+        <table className="w-full text-left">
+          <thead>
+            <tr className="border-b border-zinc-700 text-pink-400">
+              <th className="py-4 pr-4">Rang</th>
+              <th className="py-4 pr-4">Plateforme</th>
+              <th className="py-4 pr-4">Meilleur pour</th>
+              <th className="py-4 pr-4">Note</th>
+              <th className="py-4 pr-4">Avis</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4 font-bold">#1</td>
+              <td className="py-4 pr-4 font-bold">Joi AI</td>
+              <td className="py-4 pr-4">Conversation IA</td>
+              <td className="py-4 pr-4">4.8/5</td>
+              <td className="py-4 pr-4">
+                <a href="/blog/joi-ai-quebec" className="text-pink-400">
+                  Lire l’avis
+                </a>
+              </td>
+            </tr>
+
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4 font-bold">#2</td>
+              <td className="py-4 pr-4 font-bold">OurDream AI</td>
+              <td className="py-4 pr-4">Choix global</td>
+              <td className="py-4 pr-4">4.8/5</td>
+              <td className="py-4 pr-4">
+                <a href="/blog/ourdream-ai-quebec" className="text-pink-400">
+                  Lire l’avis
+                </a>
+              </td>
+            </tr>
+
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4 font-bold">#3</td>
+              <td className="py-4 pr-4 font-bold">Candy AI</td>
+              <td className="py-4 pr-4">AI Girlfriend populaire</td>
+              <td className="py-4 pr-4">4.7/5</td>
+              <td className="py-4 pr-4">
+                <a href="/blog/candy-ai-quebec" className="text-pink-400">
+                  Lire l’avis
+                </a>
+              </td>
+            </tr>
+
+            <tr className="border-b border-zinc-800">
+              <td className="py-4 pr-4 font-bold">#4</td>
+              <td className="py-4 pr-4 font-bold">DarLink AI</td>
+              <td className="py-4 pr-4">Roleplay IA</td>
+              <td className="py-4 pr-4">4.7/5</td>
+              <td className="py-4 pr-4">
+                <a href="/blog/darlink-ai-quebec" className="text-pink-400">
+                  Lire l’avis
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td className="py-4 pr-4 font-bold">#5</td>
+              <td className="py-4 pr-4 font-bold">Lovescape</td>
+              <td className="py-4 pr-4">Immersion IA</td>
+              <td className="py-4 pr-4">4.5/5</td>
+              <td className="py-4 pr-4">
+                <a href="/blog/lovescape-quebec" className="text-pink-400">
+                  Lire l’avis
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section className="grid lg:grid-cols-3 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-4">
+            #1 Joi AI
+          </h2>
+
+          <p className="text-gray-300 mb-4">
+            Joi AI prend la première place grâce à son positionnement fort dans
+            les conversations IA et les compagnons virtuels interactifs.
+          </p>
+
+          <a href="/blog/joi-ai-quebec" className="text-pink-400 font-bold">
+            Lire l’avis Joi AI →
+          </a>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-4">
+            #2 OurDream AI
+          </h2>
+
+          <p className="text-gray-300 mb-4">
+            OurDream AI reste l’un des choix les plus complets pour les
+            utilisateurs qui recherchent une expérience équilibrée et
+            personnalisable.
+          </p>
+
+          <a
+            href="/blog/ourdream-ai-quebec"
+            className="text-pink-400 font-bold"
+          >
+            Lire l’avis OurDream AI →
+          </a>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-4">
+            #3 Candy AI
+          </h2>
+
+          <p className="text-gray-300 mb-4">
+            Candy AI est l’une des plateformes AI Girlfriend les plus connues,
+            avec une bonne notoriété et une expérience très orientée
+            personnalisation.
+          </p>
+
+          <a href="/blog/candy-ai-quebec" className="text-pink-400 font-bold">
+            Lire l’avis Candy AI →
+          </a>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-4">
+            #4 DarLink AI
+          </h2>
+
+          <p className="text-gray-300 mb-4">
+            DarLink AI se distingue par son approche roleplay IA et ses
+            interactions personnalisées avec des personnages virtuels.
+          </p>
+
+          <a
+            href="/blog/darlink-ai-quebec"
+            className="text-pink-400 font-bold"
+          >
+            Lire l’avis DarLink AI →
+          </a>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-4">
+            #5 Lovescape
+          </h2>
+
+          <p className="text-gray-300 mb-4">
+            Lovescape complète le classement avec une approche immersive et une
+            expérience de compagnon virtuel IA intéressante.
+          </p>
+
+          <a
+            href="/blog/lovescape-quebec"
+            className="text-pink-400 font-bold"
+          >
+            Lire l’avis Lovescape →
+          </a>
+        </div>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          Pourquoi les AI Girlfriends deviennent populaires au Québec ?
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          Les utilisateurs québécois recherchent de plus en plus des expériences
+          numériques personnalisées. Les AI Girlfriends et AI Companions
+          répondent à cette demande en proposant des conversations disponibles à
+          tout moment, adaptées aux préférences de chaque utilisateur.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          Cette catégorie se situe entre le divertissement, le dating virtuel,
+          le chatbot conversationnel et les nouvelles technologies IA. C’est
+          justement ce mélange qui rend le sujet très intéressant pour
+          NightRank AI.
+        </p>
+
+        <p className="text-gray-300">
+          Comme le marché est encore jeune en français québécois, les contenus
+          spécialisés sur les AI Girlfriends peuvent avoir un potentiel SEO
+          important.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          AI Girlfriend à Montréal, Québec, Laval, Gatineau et Sherbrooke
+        </h2>
+
+        <p className="text-gray-300 mb-4">
+          À Montréal, les utilisateurs sont souvent plus ouverts aux nouvelles
+          plateformes numériques, ce qui rend les AI Girlfriends particulièrement
+          intéressantes.
+        </p>
+
+        <p className="text-gray-300 mb-4">
+          À Québec et Laval, les recherches autour des compagnons IA peuvent
+          progresser grâce à l’intérêt croissant pour les applications mobiles,
+          les chatbots et les expériences personnalisées.
+        </p>
+
+        <p className="text-gray-300">
+          Gatineau, Sherbrooke, Longueuil, Trois-Rivières, Lévis et les autres
+          villes du Québec peuvent aussi être ciblées dans cet article sans
+          devoir créer une page séparée pour chaque ville.
+        </p>
+      </section>
+
+      <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+        <h2 className="text-3xl font-bold mb-6">
+          FAQ — Top 5 AI Girlfriends Québec
+        </h2>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quelle est la meilleure AI Girlfriend au Québec ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          Dans notre classement 2026, Joi AI occupe la première position, suivi
+          par OurDream AI et Candy AI.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Les AI Girlfriends sont-elles accessibles au Canada ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          Oui, les plateformes présentées sont généralement accessibles aux
+          utilisateurs du Canada et du Québec.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Quelle est la meilleure alternative à Joi AI ?
+        </h3>
+        <p className="text-gray-300 mb-6">
+          OurDream AI, Candy AI, DarLink AI et Lovescape sont les principales
+          alternatives à comparer.
+        </p>
+
+        <h3 className="text-xl font-bold mb-2">
+          Une AI Girlfriend remplace-t-elle une vraie relation ?
+        </h3>
+        <p className="text-gray-300">
+          Non. Une AI Girlfriend est une expérience numérique de divertissement
+          et de conversation. Elle ne remplace pas une relation humaine réelle.
+        </p>
+      </section>
+
+      <section className="grid md:grid-cols-2 gap-6 mb-10">
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold mb-5">
+            Avis détaillés
+          </h2>
+
+          <div className="grid gap-3 text-pink-400">
+            <a href="/blog/joi-ai-quebec">Joi AI Québec →</a>
+            <a href="/blog/ourdream-ai-quebec">OurDream AI Québec →</a>
+            <a href="/blog/candy-ai-quebec">Candy AI Québec →</a>
+            <a href="/blog/darlink-ai-quebec">DarLink AI Québec →</a>
+            <a href="/blog/lovescape-quebec">Lovescape Québec →</a>
+          </div>
+        </div>
+
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold mb-5">
+            Recherches ciblées
+          </h2>
+
+          <ul className="space-y-3 text-gray-300">
+            <li>• AI Girlfriend Québec</li>
+            <li>• AI Companion Québec</li>
+            <li>• petite amie virtuelle IA</li>
+            <li>• compagnon IA Canada</li>
+            <li>• meilleur chatbot relationnel IA</li>
+          </ul>
+        </div>
+      </section>
+
+      <FinalCta
+        title="Découvrir Joi AI"
+        href="https://t.vlmai-1.com/197466/7875?aff_sub5=SF_006OG000004lmDN"
       />
     </>
   );

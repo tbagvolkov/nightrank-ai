@@ -55,6 +55,10 @@ const articles = [
     slug: "top-5-webcams-quebec-2026",
   },
   {
+    title: "Top 5 AI Girlfriends Québec 2026 : comparatif complet",
+    slug: "top-5-ai-girlfriends-quebec-2026",
+  },
+  {
     title: "OurDream AI Québec : avis, accès et alternatives en 2026",
     slug: "ourdream-ai-quebec",
   },
