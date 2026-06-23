@@ -56,7 +56,7 @@ export default function Home() {
             <a href="/cams" className="hover:text-pink-400">Webcams</a>
             <a href="/dating" className="hover:text-pink-400">Rencontres</a>
             <a href="/gaming" className="hover:text-pink-400">Gaming</a>
-            <a href="/blog/ourdream-ai-quebec" className="hover:text-pink-400">AI</a>
+            <a href="/ai" className="hover:text-pink-400">AI</a>
             <a href="/comparatifs" className="hover:text-pink-400">Comparatifs</a>
             <a href="/blog" className="hover:text-pink-400">Blog</a>
           </div>
@@ -151,7 +151,7 @@ export default function Home() {
                   🎮 Gaming adulte
                 </a>
 
-                <a href="/blog/ourdream-ai-quebec" className="border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center">
+                <a href="/ai" className="border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center">
                   🤖 AI Companions
                 </a>
               </div>
@@ -217,7 +217,7 @@ export default function Home() {
             <div className="space-y-3 text-sm">
               <a href="/webcam/montreal" className="block hover:text-pink-400">⌘ Webcam Montréal</a>
               <a href="/dating/quebec" className="block hover:text-pink-400">⌘ Rencontre adulte Québec</a>
-              <a href="/blog/ourdream-ai-quebec" className="block hover:text-pink-400">⌘ OurDream AI Québec</a>
+              <a href="/ai" className="block hover:text-pink-400">⌘ OurDream AI Québec</a>
               <a href="/blog/joi-ai-quebec" className="block hover:text-pink-400">⌘ Joi AI Québec</a>
               <a href="/blog/lovescape-quebec" className="block hover:text-pink-400">⌘ Lovescape Québec</a>
             </div>
@@ -230,7 +230,7 @@ export default function Home() {
               <a href="/blog/top-5-webcams-quebec-2026" className="block hover:text-pink-400">
                 Top 5 Webcams Québec 2026
               </a>
-              <a href="/blog/ourdream-ai-quebec" className="block hover:text-pink-400">
+              <a href="/ai" className="block hover:text-pink-400">
                 OurDream AI Québec
               </a>
               <a href="/blog/joi-ai-quebec" className="block hover:text-pink-400">
@@ -293,7 +293,7 @@ export default function Home() {
             <CategoryCard
               title="AI Companions"
               text="Découvrez les nouvelles plateformes de compagnons virtuels IA comme OurDream AI, Joi AI et Lovescape."
-              href="/blog/ourdream-ai-quebec"
+              href="/ai"
             />
           </div>
 
