@@ -158,12 +158,33 @@ export default function Home() {
             </div>
           </section>
 
-          <div className="grid lg:grid-cols-4 gap-5 mt-5">
-            <OfferBox title="💗 WEBCAMS POPULAIRES" items={webcams} cta="Voir l’offre" />
-            <OfferBox title="❤️ RENCONTRES POPULAIRES" items={dating} cta="Découvrir" />
-            <OfferBox title="🎮 GAMING POPULAIRE" items={gaming} cta="Voir le jeu" />
-            <OfferBox title="🤖 AI COMPANIONS" items={aiCompanions} cta="Découvrir" />
-          </div>
+          <section className="mt-8 space-y-8">
+
+  <OfferBox
+    title="❤️ WEBCAMS POPULAIRES"
+    items={webcams}
+    cta="Voir l'offre"
+  />
+
+  <OfferBox
+    title="❤️ RENCONTRES POPULAIRES"
+    items={dating}
+    cta="Découvrir"
+  />
+
+  <OfferBox
+    title="🤖 AI COMPANIONS"
+    items={aiCompanions}
+    cta="Découvrir"
+  />
+
+  <OfferBox
+    title="🎮 GAMING POPULAIRE"
+    items={gaming}
+    cta="Voir le jeu"
+  />
+
+</section>
 
           <section className="mt-5 bg-zinc-950/90 border border-zinc-800 rounded-2xl p-5">
             <div className="flex justify-between items-center mb-5">
@@ -391,10 +412,12 @@ function OfferBox({
   cta: string;
 }) {
   return (
-    <section className="bg-zinc-950/90 border border-zinc-800 rounded-2xl p-5">
-      <h2 className="font-bold mb-5">{title}</h2>
+    <section className="bg-zinc-950/90 border border-zinc-800 rounded-3xl p-6 mb-8">
+      <h2 className="text-2xl font-bold mb-6 text-white">
+        {title}
+      </h2>
 
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
         {items.map(([name, rating, desc, url]) => {
           const imageName = name
             .toLowerCase()
@@ -402,24 +425,32 @@ function OfferBox({
             .replace(/[^a-z0-9]/g, "");
 
           return (
-            <a key={name} href={url} className="bg-zinc-900 border border-zinc-800 rounded-xl p-4 hover:border-pink-500 transition">
-              <div className="h-36 rounded-lg overflow-hidden border border-zinc-800 mb-4 bg-black">
-                <img src={`/offers/${imageName}.jpg`} alt={name} className="w-full h-full object-cover" />
+            <a
+              key={name}
+              href={url}
+              className="bg-zinc-900 border border-zinc-800 rounded-2xl p-5 hover:border-pink-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-pink-500/20 transition-all duration-300"
+            >
+              <div className="h-64 rounded-2xl overflow-hidden border border-zinc-700 mb-5 bg-black">
+                <img
+                  src={`/offres/${imageName}.png`}
+                  alt={name}
+                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                />
               </div>
 
-              <h3 className="text-xl font-bold mb-2 leading-tight text-white">
+              <h3 className="text-2xl font-bold text-white mb-2">
                 {name}
               </h3>
 
-              <p className="text-yellow-400 text-sm mb-2">
-                {rating} ★★★★★
+              <p className="text-yellow-400 text-lg font-bold mb-3">
+                ★★★★★ {rating}
               </p>
 
-              <p className="text-xs text-gray-400 min-h-[48px]">
+              <p className="text-gray-300 text-sm leading-relaxed min-h-[60px]">
                 {desc}
               </p>
 
-              <span className="block mt-4 text-center bg-pink-600 py-2 rounded-lg text-sm font-bold">
+              <span className="mt-6 block w-full text-center bg-pink-600 hover:bg-pink-700 py-3 rounded-xl font-bold transition">
                 {cta}
               </span>
             </a>
