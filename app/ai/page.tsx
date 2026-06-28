@@ -274,4 +274,5 @@ export default function AIPage() {
       </div>
     </main>
   );
+  
 }
