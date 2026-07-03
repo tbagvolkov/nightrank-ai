@@ -1,3 +1,4 @@
+import FAQSchema from "@/components/seo/FAQSchema";
 export const metadata = {
   title: "FAQ | NightRank AI",
   description:
@@ -70,6 +71,7 @@ const faqs = [
 export default function FAQPage() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-14">
+      <FAQSchema faqs={faqs} />
       <div className="max-w-6xl mx-auto">
         <a href="/company" className="text-pink-400 hover:text-pink-300">
           ← Retour Trust Center
