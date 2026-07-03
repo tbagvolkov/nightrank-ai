@@ -394,6 +394,86 @@ export default function Home() {
         </div>
       </section>
 
+{/* TRUST BADGES */}
+
+<section className="py-20">
+  <div className="max-w-7xl mx-auto">
+
+    <h2 className="text-4xl font-bold text-center mb-4">
+      Pourquoi faire confiance à NightRank AI ?
+    </h2>
+
+    <p className="text-center text-gray-400 mb-12 max-w-3xl mx-auto">
+      Notre objectif est de proposer des comparatifs clairs, transparents et
+      régulièrement mis à jour pour aider les visiteurs du Québec et du Canada.
+    </p>
+
+    <div className="grid md:grid-cols-4 gap-6">
+
+      <a
+        href="/company/methodology"
+        className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-pink-500 transition"
+      >
+        <div className="text-5xl mb-5">📊</div>
+
+        <h3 className="text-2xl font-bold mb-3">
+          Méthodologie
+        </h3>
+
+        <p className="text-gray-300">
+          Découvrez comment nous comparons chaque plateforme.
+        </p>
+      </a>
+
+      <a
+        href="/company/editorial-policy"
+        className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-pink-500 transition"
+      >
+        <div className="text-5xl mb-5">📝</div>
+
+        <h3 className="text-2xl font-bold mb-3">
+          Politique éditoriale
+        </h3>
+
+        <p className="text-gray-300">
+          Notre engagement envers la qualité et la transparence.
+        </p>
+      </a>
+
+      <a
+        href="/company/affiliate-disclosure"
+        className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-pink-500 transition"
+      >
+        <div className="text-5xl mb-5">🤝</div>
+
+        <h3 className="text-2xl font-bold mb-3">
+          Transparence
+        </h3>
+
+        <p className="text-gray-300">
+          Comprendre comment fonctionnent nos liens affiliés.
+        </p>
+      </a>
+
+      <a
+        href="/company/contact"
+        className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-pink-500 transition"
+      >
+        <div className="text-5xl mb-5">📩</div>
+
+        <h3 className="text-2xl font-bold mb-3">
+          Contact
+        </h3>
+
+        <p className="text-gray-300">
+          Une question ? Contactez notre équipe.
+        </p>
+      </a>
+
+    </div>
+
+  </div>
+</section>
       <footer className="border-t border-zinc-900 bg-black px-6 py-16">
   <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-5 gap-10">
     <div className="lg:col-span-2">
