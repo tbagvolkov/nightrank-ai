@@ -394,10 +394,69 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="border-t border-zinc-900 py-14 text-center">
-        <h3 className="text-3xl text-pink-500 font-bold mb-3">NightRank AI</h3>
-        <p className="text-gray-400">Guide indépendant Québec • Canada • 18+</p>
-      </footer>
+      <footer className="border-t border-zinc-900 bg-black px-6 py-16">
+  <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-5 gap-10">
+    <div className="lg:col-span-2">
+      <h3 className="text-3xl text-pink-500 font-bold mb-4">
+        NightRank AI
+      </h3>
+
+      <p className="text-gray-400 mb-5 max-w-md">
+        Guide comparatif indépendant pour les plateformes webcams,
+        rencontres adultes, AI Companions et gaming adulte au Québec et au
+        Canada.
+      </p>
+
+      <p className="text-gray-500 text-sm">
+        Réservé aux adultes 18+. Certains liens peuvent être affiliés.
+      </p>
+
+      <p className="text-gray-500 text-sm mt-3">
+        Contact :{" "}
+        <a href="mailto:nightrankai@gmail.com" className="text-pink-400">
+          nightrankai@gmail.com
+        </a>
+      </p>
+    </div>
+
+    <div>
+      <h4 className="text-white font-bold mb-4">Navigation</h4>
+      <ul className="space-y-3 text-gray-400">
+        <li><a href="/" className="hover:text-pink-400">Accueil</a></li>
+        <li><a href="/blog" className="hover:text-pink-400">Blog</a></li>
+        <li><a href="/ai" className="hover:text-pink-400">AI Companions</a></li>
+        <li><a href="/comparatifs" className="hover:text-pink-400">Comparatifs</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 className="text-white font-bold mb-4">Trust Center</h4>
+      <ul className="space-y-3 text-gray-400">
+        <li><a href="/company" className="hover:text-pink-400">À propos</a></li>
+        <li><a href="/company/methodology" className="hover:text-pink-400">Méthodologie</a></li>
+        <li><a href="/company/editorial-policy" className="hover:text-pink-400">Politique éditoriale</a></li>
+        <li><a href="/company/faq" className="hover:text-pink-400">FAQ</a></li>
+        <li><a href="/company/contact" className="hover:text-pink-400">Contact</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 className="text-white font-bold mb-4">Légal</h4>
+      <ul className="space-y-3 text-gray-400">
+        <li><a href="/company/affiliate-disclosure" className="hover:text-pink-400">Liens affiliés</a></li>
+        <li><a href="/company/privacy" className="hover:text-pink-400">Confidentialité</a></li>
+        <li><a href="/company/terms" className="hover:text-pink-400">Conditions</a></li>
+        <li><a href="/company/dmca" className="hover:text-pink-400">DMCA</a></li>
+        <li><a href="/company/adults-only" className="hover:text-pink-400">18+</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div className="max-w-7xl mx-auto border-t border-zinc-900 mt-12 pt-6 text-sm text-gray-500 flex flex-col md:flex-row gap-3 md:items-center md:justify-between">
+    <p>© 2026 NightRank AI. Tous droits réservés.</p>
+    <p>Comparatifs indépendants • Québec • Canada • 18+</p>
+  </div>
+</footer>
     </main>
   );
 }
