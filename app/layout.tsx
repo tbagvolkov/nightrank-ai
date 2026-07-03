@@ -1,55 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import AgeGate from "./AgeGate";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nightrankai.com"),
-
-  title: {
-    default: "NightRank AI | Meilleurs sites adultes au Québec",
-    template: "%s | NightRank AI",
-  },
-
+  title: "NightRank AI | Comparatifs adultes Québec & Canada",
   description:
-    "Guide Québec-first des webcams, rencontres adultes, comparatifs, IA et gaming adulte au Canada.",
-
-  keywords: [
-    "webcam Québec",
-    "webcam Montréal",
-    "dating Québec",
-    "rencontre adulte Québec",
-    "cams live Québec",
-    "Jerkmate avis",
-    "LiveJasmin avis",
-    "BongaCams avis",
-    "AdultFriendFinder avis",
-    "NightRank AI",
-    "AI girlfriend",
-    "AI chat",
-    "Lovescape",
-    "gaming adulte",
-  ],
-
-  verification: {
-    other: {
-      "mylead-verification":
-        "39d94ff229ba489af44c9c3cf2f78b8a",
-    },
-  },
-
-  openGraph: {
-    title: "NightRank AI | Meilleurs sites adultes au Québec",
-    description:
-      "Comparatifs webcams, rencontres adultes, IA et gaming adulte pour le Québec et le Canada.",
-    url: "https://nightrankai.com",
-    siteName: "NightRank AI",
-    locale: "fr_CA",
-    type: "website",
-  },
-
-  robots: {
-    index: true,
-    follow: true,
-  },
+    "NightRank AI compare les meilleures plateformes webcams, rencontres adultes, AI Companions et gaming adulte au Québec et au Canada.",
 };
 
 export default function RootLayout({
@@ -57,9 +13,51 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "NightRank AI",
+    url: "https://nightrankai.com",
+    logo: "https://nightrankai.com/favicon.ico",
+    email: "nightrankai@gmail.com",
+    sameAs: ["https://www.facebook.com/NightRankAI"],
+    description:
+      "NightRank AI est un guide comparatif indépendant pour les plateformes webcams, rencontres adultes, AI Companions et gaming adulte au Québec et au Canada.",
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "NightRank AI",
+    url: "https://nightrankai.com",
+    inLanguage: "fr-CA",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://nightrankai.com/blog?search={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
-    <html lang="fr">
-      <body>{children}</body>
+    <html lang="fr-CA">
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteSchema),
+          }}
+        />
+
+        <AgeGate />
+        {children}
+      </body>
     </html>
   );
 }
