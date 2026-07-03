@@ -1,3 +1,4 @@
+import BreadcrumbSchema from "@/components/seo/BreadcrumbSchema";
 export const metadata = {
   title: "À propos | NightRank AI",
   description:
@@ -34,6 +35,18 @@ const process = [
 export default function CompanyPage() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-14">
+      <BreadcrumbSchema
+  items={[
+    {
+      name: "Accueil",
+      url: "https://nightrankai.com",
+    },
+    {
+      name: "Trust Center",
+      url: "https://nightrankai.com/company",
+    },
+  ]}
+/>
       <div className="max-w-6xl mx-auto">
         <a href="/" className="text-pink-400 hover:text-pink-300">
           ← Retour accueil
