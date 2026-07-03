@@ -1,3 +1,4 @@
+import BreadcrumbSchema from "@/components/seo/BreadcrumbSchema";
 import FAQSchema from "@/components/seo/FAQSchema";
 export const metadata = {
   title: "FAQ | NightRank AI",
@@ -72,6 +73,22 @@ export default function FAQPage() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-14">
       <FAQSchema faqs={faqs} />
+      <BreadcrumbSchema
+  items={[
+    {
+      name: "Accueil",
+      url: "https://nightrankai.com",
+    },
+    {
+      name: "Trust Center",
+      url: "https://nightrankai.com/company",
+    },
+    {
+      name: "FAQ",
+      url: "https://nightrankai.com/company/faq",
+    },
+  ]}
+/>
       <div className="max-w-6xl mx-auto">
         <a href="/company" className="text-pink-400 hover:text-pink-300">
           ← Retour Trust Center
