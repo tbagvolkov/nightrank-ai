@@ -1,3 +1,4 @@
+import BreadcrumbSchema from "@/components/seo/BreadcrumbSchema";
 export const metadata = {
   title: "18+ | NightRank AI",
   description:
@@ -7,6 +8,22 @@ export const metadata = {
 export default function AdultsOnlyPage() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-14">
+      <BreadcrumbSchema
+  items={[
+    {
+      name: "Accueil",
+      url: "https://nightrankai.com",
+    },
+    {
+      name: "Trust Center",
+      url: "https://nightrankai.com/company",
+    },
+    {
+      name: "18+",
+      url: "https://nightrankai.com/company/adults-only",
+    },
+  ]}
+/>
       <div className="max-w-6xl mx-auto">
         <a href="/company" className="text-pink-400 hover:text-pink-300">
           ← Retour Trust Center
