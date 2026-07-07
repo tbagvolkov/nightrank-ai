@@ -1,54 +1,121 @@
+import type { MetadataRoute } from "next";
 import { cities } from "./data";
 
-export default function sitemap() {
-const baseUrl = "https://nightrankai.com";
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://nightrankai.com";
+  const lastModified = new Date();
 
-const pages = [
+  const makeUrl = (
+    path: string,
+    priority: number,
+    changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"]
+  ) => ({
+    url: `${baseUrl}${path}`,
+    lastModified,
+    changeFrequency,
+    priority,
+  });
 
-"",
-"/cams",
-"/dating",
-"/comparatifs",
-"/blog",
-"/gaming",
+  const mainPages = [
+    makeUrl("/", 1.0, "weekly"),
+    makeUrl("/ai", 0.95, "weekly"),
+    makeUrl("/cams", 0.9, "weekly"),
+    makeUrl("/dating", 0.9, "weekly"),
+    makeUrl("/gaming", 0.9, "weekly"),
+    makeUrl("/comparatifs", 0.9, "weekly"),
+    makeUrl("/blog", 0.9, "weekly"),
+  ];
 
-];
+  const companyPages = [
+    "/company",
+    "/company/contact",
+    "/company/faq",
+    "/company/methodology",
+    "/company/editorial-policy",
+    "/company/affiliate-disclosure",
+    "/company/privacy",
+    "/company/terms",
+    "/company/dmca",
+    "/company/adults-only",
+  ].map((page) => makeUrl(page, 0.75, "monthly"));
 
-const staticPages = pages.map((page)=>({
+  const blogSlugs = [
+    "top-5-ai-girlfriends-quebec-2026",
+    "joi-ai-quebec",
+    "ourdream-ai-quebec",
+    "candy-ai-quebec",
+    "darlink-ai-quebec",
+    "lovescape-quebec",
 
-url: `${baseUrl}${page}`,
-lastModified: new Date(),
+    "top-5-webcams-quebec-2026",
+    "meilleurs-sites-webcams-quebec",
+    "cam-to-cam-quebec",
+    "jerkmate-quebec",
+    "livejasmin-quebec",
+    "bongacams-quebec",
+    "imlive-quebec",
+    "liveprivates-quebec",
+    "jerkmate-vs-livejasmin",
+    "bongacams-vs-jerkmate",
+    "livejasmin-vs-bongacams",
 
-}));
+    "choisir-site-rencontre",
+    "adultfriendfinder-vs-sexmessenger",
+    "dating-canada",
+    "rencontres-adultes-montreal",
+    "rencontres-adultes-quebec",
+    "rencontres-adultes-laval",
+    "rencontres-adultes-gatineau",
+    "rencontres-adultes-sherbrooke",
 
-const webcamPages = cities.map((city)=>({
+    "gaming-adulte-quebec",
+  ];
 
-url:
-`${baseUrl}/webcam/${city.slug}`,
+  const blogPages = blogSlugs.map((slug) =>
+    makeUrl(`/blog/${slug}`, 0.8, "weekly")
+  );
 
-lastModified:
-new Date(),
+  const offerSlugs = [
+    "jerkmate",
+    "livejasmin",
+    "bongacams",
+    "adultfriendfinder",
+    "sexmessenger",
+    "bbwfun",
+    "joi-ai",
+    "ourdream-ai",
+    "candy-ai",
+    "darlink-ai",
+    "lovescape",
+    "sexemulator",
+    "hentaiheroes",
+    "comixharem",
+  ];
 
-}));
+  const offerPages = offerSlugs.map((slug) =>
+    makeUrl(`/offres/${slug}`, 0.85, "weekly")
+  );
 
-const datingPages = cities.map((city)=>({
+  const comparisonPages = [
+    "meilleurs-sites-webcams-quebec",
+    "top-rencontres-adultes-quebec",
+  ].map((slug) => makeUrl(`/comparatifs/${slug}`, 0.85, "weekly"));
 
-url:
-`${baseUrl}/dating/${city.slug}`,
+  const webcamPages = cities.map((city) =>
+    makeUrl(`/webcam/${city.slug}`, 0.7, "monthly")
+  );
 
-lastModified:
-new Date(),
+  const datingPages = cities.map((city) =>
+    makeUrl(`/dating/${city.slug}`, 0.7, "monthly")
+  );
 
-}));
-
-return [
-
-...staticPages,
-
-...webcamPages,
-
-...datingPages,
-
-];
-
+  return [
+    ...mainPages,
+    ...companyPages,
+    ...blogPages,
+    ...offerPages,
+    ...comparisonPages,
+    ...webcamPages,
+    ...datingPages,
+  ];
 }
