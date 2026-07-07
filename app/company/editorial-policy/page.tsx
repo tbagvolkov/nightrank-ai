@@ -1,3 +1,4 @@
+import BreadcrumbSchema from "@/components/seo/BreadcrumbSchema";
 export const metadata = {
   title: "Politique éditoriale | NightRank AI",
   description:
@@ -35,6 +36,22 @@ const workflow = [
 export default function EditorialPolicyPage() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-14">
+      <BreadcrumbSchema
+  items={[
+    {
+      name: "Accueil",
+      url: "https://nightrankai.com",
+    },
+    {
+      name: "Trust Center",
+      url: "https://nightrankai.com/company",
+    },
+    {
+      name: "Editorial Policy",
+      url: "https://nightrankai.com/company/editorial-policy",
+    },
+  ]}
+/>
       <div className="max-w-6xl mx-auto">
         <a href="/company" className="text-pink-400 hover:text-pink-300">
           ← Retour Trust Center
