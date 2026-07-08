@@ -1,7 +1,64 @@
-export const metadata = {
-  title: "Blog | NightRank AI",
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog NightRank AI | Guides, avis et comparatifs Québec 2026",
+
   description:
-    "Guides, comparatifs et avis détaillés sur les webcams, AI Companions, rencontres adultes et gaming adulte au Québec.",
+    "Tous les guides NightRank AI sur les webcams, AI Companions, rencontres adultes et gaming au Québec.",
+
+  keywords: [
+    "blog webcam Québec",
+    "blog AI girlfriend",
+    "blog dating Québec",
+    "blog gaming adulte",
+    "NightRank AI",
+    "comparatifs Québec",
+    "guides webcams",
+    "AI Companion Canada",
+  ],
+
+  authors: [
+    {
+      name: "NightRank AI Editorial Team",
+    },
+  ],
+
+  creator: "NightRank AI",
+
+  publisher: "NightRank AI",
+
+  alternates: {
+    canonical: "https://nightrankai.com/blog",
+  },
+
+  openGraph: {
+    title: "Blog NightRank AI",
+
+    description:
+      "Guides et comparatifs sur les webcams, AI Companions, dating et gaming.",
+
+    url: "https://nightrankai.com/blog",
+
+    siteName: "NightRank AI",
+
+    locale: "fr_CA",
+
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title: "Blog NightRank AI",
+
+    description:
+      "Les meilleurs guides adultes du Québec.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const aiArticles = [
