@@ -1,7 +1,42 @@
-export const metadata = {
-  title: "Comparatifs | NightRank AI",
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Comparatifs adultes Québec | Webcams, Dating, AI et Gaming | NightRank AI",
   description:
-    "Comparatifs webcams, rencontres adultes et gaming adulte au Québec. Guides NightRank AI pour comparer les meilleures plateformes.",
+    "Comparez les meilleures plateformes adultes, webcams, AI Companions, rencontres et gaming au Québec avec les guides indépendants NightRank AI.",
+  keywords: [
+    "comparatif adulte Québec",
+    "comparatif webcam Québec",
+    "comparatif AI girlfriend",
+    "comparatif rencontre adulte",
+    "meilleurs sites adultes Québec",
+    "NightRank AI",
+  ],
+  authors: [{ name: "NightRank AI Editorial Team" }],
+  creator: "NightRank AI",
+  publisher: "NightRank AI",
+  alternates: {
+    canonical: "https://nightrankai.com/comparatifs",
+  },
+  openGraph: {
+    title: "Comparatifs adultes Québec",
+    description:
+      "Guides comparatifs indépendants pour webcams, AI Companions, dating et gaming adulte.",
+    url: "https://nightrankai.com/comparatifs",
+    siteName: "NightRank AI",
+    locale: "fr_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Comparatifs adultes Québec",
+    description:
+      "Les meilleurs comparatifs NightRank AI pour le Québec et le Canada.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const comparatifs = [
