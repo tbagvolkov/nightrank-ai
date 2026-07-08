@@ -1,8 +1,44 @@
+import type { Metadata } from "next";
 import { cities } from "../data";
 
-export const metadata = {
-  title: "Cams live Québec | NightRank AI",
-  description: "Meilleurs sites webcams et cams live au Québec.",
+export const metadata: Metadata = {
+  title: "Webcams Québec | Meilleurs sites cam live 2026 | NightRank AI",
+  description:
+    "Comparez les meilleurs sites webcams accessibles au Québec et au Canada : Jerkmate, LiveJasmin, BongaCams, ImLive et autres plateformes cam live.",
+  keywords: [
+    "webcam Québec",
+    "cam live Québec",
+    "cam to cam Québec",
+    "Jerkmate Québec",
+    "LiveJasmin Québec",
+    "BongaCams Québec",
+    "meilleur site webcam Canada",
+  ],
+  authors: [{ name: "NightRank AI Editorial Team" }],
+  creator: "NightRank AI",
+  publisher: "NightRank AI",
+  alternates: {
+    canonical: "https://nightrankai.com/cams",
+  },
+  openGraph: {
+    title: "Meilleurs sites webcams au Québec",
+    description:
+      "Comparatifs webcams, cam to cam et avis de plateformes accessibles au Canada.",
+    url: "https://nightrankai.com/cams",
+    siteName: "NightRank AI",
+    locale: "fr_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Webcams Québec | NightRank AI",
+    description:
+      "Comparatifs des meilleurs sites webcams accessibles au Québec.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function CamsPage() {
