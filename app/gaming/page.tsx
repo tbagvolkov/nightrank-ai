@@ -1,7 +1,43 @@
-export const metadata = {
-title: "Gaming adulte | NightRank AI",
-description:
-"Jeux adultes et divertissement sélectionnés pour le Québec.",
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Gaming adulte Québec | Jeux interactifs 2026 | NightRank AI",
+  description:
+    "Comparez les meilleures offres de gaming adulte accessibles au Québec : Sex Emulator, Hentai Heroes, Comix Harem et autres expériences interactives.",
+  keywords: [
+    "gaming adulte Québec",
+    "jeux adultes",
+    "Sex Emulator",
+    "Hentai Heroes",
+    "Comix Harem",
+    "jeux hentai",
+    "jeux interactifs adultes",
+  ],
+  authors: [{ name: "NightRank AI Editorial Team" }],
+  creator: "NightRank AI",
+  publisher: "NightRank AI",
+  alternates: {
+    canonical: "https://nightrankai.com/gaming",
+  },
+  openGraph: {
+    title: "Gaming adulte Québec",
+    description:
+      "Guides et comparatifs des meilleures offres gaming adulte accessibles au Québec.",
+    url: "https://nightrankai.com/gaming",
+    siteName: "NightRank AI",
+    locale: "fr_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gaming adulte Québec",
+    description:
+      "Comparatifs indépendants des meilleurs jeux adultes et interactifs.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const games = [
