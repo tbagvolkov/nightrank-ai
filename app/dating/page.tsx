@@ -1,8 +1,65 @@
 import { cities } from "../data";
 
-export const metadata = {
-  title: "Rencontres adultes Québec | NightRank AI",
-  description: "Meilleurs sites de rencontres adultes au Québec.",
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Rencontres adultes Québec | Meilleurs sites 2026 | NightRank AI",
+
+  description:
+    "Comparez les meilleurs sites de rencontres adultes accessibles au Québec. Avis, comparatifs et guides indépendants.",
+
+  keywords: [
+    "rencontre adulte Québec",
+    "dating Québec",
+    "AdultFriendFinder Québec",
+    "Sex Messenger",
+    "BBW Fun",
+    "hookup Québec",
+    "rencontre discrète",
+  ],
+
+  authors: [
+    {
+      name: "NightRank AI Editorial Team",
+    },
+  ],
+
+  creator: "NightRank AI",
+
+  publisher: "NightRank AI",
+
+  alternates: {
+    canonical: "https://nightrankai.com/dating",
+  },
+
+  openGraph: {
+    title: "Rencontres adultes Québec",
+
+    description:
+      "Comparatifs des meilleurs sites de rencontres adultes au Québec.",
+
+    url: "https://nightrankai.com/dating",
+
+    siteName: "NightRank AI",
+
+    locale: "fr_CA",
+
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title: "Rencontres adultes Québec",
+
+    description:
+      "Comparatifs indépendants des meilleurs sites dating.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function DatingPage() {
