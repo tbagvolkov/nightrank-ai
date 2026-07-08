@@ -1,10 +1,55 @@
 import { cities } from "./data";
 import AgeGate from "./AgeGate";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "NightRank AI | Meilleurs sites adultes et AI au Québec",
+export const metadata: Metadata = {
+  title: "NightRank AI | Meilleurs sites webcams, AI et rencontres adultes au Québec",
   description:
-    "Guide Québec-first des meilleurs sites webcams, rencontres adultes, gaming adulte et compagnons IA au Canada.",
+    "Comparez les meilleures plateformes webcams, AI companions, rencontres adultes et jeux interactifs au Québec et au Canada. Guides, avis et comparatifs indépendants.",
+  keywords: [
+    "webcam Québec",
+    "AI girlfriend",
+    "AI companion",
+    "rencontre adulte Québec",
+    "cam to cam",
+    "Jerkmate",
+    "LiveJasmin",
+    "BongaCams",
+    "NightRank AI",
+  ],
+  authors: [
+    {
+      name: "NightRank AI Editorial Team",
+    },
+  ],
+  creator: "NightRank AI",
+  publisher: "NightRank AI",
+
+  alternates: {
+    canonical: "https://nightrankai.com",
+  },
+
+  openGraph: {
+    title: "NightRank AI",
+    description:
+      "Les meilleurs comparatifs webcams, AI, dating et gaming adulte au Québec.",
+    url: "https://nightrankai.com",
+    siteName: "NightRank AI",
+    locale: "fr_CA",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "NightRank AI",
+    description:
+      "Les meilleurs comparatifs webcams et AI Companions du Québec.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const topPlatforms = [
