@@ -4,8 +4,15 @@ import AgeGate from "./AgeGate";
 
 export const metadata: Metadata = {
   title: "NightRank AI | Comparatifs adultes Québec & Canada",
+
   description:
     "NightRank AI compare les meilleures plateformes webcams, rencontres adultes, AI Companions et gaming adulte au Québec et au Canada.",
+
+  verification: {
+    other: {
+      "p:domain_verify": "4e033d2a025f54b8e8e57bc57e72e107",
+    },
+  },
 };
 
 export default function RootLayout({
