@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import BlogSearch from "@/components/BlogSearch";
 
 export const metadata: Metadata = {
   title: "Blog NightRank AI | Guides, avis et comparatifs Québec 2026",
@@ -172,7 +173,12 @@ const gamingArticles = [
     slug: "gaming-adulte-quebec",
   },
 ];
-
+const allArticles = [
+  ...aiArticles,
+  ...webcamArticles,
+  ...datingArticles,
+  ...gamingArticles,
+];
 export default function BlogPage() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-10">
@@ -195,6 +201,8 @@ export default function BlogPage() {
             rencontres adultes et gaming adulte au Québec et au Canada.
           </p>
         </section>
+        
+        <BlogSearch articles={allArticles} />
 
         <nav className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
           <a href="#ai" className="bg-zinc-900 border border-zinc-800 hover:border-pink-500 rounded-2xl p-6">
