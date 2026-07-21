@@ -5743,6 +5743,35 @@ export default async function BlogArticlePage({
   return (
     <main className="min-h-screen bg-black text-white">
       <article className="max-w-[1400px] mx-auto px-6 md:px-10 py-12">
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Accueil",
+          item: "https://nightrankai.com/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Blog",
+          item: "https://nightrankai.com/blog",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: article.title,
+          item: `https://nightrankai.com/blog/${article.slug}`,
+        },
+      ],
+    }),
+  }}
+/>
       <nav
   aria-label="Breadcrumb"
   className="mb-8 text-sm text-gray-400"
