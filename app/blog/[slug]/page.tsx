@@ -5675,7 +5675,59 @@ function FinalCta({ title, href }: { title: string; href: string }) {
     </section>
   );
 }
+function RelatedArticles({
+  currentSlug,
+  category,
+}: {
+  currentSlug: string;
+  category: string;
+}) {
+  const related = articles
+    .filter(
+      (article) =>
+        article.category === category &&
+        article.slug !== currentSlug
+    )
+    .slice(0, 3);
 
+  if (related.length === 0) {
+    return null;
+  }
+
+  return (
+    <section className="mt-10 bg-zinc-950 border border-zinc-800 rounded-3xl p-8">
+      <h2 className="text-3xl font-bold text-pink-500 mb-6">
+        Articles similaires
+      </h2>
+
+      <div className="grid md:grid-cols-3 gap-5">
+        {related.map((article) => (
+          <a
+            key={article.slug}
+            href={`/blog/${article.slug}`}
+            className="bg-zinc-900 border border-zinc-800 rounded-2xl p-5 hover:border-pink-500 transition"
+          >
+            <p className="text-sm text-pink-400 font-bold mb-3">
+              {article.category}
+            </p>
+
+            <h3 className="text-xl font-bold mb-3">
+              {article.title}
+            </h3>
+
+            <p className="text-gray-400 text-sm mb-4">
+              {article.description}
+            </p>
+
+            <span className="text-pink-400 font-bold">
+              Lire l’article →
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+  );
+}
 export default async function BlogArticlePage({
   params,
 }: {
@@ -5710,6 +5762,10 @@ export default async function BlogArticlePage({
         </div>
 
         <ArticleContent slug={slug} />
+        <RelatedArticles
+  currentSlug={slug}
+  category={article.category}
+/>
       </article>
     </main>
   );
