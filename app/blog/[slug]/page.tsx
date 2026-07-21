@@ -5743,6 +5743,40 @@ export default async function BlogArticlePage({
   return (
     <main className="min-h-screen bg-black text-white">
       <article className="max-w-[1400px] mx-auto px-6 md:px-10 py-12">
+      <nav
+  aria-label="Breadcrumb"
+  className="mb-8 text-sm text-gray-400"
+>
+  <ol className="flex flex-wrap items-center gap-2">
+
+    <li>
+      <a
+        href="/"
+        className="hover:text-pink-400 transition"
+      >
+        Accueil
+      </a>
+    </li>
+
+    <li>/</li>
+
+    <li>
+      <a
+        href="/blog"
+        className="hover:text-pink-400 transition"
+      >
+        Blog
+      </a>
+    </li>
+
+    <li>/</li>
+
+    <li className="text-pink-400 font-semibold">
+      {article.title}
+    </li>
+
+  </ol>
+</nav>
         <a href="/blog" className="text-pink-400">
           ← Retour blog
         </a>
