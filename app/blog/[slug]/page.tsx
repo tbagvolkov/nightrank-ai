@@ -5728,6 +5728,31 @@ function RelatedArticles({
     </section>
   );
 }
+function ArticleMeta({
+  published,
+  updated,
+  readingTime,
+}: {
+  published: string;
+  updated: string;
+  readingTime: string;
+}) {
+  return (
+    <div className="mt-6 mb-10 flex flex-wrap gap-4 text-sm text-gray-400">
+      <span>
+        <strong className="text-white">Publié :</strong> {published}
+      </span>
+
+      <span>
+        <strong className="text-white">Mis à jour :</strong> {updated}
+      </span>
+
+      <span>
+        <strong className="text-white">Lecture :</strong> {readingTime}
+      </span>
+    </div>
+  );
+}
 export default async function BlogArticlePage({
   params,
 }: {
@@ -5818,6 +5843,11 @@ export default async function BlogArticlePage({
           <h1 className="text-5xl md:text-7xl font-bold text-pink-500 mb-6">
             {article.title}
           </h1>
+          <ArticleMeta
+  published="11 juillet 2026"
+  updated="20 juillet 2026"
+  readingTime="8 min"
+/>
 
           <p className="text-xl text-gray-300 max-w-4xl">
             {article.description}
