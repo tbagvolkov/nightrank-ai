@@ -89,7 +89,7 @@ export const offers: Offer[] = [
     slug: "adultfriendfinder",
     name: "AdultFriendFinder",
     category: "dating",
-    rating: 4.8,
+    rating: 4.7,
     affiliate:
       "https://t.crdtg2.com/197466/5165?aff_sub5=SF_006OG000004lmDN",
     image: "/offres/adultfriendfinder.png",
@@ -113,7 +113,7 @@ export const offers: Offer[] = [
     slug: "sexmessenger",
     name: "Sex Messenger",
     category: "dating",
-    rating: 4.6,
+    rating: 4.5,
     affiliate:
       "https://t.crdtg2.com/197466/7234?aff_sub5=SF_006OG000004lmDN",
     image: "/offres/sexmessenger.png",
@@ -274,7 +274,7 @@ export const offers: Offer[] = [
     slug: "sexemulator",
     name: "Sex Emulator",
     category: "gaming",
-    rating: 4.6,
+    rating: 4.7,
     affiliate:
       "https://t.asxem.link/197466/9294/0?aff_sub5=SF_006OG000004lmDN",
     image: "/offres/sexemulator.png",

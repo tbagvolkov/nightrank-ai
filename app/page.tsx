@@ -67,15 +67,15 @@ const webcams = [
 ];
 
 const dating = [
-  ["AdultFriendFinder", "4.4/5", "Communauté adulte internationale.", "/offres/adultfriendfinder"],
-  ["Sex Messenger", "4.3/5", "Messagerie adulte et rencontres rapides.", "/offres/sexmessenger"],
-  ["BBW Fun", "4.5/5", "Dating niche orienté BBW.", "/offres/bbwfun"],
+  ["AdultFriendFinder", "4.7/5", "Communauté adulte internationale.", "/offres/adultfriendfinder"],
+  ["Sex Messenger", "4.5/5", "Messagerie adulte et rencontres rapides.", "/offres/sexmessenger"],
+  ["BBW Fun", "4.4/5", "Dating niche orienté BBW.", "/offres/bbwfun"],
 ];
 
 const gaming = [
-  ["Sex Emulator", "4.6/5", "Simulation adulte interactive.", "/offres/sexemulator"],
-  ["Hentai Heroes", "4.4/5", "Jeu adulte avec progression.", "/offres/hentaiheroes"],
-  ["Comix Harem", "4.3/5", "Univers comics et collection.", "/offres/comixharem"],
+  ["Sex Emulator", "4.7/5", "Simulation adulte interactive.", "/offres/sexemulator"],
+  ["Hentai Heroes", "4.5/5", "Jeu adulte avec progression.", "/offres/hentaiheroes"],
+  ["Comix Harem", "4.4/5", "Univers comics et collection.", "/offres/comixharem"],
 ];
 
 const aiCompanions = [
