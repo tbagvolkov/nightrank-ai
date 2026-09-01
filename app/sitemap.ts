@@ -3,7 +3,6 @@ import { cities } from "./data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://nightrankai.com";
-  const lastModified = new Date();
 
   const makeUrl = (
     path: string,
@@ -11,7 +10,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"]
   ) => ({
     url: `${baseUrl}${path}`,
-    lastModified,
     changeFrequency,
     priority,
   });

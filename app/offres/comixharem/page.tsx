@@ -165,7 +165,7 @@ export default function ComixHaremPage() {
                 </tr>
 
                 <tr className="border-b border-zinc-800">
-                  <td className="py-4 pr-4 font-bold">Intérêt SEO</td>
+                  <td className="py-4 pr-4 font-bold">Place dans notre sélection</td>
                   <td className="py-4 pr-4">4.4/5</td>
                   <td className="py-4 pr-4">
                     Bon complément dans la catégorie Gaming adulte
@@ -191,10 +191,9 @@ export default function ComixHaremPage() {
 
           <p className="text-gray-300 mb-4">
             NightRank AI classe Comix Harem dans sa sélection Gaming parce que
-            cette offre apporte une variation importante. Un bon cluster SEO ne
-            doit pas simplement répéter trois fois le même type d’offre. Il doit
-            présenter des options différentes afin de couvrir plusieurs
-            intentions de recherche.
+            cette offre apporte une variation importante. Une sélection utile ne
+            doit pas simplement répéter trois fois le même type d’offre. Elle doit
+            présenter des options différentes selon les préférences des visiteurs.
           </p>
 
           <p className="text-gray-300 mb-4">
@@ -265,7 +264,7 @@ export default function ComixHaremPage() {
         <section className="grid md:grid-cols-2 gap-6 mb-10">
           <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
             <h2 className="text-3xl font-bold mb-5">
-              Mots-clés ciblés
+              Recherches fréquentes
             </h2>
 
             <ul className="space-y-3 text-gray-300">

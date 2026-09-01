@@ -197,7 +197,7 @@ export default function BlogPage() {
           </h1>
 
           <p className="text-xl text-gray-300 max-w-4xl">
-            Retrouvez nos guides SEO sur les webcams, AI Companions,
+            Retrouvez nos guides sur les webcams, AI Companions,
             rencontres adultes et gaming adulte au Québec et au Canada.
           </p>
         </section>

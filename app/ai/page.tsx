@@ -102,7 +102,7 @@ export default function AIPage() {
                 <tr className="border-b border-zinc-700">
                   <th className="py-3">Plateforme</th>
                   <th className="py-3">Note</th>
-                  <th className="py-3">Mots-clés</th>
+                  <th className="py-3">Spécialité</th>
                 </tr>
               </thead>
 
@@ -125,7 +125,7 @@ export default function AIPage() {
           </h2>
 
           <p className="text-gray-300 mb-6">
-            Les AI Companions connaissent une croissance rapide au Québec. Ces
+            Les AI Companions forment une catégorie récente de divertissement numérique au Québec. Ces
             plateformes permettent aux utilisateurs de discuter avec des
             personnages virtuels avancés, de découvrir des conversations
             personnalisées et d’explorer une nouvelle catégorie de
@@ -133,7 +133,7 @@ export default function AIPage() {
           </p>
 
           <p className="text-gray-300 mb-6">
-            Parmi les plateformes les plus populaires figurent Joi AI, OurDream
+            Parmi les plateformes que nous comparons figurent Joi AI, OurDream
             AI, Candy AI, DarLink AI et Lovescape. Chacune possède ses propres
             avantages selon que l'utilisateur recherche une conversation
             naturelle, un compagnon virtuel ou une expérience immersive.
@@ -172,7 +172,7 @@ export default function AIPage() {
           <div className="space-y-8">
             <Faq
               question="Quelle est la meilleure AI Girlfriend au Québec ?"
-              answer="Joi AI, OurDream AI et Candy AI figurent parmi les plateformes les plus populaires actuellement."
+              answer="Joi AI et OurDream AI obtiennent notre meilleure note, tandis que Candy AI complète le trio de tête de notre sélection."
             />
 
             <Faq

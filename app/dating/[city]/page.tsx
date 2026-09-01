@@ -223,7 +223,7 @@ export default async function DatingCityPage({
         <section className="grid md:grid-cols-2 gap-6 mb-10">
           <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
             <h2 className="text-3xl font-bold mb-5">
-              Recherches locales ciblées
+              Recherches fréquentes à {city.name}
             </h2>
 
             <ul className="space-y-3 text-gray-300">
@@ -281,8 +281,8 @@ export default async function DatingCityPage({
             NightRank AI héberge-t-il des profils ?
           </h3>
           <p className="text-gray-300 mb-6">
-            Non. NightRank AI est un site de comparaison, d’avis et de guides
-            SEO. Les visiteurs sont redirigés vers les plateformes partenaires.
+            Non. NightRank AI est un site de comparaison, d’avis et de guides.
+            Les visiteurs sont redirigés vers les plateformes partenaires.
           </p>
 
           <h3 className="text-xl font-bold mb-2">

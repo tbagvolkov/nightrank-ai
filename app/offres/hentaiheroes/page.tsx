@@ -201,7 +201,7 @@ export default function HentaiHeroesPage() {
           </p>
 
           <p className="text-gray-300 mb-4">
-            Dans notre structure SEO, Hentai Heroes complète Sex Emulator et
+            Dans notre sélection, Hentai Heroes complète Sex Emulator et
             Comix Harem. Sex Emulator représente davantage la simulation
             interactive. Comix Harem apporte un univers visuel inspiré comics.
             Hentai Heroes occupe la place du jeu adulte orienté hentai,
@@ -209,10 +209,9 @@ export default function HentaiHeroesPage() {
           </p>
 
           <p className="text-gray-300">
-            Cette distinction est importante pour les visiteurs, mais aussi pour
-            le SEO. Elle permet à NightRank AI de couvrir plusieurs intentions
-            de recherche : “hentai heroes avis”, “jeu hentai adulte”, “gaming
-            adulte Québec” ou encore “meilleur jeu adulte Canada”.
+            Cette distinction aide les visiteurs à choisir selon le type
+            d’expérience recherché : simulation, univers comics ou jeu orienté
+            progression et collection.
           </p>
         </section>
 
@@ -271,7 +270,7 @@ export default function HentaiHeroesPage() {
         <section className="grid md:grid-cols-2 gap-6 mb-10">
           <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
             <h2 className="text-3xl font-bold mb-5">
-              Mots-clés ciblés
+              Recherches fréquentes
             </h2>
 
             <ul className="space-y-3 text-gray-300">

@@ -57,7 +57,7 @@ const topPlatforms = [
   ["LiveJasmin", "4.7/5", "/offres/livejasmin"],
   ["BongaCams", "4.5/5", "/offres/bongacams"],
   ["OurDream AI", "4.8/5", "/blog/ourdream-ai-quebec"],
-  ["Joi AI", "4.6/5", "/blog/joi-ai-quebec"],
+  ["Joi AI", "4.8/5", "/blog/joi-ai-quebec"],
 ];
 
 const webcams = [
@@ -80,8 +80,8 @@ const gaming = [
 
 const aiCompanions = [
   ["OurDream AI", "4.8/5", "Compagnon IA complet et personnalisable.", "/blog/ourdream-ai-quebec"],
-  ["Joi AI", "4.6/5", "Assistant conversationnel IA moderne.", "/blog/joi-ai-quebec"],
-  ["Lovescape", "4.7/5", "Expérience immersive de compagnon virtuel.", "/blog/lovescape-quebec"],
+  ["Joi AI", "4.8/5", "Assistant conversationnel IA moderne.", "/blog/joi-ai-quebec"],
+  ["Lovescape", "4.5/5", "Expérience immersive de compagnon virtuel.", "/blog/lovescape-quebec"],
 ];
 
 export default function Home() {
@@ -428,12 +428,12 @@ export default function Home() {
 
             <Faq
               question="Quel est le meilleur AI Companion au Québec ?"
-              answer="OurDream AI est actuellement notre recommandation principale, suivi par Joi AI et Lovescape."
+              answer="Joi AI et OurDream AI partagent actuellement notre meilleure note. Joi AI se distingue pour la conversation, tandis qu’OurDream AI constitue notre choix global le plus complet."
             />
 
             <Faq
               question="NightRank AI héberge-t-il du contenu adulte ?"
-              answer="Non. NightRank AI est un site de comparaison, d’avis et de contenu SEO. Les visiteurs sont redirigés vers les plateformes partenaires."
+              answer="Non. NightRank AI est un site de comparaison et d’avis. Les visiteurs sont redirigés vers les plateformes partenaires."
             />
           </div>
         </div>

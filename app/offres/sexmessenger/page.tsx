@@ -157,7 +157,7 @@ export default function SexMessengerPage() {
                 </tr>
 
                 <tr className="border-b border-zinc-800">
-                  <td className="py-4 pr-4 font-bold">Intérêt SEO</td>
+                  <td className="py-4 pr-4 font-bold">Place dans notre sélection</td>
                   <td className="py-4 pr-4">4.5/5</td>
                   <td className="py-4 pr-4">Bon potentiel sur les recherches avis</td>
                 </tr>
