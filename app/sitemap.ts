@@ -80,11 +80,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "adultfriendfinder",
     "sexmessenger",
     "bbwfun",
-    "joi-ai",
-    "ourdream-ai",
-    "candy-ai",
-    "darlink-ai",
-    "lovescape",
     "sexemulator",
     "hentaiheroes",
     "comixharem",
@@ -97,6 +92,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const comparisonPages = [
     "meilleurs-sites-webcams-quebec",
     "top-rencontres-adultes-quebec",
+    "gaming-adulte-quebec",
   ].map((slug) => makeUrl(`/comparatifs/${slug}`, 0.85, "weekly"));
 
   const webcamPages = cities.map((city) =>
