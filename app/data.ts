@@ -115,8 +115,8 @@ export const offers = [
   { name: "Jerkmate", category: "Cams", description: "Plateforme populaire de webcams live avec expérience premium.", url: "/offres/jerkmate" },
   { name: "LiveJasmin", category: "Cams", description: "Site webcam haut de gamme reconnu à l'international.", url: "/offres/livejasmin" },
   { name: "BongaCams", category: "Cams", description: "Grande sélection de modèles et diffusion en direct.", url: "/offres/bongacams" },
-  { name: "ImLive", category: "Cams", description: "Plateforme webcam internationale proposant des modèles en direct.", url: "/offres/imlive" },
-  { name: "LivePrivates", category: "Cams", description: "Plateforme orientée shows privés et interactions personnalisées.", url: "/offres/liveprivates" },
+  { name: "ImLive", category: "Cams", description: "Plateforme webcam internationale proposant des modèles en direct.", url: "/blog/imlive-quebec" },
+  { name: "LivePrivates", category: "Cams", description: "Plateforme orientée shows privés et interactions personnalisées.", url: "/blog/liveprivates-quebec" },
 
   { name: "AdultFriendFinder", category: "Dating", description: "Communauté adulte pour rencontres et connexions entre adultes.", url: "/offres/adultfriendfinder" },
   { name: "Sex Messenger", category: "Dating", description: "Plateforme de rencontres et discussions entre adultes.", url: "/offres/sexmessenger" },
@@ -129,6 +129,6 @@ export const offers = [
   { name: "JOI AI", category: "AI", description: "Compagnon virtuel IA avec conversations immersives.", url: "/blog/joi-ai-quebec" },
   { name: "OurDream AI", category: "AI", description: "AI Girlfriend populaire avec personnalisation avancée.", url: "/blog/ourdream-ai-quebec" },
   { name: "Lovescape AI", category: "AI", description: "Compagnon virtuel basé sur l'intelligence artificielle.", url: "/blog/lovescape-quebec" },
-  { name: "Luvr AI", category: "AI", description: "Compagnon IA moderne offrant une expérience immersive.", url: "/blog/luvr-ai-quebec" },
+  { name: "Candy AI", category: "AI", description: "Compagnon IA moderne offrant une expérience personnalisée.", url: "/blog/candy-ai-quebec" },
   { name: "DarLink AI", category: "AI", description: "Plateforme AI Girlfriend et roleplay avec personnages avancés.", url: "/blog/darlink-ai-quebec" },
 ];

@@ -3078,8 +3078,8 @@ if (slug === "ourdream-ai-quebec") {
           </h2>
 
           <div className="grid gap-3 text-pink-400">
-            <a href="/blog/meilleurs-ai-companions-quebec-2026">
-              Meilleurs AI Companions Québec →
+            <a href="/blog/top-5-ai-girlfriends-quebec-2026">
+              Top 5 AI Girlfriends Québec →
             </a>
             <a href="/blog/joi-ai-quebec">
               Joi AI Québec →
@@ -3336,8 +3336,8 @@ if (slug === "joi-ai-quebec") {
             <a href="/blog/lovescape-quebec">
               Lovescape Québec →
             </a>
-            <a href="/blog/meilleurs-ai-companions-quebec-2026">
-              Meilleurs AI Companions Québec →
+            <a href="/blog/top-5-ai-girlfriends-quebec-2026">
+              Top 5 AI Girlfriends Québec →
             </a>
           </div>
         </div>
@@ -3574,8 +3574,8 @@ if (slug === "lovescape-quebec") {
               Joi AI Québec →
             </a>
 
-            <a href="/blog/top-5-ai-companions-quebec-2026">
-              Top 5 AI Companions Québec →
+            <a href="/blog/top-5-ai-girlfriends-quebec-2026">
+              Top 5 AI Girlfriends Québec →
             </a>
           </div>
         </div>
@@ -3874,10 +3874,10 @@ if (slug === "darlink-ai-quebec") {
           </a>
 
           <a
-            href="/blog/luvr-ai-quebec"
+            href="/blog/candy-ai-quebec"
             className="bg-zinc-950 border border-zinc-800 rounded-2xl p-5 hover:border-pink-500"
           >
-            <h3 className="font-bold text-pink-400 mb-2">Luvr AI</h3>
+            <h3 className="font-bold text-pink-400 mb-2">Candy AI</h3>
             <p className="text-gray-300 text-sm">
               Alternative AI dating.
             </p>
@@ -3963,11 +3963,11 @@ if (slug === "darlink-ai-quebec") {
             <a href="/blog/lovescape-quebec">
               Lovescape Québec →
             </a>
-            <a href="/blog/luvr-ai-quebec">
-              Luvr AI Québec →
+            <a href="/blog/candy-ai-quebec">
+              Candy AI Québec →
             </a>
-            <a href="/blog/top-5-ai-companions-quebec-2026">
-              Top 5 AI Companions Québec →
+            <a href="/blog/top-5-ai-girlfriends-quebec-2026">
+              Top 5 AI Girlfriends Québec →
             </a>
           </div>
         </div>
