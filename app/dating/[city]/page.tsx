@@ -43,6 +43,9 @@ export async function generateMetadata({
     description: `Découvrez les meilleurs sites de rencontres adultes à ${
       city?.name || "Québec"
     } : AdultFriendFinder, Sex Messenger et BBW Fun. Comparatif local pour les adultes du Québec et du Canada.`,
+    alternates: {
+      canonical: `/dating/${citySlug}`,
+    },
   };
 }
 

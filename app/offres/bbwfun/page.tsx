@@ -2,6 +2,7 @@ export const metadata = {
   title: "BBW Fun avis 2026 Québec | NightRank AI",
   description:
     "Avis complet sur BBW Fun au Québec : avantages, inconvénients, note NightRank AI, FAQ et comparaison avec AdultFriendFinder et Sex Messenger.",
+  alternates: { canonical: "/offres/bbwfun" },
 };
 
 const affiliateLink =

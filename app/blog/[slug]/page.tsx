@@ -197,6 +197,9 @@ export async function generateMetadata({
   return {
     title: `${article.title} | NightRank AI`,
     description: article.description,
+    alternates: {
+      canonical: `/blog/${slug}`,
+    },
   };
 }
 

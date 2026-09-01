@@ -2,6 +2,7 @@ export const metadata = {
   title: "Sex Emulator avis 2026 Québec | NightRank AI",
   description:
     "Avis complet sur Sex Emulator au Québec : avantages, inconvénients, note NightRank AI, FAQ et comparaison avec Hentai Heroes et Comix Harem.",
+  alternates: { canonical: "/offres/sexemulator" },
 };
 
 const affiliateLink =

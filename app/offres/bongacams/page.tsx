@@ -2,6 +2,7 @@ export const metadata = {
   title: "BongaCams avis 2026 Québec | NightRank AI",
   description:
     "Avis complet sur BongaCams au Québec : avantages, inconvénients, note NightRank AI, FAQ et comparaison avec Jerkmate et LiveJasmin.",
+  alternates: { canonical: "/offres/bongacams" },
 };
 
 const affiliateLink =

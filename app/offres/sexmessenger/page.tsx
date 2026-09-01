@@ -2,6 +2,7 @@ export const metadata = {
   title: "Sex Messenger avis 2026 Québec | NightRank AI",
   description:
     "Avis complet sur Sex Messenger au Québec : avantages, inconvénients, note NightRank AI, FAQ et comparaison avec AdultFriendFinder et BBW Fun.",
+  alternates: { canonical: "/offres/sexmessenger" },
 };
 
 const affiliateLink =

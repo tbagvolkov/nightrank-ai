@@ -2,6 +2,7 @@ export const metadata = {
   title: "Comix Harem avis 2026 Québec | NightRank AI",
   description:
     "Avis complet sur Comix Harem au Québec : avantages, inconvénients, note NightRank AI, FAQ et comparaison avec Sex Emulator et Hentai Heroes.",
+  alternates: { canonical: "/offres/comixharem" },
 };
 
 const affiliateLink =

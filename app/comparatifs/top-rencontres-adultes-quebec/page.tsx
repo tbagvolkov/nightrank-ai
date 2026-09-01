@@ -2,6 +2,9 @@ export const metadata = {
   title: "Top rencontres adultes au Québec 2026 | NightRank AI",
   description:
     "Comparatif complet des meilleurs sites de rencontres adultes au Québec : AdultFriendFinder, Sex Messenger et BBW Fun.",
+  alternates: {
+    canonical: "/comparatifs/top-rencontres-adultes-quebec",
+  },
 };
 
 const offers = [

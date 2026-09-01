@@ -2,6 +2,7 @@ export const metadata = {
   title: "LiveJasmin avis 2026 Québec | NightRank AI",
   description:
     "Avis complet sur LiveJasmin au Québec : avantages, inconvénients, note NightRank AI, FAQ et comparaison avec Jerkmate et BongaCams.",
+  alternates: { canonical: "/offres/livejasmin" },
 };
 
 const affiliateLink =

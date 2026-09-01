@@ -10,10 +10,6 @@ export const metadata: Metadata = {
   description:
     "NightRank AI compare les meilleures plateformes webcams, rencontres adultes, AI Companions et gaming adulte au Québec et au Canada.",
 
-  alternates: {
-    canonical: "/",
-  },
-
   verification: {
     other: {
       "p:domain_verify": "4e033d2a025f54b8e8e57bc57e72e107",

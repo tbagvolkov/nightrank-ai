@@ -43,6 +43,9 @@ export async function generateMetadata({
     description: `Découvrez les meilleurs sites webcams à ${
       city?.name || "Québec"
     } : Jerkmate, LiveJasmin et BongaCams. Comparatif local pour les adultes du Québec et du Canada.`,
+    alternates: {
+      canonical: `/webcam/${citySlug}`,
+    },
   };
 }
 

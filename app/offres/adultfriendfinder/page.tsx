@@ -2,6 +2,7 @@ export const metadata = {
   title: "AdultFriendFinder avis 2026 Québec | NightRank AI",
   description:
     "Avis complet sur AdultFriendFinder au Québec : avantages, inconvénients, note NightRank AI, FAQ et comparaison avec Sex Messenger et BBW Fun.",
+  alternates: { canonical: "/offres/adultfriendfinder" },
 };
 
 const affiliateLink =

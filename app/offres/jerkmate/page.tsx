@@ -2,6 +2,7 @@ export const metadata = {
   title: "Jerkmate avis 2026 Québec | NightRank AI",
   description:
     "Avis complet sur Jerkmate au Québec : avantages, inconvénients, note NightRank AI, FAQ et comparaison avec LiveJasmin et BongaCams.",
+  alternates: { canonical: "/offres/jerkmate" },
 };
 
 const affiliateLink =

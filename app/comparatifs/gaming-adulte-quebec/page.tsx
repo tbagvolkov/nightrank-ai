@@ -2,6 +2,9 @@ export const metadata = {
   title: "Gaming adulte au Québec 2026 | NightRank AI",
   description:
     "Comparatif complet des meilleures offres gaming adulte au Québec et au Canada : Sex Emulator, Hentai Heroes et Comix Harem.",
+  alternates: {
+    canonical: "/comparatifs/gaming-adulte-quebec",
+  },
 };
 
 const offers = [
