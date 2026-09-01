@@ -1,4 +1,5 @@
 import { cities, priorityCityContent } from "../../data";
+import { notFound } from "next/navigation";
 
 const datingOffers = [
   {
@@ -30,6 +31,8 @@ export async function generateStaticParams() {
   }));
 }
 
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: {
@@ -38,11 +41,11 @@ export async function generateMetadata({
   const { city: citySlug } = await params;
   const city = cities.find((c) => c.slug === citySlug);
 
+  if (!city) notFound();
+
   return {
-    title: `Rencontres adultes ${city?.name || "Québec"} 2026 | NightRank AI`,
-    description: `Découvrez les meilleurs sites de rencontres adultes à ${
-      city?.name || "Québec"
-    } : AdultFriendFinder, Sex Messenger et BBW Fun. Comparatif local pour les adultes du Québec et du Canada.`,
+    title: `Rencontres adultes ${city.name} 2026 | NightRank AI`,
+    description: `Découvrez les meilleurs sites de rencontres adultes à ${city.name} : AdultFriendFinder, Sex Messenger et BBW Fun. Comparatif local pour les adultes du Québec et du Canada.`,
     alternates: {
       canonical: `/dating/${citySlug}`,
     },
@@ -58,15 +61,7 @@ export default async function DatingCityPage({
   const city = cities.find((c) => c.slug === citySlug);
   const localContent = priorityCityContent[citySlug];
 
-  if (!city) {
-    return (
-      <main className="min-h-screen bg-black text-white p-10">
-        <h1 className="text-4xl text-pink-500 font-bold">
-          Ville introuvable
-        </h1>
-      </main>
-    );
-  }
+  if (!city) notFound();
 
   return (
     <main className="min-h-screen bg-black text-white">
