@@ -1,4 +1,4 @@
-import { cities } from "../../data";
+import { cities, priorityCityContent } from "../../data";
 
 const webcamOffers = [
   {
@@ -53,6 +53,7 @@ export default async function WebcamCityPage({
 }) {
   const { city: citySlug } = await params;
   const city = cities.find((c) => c.slug === citySlug);
+  const localContent = priorityCityContent[citySlug];
 
   if (!city) {
     return (
@@ -115,11 +116,8 @@ export default async function WebcamCityPage({
           </h2>
 
           <p className="text-gray-300 mb-4">
-            Les visiteurs de {city.name} recherchent souvent des plateformes
-            webcams fiables, rapides et accessibles depuis le Québec. L’objectif
-            n’est pas seulement de trouver un site populaire, mais aussi une
-            plateforme qui fonctionne bien au Canada, qui soit simple à utiliser
-            et qui propose une expérience adaptée aux adultes francophones.
+            {localContent?.webcamSummary ??
+              `Depuis ${city.name}, le choix d’une plateforme webcam dépend surtout de sa compatibilité mobile, de la clarté de ses prix et des réglages de confidentialité proposés aux utilisateurs canadiens.`}
           </p>
 
           <p className="text-gray-300 mb-4">
@@ -135,6 +133,21 @@ export default async function WebcamCityPage({
             comparatif et redirige les visiteurs vers des plateformes partenaires
             réservées aux adultes de 18 ans et plus.
           </p>
+        </section>
+
+        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+          <h2 className="text-3xl font-bold mb-6">
+            Points à vérifier depuis {city.name}
+          </h2>
+          <ul className="space-y-3 text-gray-300">
+            {(localContent?.webcamChecks ?? [
+              "Comparer les prix et les crédits avant une session privée",
+              "Tester la navigation sur son appareil principal",
+              "Consulter les paramètres de confidentialité du compte",
+            ]).map((item) => (
+              <li key={item}>✓ {item}</li>
+            ))}
+          </ul>
         </section>
 
         <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">

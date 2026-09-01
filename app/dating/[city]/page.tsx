@@ -1,4 +1,4 @@
-import { cities } from "../../data";
+import { cities, priorityCityContent } from "../../data";
 
 const datingOffers = [
   {
@@ -53,6 +53,7 @@ export default async function DatingCityPage({
 }) {
   const { city: citySlug } = await params;
   const city = cities.find((c) => c.slug === citySlug);
+  const localContent = priorityCityContent[citySlug];
 
   if (!city) {
     return (
@@ -116,10 +117,8 @@ export default async function DatingCityPage({
           </h2>
 
           <p className="text-gray-300 mb-4">
-            Les visiteurs de {city.name} recherchent souvent des plateformes de
-            rencontres adultes simples, discrètes et accessibles depuis le Québec.
-            L’objectif est de comparer les options disponibles avant de choisir
-            une plateforme adaptée à ses préférences.
+            {localContent?.datingSummary ??
+              `À ${city.name}, il est préférable de comparer les filtres disponibles, les fonctions de messagerie et les réglages de confidentialité avant de choisir une plateforme de rencontres adultes.`}
           </p>
 
           <p className="text-gray-300 mb-4">
@@ -136,6 +135,21 @@ export default async function DatingCityPage({
             visiteurs vers des plateformes partenaires réservées aux adultes de
             18 ans et plus.
           </p>
+        </section>
+
+        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+          <h2 className="text-3xl font-bold mb-6">
+            Points à vérifier à {city.name}
+          </h2>
+          <ul className="space-y-3 text-gray-300">
+            {(localContent?.datingChecks ?? [
+              "Vérifier les filtres géographiques avant de payer",
+              "Limiter les informations personnelles visibles",
+              "Consulter les outils de blocage et de signalement",
+            ]).map((item) => (
+              <li key={item}>✓ {item}</li>
+            ))}
+          </ul>
         </section>
 
         <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
