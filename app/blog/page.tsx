@@ -103,15 +103,15 @@ const webcamArticles = [
     slug: "cam-to-cam-quebec",
   },
   {
-    title: "Jerkmate Québec : avis, accès et alternatives en 2026",
+    title: "Jerkmate au Québec : accès et fonctionnement en 2026",
     slug: "jerkmate-quebec",
   },
   {
-    title: "LiveJasmin Québec : avis, accès et alternatives en 2026",
+    title: "LiveJasmin au Québec : accès et fonctionnement en 2026",
     slug: "livejasmin-quebec",
   },
   {
-    title: "BongaCams Québec : avis, accès et alternatives en 2026",
+    title: "BongaCams au Québec : accès et fonctionnement en 2026",
     slug: "bongacams-quebec",
   },
   {
