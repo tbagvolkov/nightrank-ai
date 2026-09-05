@@ -1,295 +1,78 @@
-export const metadata = {
-  title: "Top rencontres adultes au Québec 2026 | NightRank AI",
-  description:
-    "Comparatif complet des meilleurs sites de rencontres adultes au Québec : AdultFriendFinder, Sex Messenger et BBW Fun.",
-  alternates: {
-    canonical: "/comparatifs/top-rencontres-adultes-quebec",
-  },
+import type { Metadata } from "next";
+import ComparisonPage, { type ComparisonOffer } from "@/components/comparatifs/ComparisonPage";
+
+export const metadata: Metadata = {
+  title: "Meilleurs sites de rencontres adultes au Québec | NightRank AI",
+  description: "Comparatif détaillé des sites de rencontres adultes accessibles au Québec : AdultFriendFinder, Sex Messenger et BBW Fun, avec avis et conseils.",
+  alternates: { canonical: "https://nightrankai.com/comparatifs/top-rencontres-adultes-quebec" },
+  openGraph: { title: "Meilleurs sites de rencontres adultes au Québec", description: "Comparez trois plateformes selon leur communauté, leur messagerie, leur spécialisation et leur confidentialité.", url: "https://nightrankai.com/comparatifs/top-rencontres-adultes-quebec", siteName: "NightRank AI", locale: "fr_CA", type: "article" },
 };
 
-const offers = [
-  {
-    rank: "1",
-    name: "AdultFriendFinder",
-    rating: "4.7/5",
-    tag: "Meilleur choix général",
-    url: "https://t.crdtg2.com/197466/5165?aff_sub5=SF_006OG000004lmDN",
-    desc: "Plateforme généraliste connue pour les rencontres adultes et les communautés en ligne.",
-    strengths: ["Grande notoriété", "Communauté internationale", "Bon choix général"],
-  },
-  {
-    rank: "2",
-    name: "Sex Messenger",
-    rating: "4.5/5",
-    tag: "Meilleur pour messagerie",
-    url: "https://t.crdtg2.com/197466/7234?aff_sub5=SF_006OG000004lmDN",
-    desc: "Offre orientée messagerie adulte et échanges rapides entre utilisateurs.",
-    strengths: ["Messagerie directe", "Approche simple", "Multi-CPA intéressant"],
-  },
-  {
-    rank: "3",
-    name: "BBW Fun",
-    rating: "4.4/5",
-    tag: "Meilleure niche BBW",
-    url: "https://t.crdtg2.com/197466/7088?aff_sub5=SF_006OG000004lmDN",
-    desc: "Offre dating niche orientée BBW, idéale pour varier les recommandations.",
-    strengths: ["Niche spécifique", "Audience ciblée", "Bon potentiel RevShare"],
-  },
+const offers: ComparisonOffer[] = [
+  { position: 1, name: "AdultFriendFinder", rating: "4.7/5", badge: "Meilleur choix général", badgeColor: "from-yellow-500 to-amber-600", best: "Communauté généraliste et fonctions variées", description: "AdultFriendFinder est une plateforme de rencontres pour adultes bien établie. Elle se distingue surtout par l’étendue de sa communauté, ses fonctions sociales et la diversité des profils recherchés.", image: "/offres/adultfriendfinder.png", imageAlt: "AdultFriendFinder dans le comparatif de rencontres adultes au Québec", affiliate: "https://t.crdtg2.com/197466/5165?aff_sub5=SF_006OG000004lmDN", review: "/offres/adultfriendfinder", strengths: ["Plateforme connue et établie", "Communauté diversifiée", "Nombreuses fonctions de découverte"], limits: "Une grande communauté signifie davantage de profils à filtrer. Il faut régler ses préférences et rester attentif aux messages non pertinents.", pricing: "La création d’un profil peut être gratuite, tandis que plusieurs fonctions de communication et de visibilité dépendent d’un abonnement ou d’options payantes. Vérifiez les conditions au moment de l’inscription.", ideal: "Les adultes qui souhaitent commencer par une plateforme généraliste, explorer différents profils et disposer de plusieurs outils de recherche et de communication." },
+  { position: 2, name: "Sex Messenger", rating: "4.5/5", badge: "Choix messagerie", badgeColor: "from-fuchsia-500 to-pink-700", best: "Échanges directs et prise en main simple", description: "Sex Messenger adopte une approche plus directe, centrée sur la messagerie et les échanges rapides. Son positionnement convient aux visiteurs qui préfèrent une expérience moins chargée qu’un grand portail communautaire.", image: "/offres/sexmessenger.png", imageAlt: "Sex Messenger pour les rencontres adultes au Québec", affiliate: "https://t.crdtg2.com/197466/7234?aff_sub5=SF_006OG000004lmDN", review: "/offres/sexmessenger", strengths: ["Messagerie au centre de l’expérience", "Parcours généralement simple", "Alternative aux grandes communautés"], limits: "Sa notoriété et son éventail de fonctions peuvent être plus limités. La disponibilité locale des profils doit être évaluée après l’inscription.", pricing: "L’accès, les messages et les fonctions premium peuvent dépendre de l’offre proposée. Consultez le prix final et les modalités de renouvellement avant de payer.", ideal: "Les utilisateurs qui donnent la priorité à la conversation et souhaitent une expérience de rencontre plus directe." },
+  { position: 3, name: "BBW Fun", rating: "4.4/5", badge: "Option spécialisée", badgeColor: "from-violet-500 to-purple-700", best: "Rencontres BBW et recherche ciblée", description: "BBW Fun se concentre sur une préférence de rencontre précise. Cette spécialisation peut simplifier la recherche pour les personnes intéressées par l’univers BBW et par une communauté moins généraliste.", image: "/offres/bbwfun.png", imageAlt: "BBW Fun dans le classement des rencontres adultes", affiliate: "https://t.crdtg2.com/197466/7088?aff_sub5=SF_006OG000004lmDN", review: "/offres/bbwfun", strengths: ["Positionnement BBW clairement défini", "Recherche plus ciblée", "Alternative aux sites généralistes"], limits: "Une niche précise peut offrir moins de profils à proximité, particulièrement hors des grands centres. Vérifiez l’activité dans votre région avant de souscrire.", pricing: "Certaines fonctions peuvent nécessiter un abonnement ou un achat. Comparez la durée, le renouvellement et les options incluses avant de choisir.", ideal: "Les adultes qui recherchent une communauté BBW et préfèrent une plateforme spécialisée." },
+];
+
+const faqs = [
+  { question: "Quel est le meilleur site de rencontres adultes au Québec?", answer: "AdultFriendFinder constitue notre choix général grâce à sa communauté et à ses fonctions variées. Sex Messenger convient mieux aux échanges directs, tandis que BBW Fun répond à une recherche BBW spécialisée." },
+  { question: "Ces plateformes sont-elles accessibles depuis le Québec?", answer: "Elles sont généralement accessibles au Canada, mais la présence de profils, les fonctions et les méthodes de paiement peuvent varier. Vérifiez les conditions actuelles sur la plateforme." },
+  { question: "Peut-on utiliser un site de rencontres sans payer?", answer: "La création d’un compte et certaines fonctions de découverte peuvent être gratuites. La messagerie complète ou la visibilité supplémentaire nécessitent souvent un abonnement." },
+  { question: "Comment reconnaître un faux profil?", answer: "Méfiez-vous des demandes d’argent, des déclarations très rapides, des liens suspects et des personnes refusant toute vérification raisonnable. Utilisez les outils de signalement." },
+  { question: "Faut-il communiquer son adresse ou son numéro?", answer: "Non. Conservez les premiers échanges sur la plateforme et ne partagez jamais votre adresse, vos données bancaires, vos mots de passe ou vos documents personnels." },
+  { question: "Les notes NightRank AI sont-elles officielles?", answer: "Non. Elles représentent une évaluation éditoriale fondée sur le positionnement, les fonctions, la navigation, la clarté des informations et la pertinence pour le Québec." },
 ];
 
 export default function Page() {
-  return (
-    <main className="min-h-screen bg-black text-white">
-      <section className="max-w-[1400px] mx-auto px-6 md:px-10 py-12">
-
-        <a href="/comparatifs" className="text-pink-400">
-          ← Retour aux comparatifs
-        </a>
-
-        <div className="mt-10 mb-12 bg-gradient-to-br from-zinc-950 to-pink-950/30 border border-zinc-800 rounded-3xl p-8 md:p-12">
-          <p className="text-pink-400 font-semibold mb-4">
-            Comparatif dating Québec • 2026
-          </p>
-
-          <h1 className="text-5xl md:text-7xl font-bold text-pink-500 mb-6">
-            Top rencontres adultes au Québec
-          </h1>
-
-          <p className="text-xl text-gray-300 max-w-4xl">
-            Vous cherchez un site de rencontres adultes fiable, discret et
-            accessible au Québec ? NightRank AI compare trois options utiles pour
-            les visiteurs adultes du Canada francophone : AdultFriendFinder, Sex
-            Messenger et BBW Fun.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-6 mb-14">
-          {offers.map((offer) => (
-            <a
-              key={offer.name}
-              href={offer.url}
-              target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
-              className="bg-zinc-900 border border-zinc-800 rounded-3xl p-7 hover:border-pink-500 transition"
-            >
-              <p className="text-pink-400 text-sm mb-2">
-                #{offer.rank} — {offer.tag}
-              </p>
-
-              <h2 className="text-3xl font-bold mb-3">{offer.name}</h2>
-
-              <p className="text-yellow-400 mb-4">★★★★★ {offer.rating}</p>
-
-              <p className="text-gray-400 mb-6">{offer.desc}</p>
-
-              <span className="inline-block bg-pink-600 px-6 py-3 rounded-xl font-bold">
-                Visiter {offer.name}
-              </span>
-            </a>
-          ))}
-        </div>
-
-        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
-          <h2 className="text-3xl font-bold mb-6">
-            Tableau comparatif rapide
-          </h2>
-
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse">
-              <thead>
-                <tr className="border-b border-zinc-700 text-pink-400">
-                  <th className="py-4 pr-4">Site</th>
-                  <th className="py-4 pr-4">Note</th>
-                  <th className="py-4 pr-4">Meilleur pour</th>
-                  <th className="py-4 pr-4">Type</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr className="border-b border-zinc-800">
-                  <td className="py-4 pr-4 font-bold">AdultFriendFinder</td>
-                  <td className="py-4 pr-4">4.7/5</td>
-                  <td className="py-4 pr-4">Rencontres adultes généralistes</td>
-                  <td className="py-4 pr-4">Dating adulte</td>
-                </tr>
-
-                <tr className="border-b border-zinc-800">
-                  <td className="py-4 pr-4 font-bold">Sex Messenger</td>
-                  <td className="py-4 pr-4">4.5/5</td>
-                  <td className="py-4 pr-4">Messagerie et échanges rapides</td>
-                  <td className="py-4 pr-4">Messagerie adulte</td>
-                </tr>
-
-                <tr>
-                  <td className="py-4 pr-4 font-bold">BBW Fun</td>
-                  <td className="py-4 pr-4">4.4/5</td>
-                  <td className="py-4 pr-4">Dating BBW et niche spécifique</td>
-                  <td className="py-4 pr-4">Dating niche</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <section className="grid lg:grid-cols-3 gap-6 mb-12">
-          {offers.map((offer) => (
-            <div
-              key={offer.name}
-              className="bg-zinc-900 border border-zinc-800 rounded-3xl p-7"
-            >
-              <h2 className="text-3xl font-bold text-pink-500 mb-4">
-                {offer.name}
-              </h2>
-
-              <p className="text-gray-300 mb-5">{offer.desc}</p>
-
-              <ul className="space-y-3 text-gray-300 mb-6">
-                {offer.strengths.map((item) => (
-                  <li key={item}>✅ {item}</li>
-                ))}
-              </ul>
-
-              <a
-                href={offer.url}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block bg-pink-600 px-6 py-3 rounded-xl font-bold"
-              >
-                Voir {offer.name}
-              </a>
-            </div>
-          ))}
-        </section>
-
-        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
-          <h2 className="text-3xl font-bold mb-6">
-            Comment choisir un site de rencontres adultes au Québec ?
-          </h2>
-
-          <p className="text-gray-300 mb-4">
-            Le meilleur site de rencontre adulte dépend de l’intention du
-            visiteur. Certains utilisateurs veulent une grande communauté,
-            d’autres préfèrent une messagerie rapide, tandis que certains
-            recherchent une niche plus précise comme le dating BBW.
-          </p>
-
-          <p className="text-gray-300 mb-4">
-            AdultFriendFinder est le choix le plus généraliste. Sex Messenger
-            convient mieux aux visiteurs qui aiment l’idée d’échanges rapides et
-            de messagerie. BBW Fun est intéressant pour une audience plus ciblée
-            et peut devenir une bonne alternative à long terme grâce à son angle
-            niche.
-          </p>
-
-          <p className="text-gray-300">
-            NightRank AI ne gère aucun profil utilisateur et n’héberge pas de
-            contenu explicite. Le site agit comme guide indépendant, comparateur
-            et portail d’affiliation vers des plateformes partenaires réservées
-            aux adultes de 18 ans et plus.
-          </p>
-        </section>
-
-        <section className="grid md:grid-cols-2 gap-6 mb-12">
-          <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-            <h2 className="text-3xl font-bold mb-5">
-              Mots-clés locaux ciblés
-            </h2>
-
-            <ul className="space-y-3 text-gray-300">
-              <li>• rencontre adulte Québec</li>
-              <li>• dating adulte Montréal</li>
-              <li>• site de rencontre adulte Canada</li>
-              <li>• rencontre discrète Québec</li>
-              <li>• BBW dating Québec</li>
-            </ul>
-          </div>
-
-          <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-            <h2 className="text-3xl font-bold mb-5">
-              Villes importantes
-            </h2>
-
-            <div className="grid grid-cols-2 gap-3 text-pink-400">
-              <a href="/dating/montreal">Dating Montréal</a>
-              <a href="/dating/quebec">Dating Québec</a>
-              <a href="/dating/laval">Dating Laval</a>
-              <a href="/dating/gatineau">Dating Gatineau</a>
-              <a href="/dating/sherbrooke">Dating Sherbrooke</a>
-              <a href="/dating/longueuil">Dating Longueuil</a>
-            </div>
-          </div>
-        </section>
-
-        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
-          <h2 className="text-3xl font-bold mb-6">
-            FAQ — rencontres adultes au Québec
-          </h2>
-
-          <h3 className="text-xl font-bold mb-2">
-            Quel est le meilleur site de rencontre adulte au Québec ?
-          </h3>
-          <p className="text-gray-300 mb-6">
-            AdultFriendFinder est notre choix généraliste, car il s’adresse à
-            une audience large et propose une communauté adulte internationale.
-          </p>
-
-          <h3 className="text-xl font-bold mb-2">
-            Sex Messenger est-il différent d’AdultFriendFinder ?
-          </h3>
-          <p className="text-gray-300 mb-6">
-            Oui. Sex Messenger met davantage l’accent sur les échanges rapides
-            et la messagerie, tandis qu’AdultFriendFinder est plus généraliste.
-          </p>
-
-          <h3 className="text-xl font-bold mb-2">
-            BBW Fun est-il une offre de niche ?
-          </h3>
-          <p className="text-gray-300 mb-6">
-            Oui. BBW Fun vise une audience plus spécifique, ce qui peut être
-            intéressant pour les visiteurs qui recherchent une expérience dating
-            moins généraliste.
-          </p>
-
-          <h3 className="text-xl font-bold mb-2">
-            NightRank AI héberge-t-il des profils ?
-          </h3>
-          <p className="text-gray-300">
-            Non. NightRank AI est un site de comparaison. Les visiteurs sont
-            redirigés vers les plateformes partenaires.
-          </p>
-        </section>
-
-        <section className="text-center bg-gradient-to-br from-pink-900/40 to-zinc-950 border border-pink-900 rounded-3xl p-10">
-          <h2 className="text-4xl font-bold mb-5">
-            Notre choix recommandé
-          </h2>
-
-          <p className="text-gray-300 mb-8 max-w-3xl mx-auto">
-            Pour la majorité des visiteurs au Québec, AdultFriendFinder est le
-            meilleur point de départ. Sex Messenger est utile pour une approche
-            plus directe, tandis que BBW Fun ajoute une option niche intéressante.
-          </p>
-
-          <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a
-              href="https://t.crdtg2.com/197466/5165?aff_sub5=SF_006OG000004lmDN"
-              target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
-              className="bg-pink-600 px-8 py-4 rounded-xl font-bold"
-            >
-              Voir AdultFriendFinder
-            </a>
-
-            <a
-              href="/comparatifs"
-              className="border border-pink-500 px-8 py-4 rounded-xl font-bold"
-            >
-              Voir tous les comparatifs
-            </a>
-          </div>
-        </section>
-
-      </section>
-    </main>
-  );
+  return <ComparisonPage
+    breadcrumb="Rencontres adultes Québec"
+    eyebrow="Comparatif rencontres Québec • Guide éditorial"
+    title="Meilleurs sites de"
+    highlightedTitle="rencontres adultes au Québec"
+    introduction="Vous cherchez une plateforme de rencontre adulte accessible au Québec et adaptée à votre intention? NightRank AI compare une option généraliste, une expérience centrée sur la messagerie et une communauté spécialisée afin de vous aider à choisir avec plus de recul."
+    topLabel="Classement NightRank AI"
+    topHeading="Notre Top 3 des plateformes de rencontres adultes"
+    offers={offers}
+    analysisEyebrow="Analyse éditoriale détaillée"
+    analysisHeading="Quel site de rencontre adulte choisir au Québec?"
+    analysisIntro="Le meilleur choix dépend de votre objectif : parcourir une grande communauté, privilégier la messagerie ou rejoindre une niche précise. La disponibilité de profils dans votre région et la clarté des conditions payantes comptent aussi beaucoup."
+    guideEyebrow="Guide de sélection"
+    guideHeading="Comment choisir une plateforme de rencontre?"
+    guideSteps={[
+      { title: "Clarifier votre intention", text: "Déterminez si vous recherchez une grande communauté, des conversations rapides ou un type de rencontre particulier." },
+      { title: "Examiner l’activité locale", text: "Une plateforme internationale n’est utile que si des profils pertinents sont actifs au Québec ou dans votre région." },
+      { title: "Lire les conditions tarifaires", text: "Vérifiez le prix, la durée, le renouvellement automatique et les fonctions réellement incluses." },
+      { title: "Protéger vos renseignements", text: "Utilisez un mot de passe unique et évitez de partager votre adresse, vos données financières ou vos documents." },
+    ]}
+    practicalEyebrow="Sécurité et confidentialité"
+    practicalHeading="Rencontrer en ligne avec plus de prudence"
+    practicalIntro="Un bon service fournit des outils, mais la sécurité dépend également de la façon dont chaque membre communique et organise une éventuelle rencontre."
+    practicalItems={[
+      { title: "Premiers échanges", text: "Restez sur la messagerie de la plateforme tant qu’une confiance minimale n’est pas établie." },
+      { title: "Demandes d’argent", text: "N’envoyez jamais d’argent, de carte-cadeau ou de cryptomonnaie à une personne rencontrée en ligne." },
+      { title: "Première rencontre", text: "Choisissez un lieu public, informez une personne de confiance et conservez votre moyen de transport." },
+      { title: "Contrôle du compte", text: "Repérez les fonctions de blocage, de signalement et de suppression du profil." },
+    ]}
+    methodHeading="Comment NightRank AI compare les sites de rencontres"
+    methodText="Notre classement tient compte du positionnement de chaque service, de la simplicité du parcours, des fonctions de recherche et de communication, de la clarté des prix, des outils de confidentialité et de la pertinence pour un public adulte au Québec. Nous n’hébergeons aucun profil et ne garantissons aucune rencontre."
+    criteria={[
+      { title: "Communauté", text: "Étendue, spécialisation et pertinence potentielle des profils." },
+      { title: "Messagerie", text: "Clarté des échanges et fonctions de communication." },
+      { title: "Confidentialité", text: "Réglages, blocage, signalement et contrôle des données." },
+      { title: "Prix", text: "Lisibilité des abonnements, options et renouvellements." },
+    ]}
+    faqHeading="FAQ sur les rencontres adultes au Québec"
+    faqs={faqs}
+    finalParagraphs={[
+      "AdultFriendFinder est notre choix général pour explorer une communauté étendue et plusieurs fonctions. Sa largeur constitue son principal avantage, mais elle demande aussi davantage de tri et de vigilance.",
+      "Sex Messenger répond mieux à une préférence pour les conversations directes. BBW Fun propose une orientation spécialisée qui peut faire gagner du temps lorsque cette niche correspond à la recherche du visiteur.",
+      "Avant de payer, vérifiez l’activité locale, le prix final et les modalités de renouvellement. Quelle que soit la plateforme, protégez vos renseignements personnels et organisez toute rencontre avec prudence.",
+    ]}
+    relatedLinks={[
+      { href: "/comparatifs", label: "Tous les comparatifs NightRank AI" },
+      { href: "/comparatifs/meilleurs-sites-webcams-quebec", label: "Meilleurs sites webcams au Québec" },
+      { href: "/ai", label: "Meilleurs compagnons IA au Québec" },
+      { href: "/comparatifs/gaming-adulte-quebec", label: "Gaming adulte au Québec" },
+    ]}
+  />;
 }

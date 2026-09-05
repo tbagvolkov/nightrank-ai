@@ -1,207 +1,72 @@
 import type { Metadata } from "next";
-import { getOffersByCategory } from "@/lib/getOffers";
+import ComparisonPage, { type ComparisonOffer } from "@/components/comparatifs/ComparisonPage";
 
 export const metadata: Metadata = {
-  title: "AI Companions Québec | Meilleures AI Girlfriends 2026 | NightRank AI",
-  description:
-    "Découvrez les meilleures AI Girlfriends, AI Companions et chats IA disponibles au Québec. Comparatifs, avis et guides indépendants.",
-  keywords: [
-    "AI Girlfriend Québec",
-    "AI Companion",
-    "AI Chat",
-    "AI Girlfriend Canada",
-    "Joi AI",
-    "Candy AI",
-    "OurDream AI",
-    "Lovescape",
-    "DarLink AI",
-  ],
-  authors: [{ name: "NightRank AI Editorial Team" }],
-  creator: "NightRank AI",
-  publisher: "NightRank AI",
-  alternates: {
-    canonical: "https://nightrankai.com/ai",
-  },
-  openGraph: {
-    title: "Meilleures AI Girlfriends Québec",
-    description:
-      "Comparatifs des meilleures AI Companions accessibles au Québec.",
-    url: "https://nightrankai.com/ai",
-    siteName: "NightRank AI",
-    locale: "fr_CA",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "AI Girlfriends Québec",
-    description:
-      "Comparatifs indépendants des meilleures AI Companions.",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  title: "Meilleurs compagnons IA au Québec | Comparatif 2026",
+  description: "Comparatif des compagnons IA accessibles au Québec : Joi AI, OurDream AI, Candy AI, DarLink AI et Lovescape. Fonctions, personnalisation et confidentialité.",
+  alternates: { canonical: "https://nightrankai.com/ai" },
+  openGraph: { title: "Meilleurs compagnons IA au Québec", description: "Comparez cinq plateformes de compagnons virtuels selon la conversation, la personnalisation, l’immersion et la confidentialité.", url: "https://nightrankai.com/ai", siteName: "NightRank AI", locale: "fr_CA", type: "article" },
 };
 
-const aiOffers = getOffersByCategory("ai");
+const offers: ComparisonOffer[] = [
+  { position: 1, name: "Joi AI", rating: "4.8/5", badge: "Meilleur choix global", badgeColor: "from-yellow-500 to-amber-600", best: "Conversation et expérience équilibrée", description: "Joi AI propose une expérience de compagnon virtuel centrée sur la conversation et la personnalisation. Son positionnement équilibré en fait un point de départ pertinent pour découvrir cette catégorie.", image: "/offres/joiai.png", imageAlt: "Joi AI dans le comparatif des compagnons IA au Québec", affiliate: "https://t.vlmai-1.com/197466/7875?aff_sub5=SF_006OG000004lmDN", review: "/blog/joi-ai-quebec", strengths: ["Expérience conversationnelle développée", "Positionnement clair", "Prise en main accessible"], limits: "Comme pour tout service génératif, la cohérence des réponses peut varier. Il faut aussi examiner les réglages de confidentialité et les limites du forfait choisi.", pricing: "Certaines fonctions peuvent être gratuites ou limitées, tandis que la personnalisation et les options avancées peuvent nécessiter un abonnement. Vérifiez l’offre actuelle.", ideal: "Les adultes qui souhaitent une première expérience équilibrée entre conversation, personnalisation et simplicité d’utilisation." },
+  { position: 2, name: "OurDream AI", rating: "4.8/5", badge: "Meilleure personnalisation", badgeColor: "from-fuchsia-500 to-purple-700", best: "Création de personnages et immersion", description: "OurDream AI met l’accent sur la création d’une expérience personnalisée et sur l’immersion avec des personnages virtuels. Il se distingue auprès des utilisateurs qui veulent ajuster davantage leur interaction.", image: "/offres/ourdreamai.png", imageAlt: "OurDream AI dans le classement des compagnons IA", affiliate: "https://t.vlmai-1.com/197466/7710?aff_sub5=SF_006OG000004lmDN", review: "/blog/ourdream-ai-quebec", strengths: ["Options de personnalisation", "Interface moderne", "Expérience immersive"], limits: "Une personnalisation avancée demande souvent plus de réglages et certaines options peuvent être réservées aux formules payantes.", pricing: "Le niveau d’accès dépend du forfait et des fonctions utilisées. Comparez les limites de messages, les médias et le renouvellement avant de payer.", ideal: "Les utilisateurs qui veulent construire une expérience plus personnalisée et accorder du temps aux réglages du personnage." },
+  { position: 3, name: "Candy AI", rating: "4.7/5", badge: "Choix populaire", badgeColor: "from-pink-500 to-rose-700", best: "Variété de personnages et découverte", description: "Candy AI est une marque connue dans l’univers des compagnons IA. Elle propose des conversations personnalisées et différents styles de personnages pour les visiteurs qui souhaitent explorer plusieurs possibilités.", imageAlt: "Emplacement du visuel Candy AI", affiliate: "https://t.vlmai-1.com/197466/7793?aff_sub5=SF_006OG000004lmDN", review: "/blog/candy-ai-quebec", strengths: ["Marque populaire", "Variété de personnages", "Expérience orientée découverte"], limits: "La quantité d’options ne garantit pas que chaque conversation corresponde aux attentes. Vérifiez également les règles liées aux données et aux contenus générés.", pricing: "Des restrictions peuvent s’appliquer aux comptes gratuits. Examinez le coût, les crédits éventuels et les fonctions incluses dans chaque formule.", ideal: "Les adultes qui souhaitent comparer plusieurs personnages et privilégient une plateforme déjà visible dans cette catégorie." },
+  { position: 4, name: "DarLink AI", rating: "4.7/5", badge: "Meilleur pour le roleplay", badgeColor: "from-violet-500 to-indigo-700", best: "Jeux de rôle et scénarios personnalisés", description: "DarLink AI s’oriente davantage vers le jeu de rôle, les personnages virtuels et les scénarios conversationnels. Cette spécialisation le rend intéressant pour une expérience plus narrative.", imageAlt: "Emplacement du visuel DarLink AI", affiliate: "https://t.vlmai-1.com/197466/10344/0?aff_sub5=SF_006OG000004lmDN", review: "/blog/darlink-ai-quebec", strengths: ["Orientation roleplay", "Scénarios personnalisables", "Alternative aux services généralistes"], limits: "Le service est moins établi que certaines marques concurrentes et ses fonctions peuvent évoluer rapidement. Évitez de partager des renseignements personnels dans les scénarios.", pricing: "Consultez les limites d’usage, le fonctionnement des crédits et les conditions de renouvellement directement sur la plateforme.", ideal: "Les utilisateurs qui recherchent une narration interactive et des jeux de rôle plutôt qu’une simple conversation générale." },
+  { position: 5, name: "Lovescape", rating: "4.5/5", badge: "Alternative immersive", badgeColor: "from-blue-500 to-indigo-700", best: "Immersion et conversation virtuelle", description: "Lovescape complète le classement avec une approche orientée immersion et interactions personnalisées. Il représente une alternative à considérer lorsque les plateformes les plus connues ne correspondent pas aux préférences du visiteur.", image: "/offres/lovescape.png", imageAlt: "Lovescape dans le comparatif des compagnons virtuels", affiliate: "https://t.vlmai-1.com/197466/7887?aff_sub5=SF_006OG000004lmDN", review: "/blog/lovescape-quebec", strengths: ["Approche immersive", "Conversation personnalisée", "Alternative complémentaire"], limits: "Sa notoriété plus limitée offre moins de recul public. Testez l’interface et consultez la politique de confidentialité avant un engagement payant.", pricing: "Les fonctions et prix peuvent changer. Vérifiez le forfait, les limites et les règles d’annulation au moment de votre visite.", ideal: "Les adultes qui souhaitent essayer une solution différente après avoir comparé les principales plateformes du marché." },
+];
+
+const faqs = [
+  { question: "Quel est le meilleur compagnon IA au Québec?", answer: "Joi AI occupe notre première position pour son équilibre général. OurDream AI est particulièrement intéressant pour la personnalisation, tandis que DarLink AI vise davantage le jeu de rôle." },
+  { question: "Un compagnon IA est-il une personne réelle?", answer: "Non. Les réponses sont produites par un système d’intelligence artificielle. Le personnage n’a ni conscience, ni émotions humaines, ni identité réelle." },
+  { question: "Ces plateformes sont-elles accessibles au Canada?", answer: "Elles sont généralement accessibles depuis le Québec et le Canada, mais les fonctions, prix et moyens de paiement peuvent changer selon la région." },
+  { question: "Peut-on utiliser un compagnon IA gratuitement?", answer: "Certaines plateformes proposent un essai ou un accès limité. Les messages supplémentaires, médias ou fonctions avancées peuvent nécessiter un abonnement ou des crédits." },
+  { question: "Est-il prudent de partager des informations personnelles?", answer: "Non. Évitez les noms complets, adresses, coordonnées bancaires, documents et informations professionnelles confidentielles dans vos conversations." },
+  { question: "Comment supprimer ses données?", answer: "Consultez les paramètres du compte et la politique de confidentialité. Vérifiez les options d’exportation, de suppression des conversations et de fermeture définitive du compte." },
+];
 
 export default function AIPage() {
-  return (
-    <main className="min-h-screen bg-black text-white px-6 py-16">
-      <div className="max-w-7xl mx-auto">
-        <a href="/" className="text-pink-400 hover:text-pink-300">
-          ← Retour accueil
-        </a>
-
-        <section className="mt-10 bg-zinc-950 border border-zinc-800 rounded-3xl p-8 md:p-12">
-          <p className="text-pink-500 font-bold mb-4">
-            AI Companions Québec • 2026
-          </p>
-
-          <h1 className="text-5xl md:text-6xl font-bold text-pink-500 mb-6">
-            Top 5 AI Girlfriends et AI Companions au Québec en 2026
-          </h1>
-
-          <p className="text-gray-300 max-w-3xl text-lg">
-            Découvrez les meilleures plateformes de compagnons virtuels IA,
-            AI Girlfriends et chatbots relationnels accessibles au Québec et au
-            Canada.
-          </p>
-        </section>
-
-        <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
-          {aiOffers.map((offer, index) => (
-            <a
-              key={offer.slug}
-              href={`/blog/${offer.slug}-quebec`}
-              className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-pink-500 transition"
-            >
-              <p className="text-pink-500 font-bold mb-3">#{index + 1}</p>
-
-              <h2 className="text-3xl font-bold mb-3">{offer.name}</h2>
-
-              <p className="text-yellow-400 font-bold mb-4">
-                ★★★★★ {offer.rating}/5
-              </p>
-
-              <p className="text-gray-300 mb-5">{offer.description}</p>
-
-              <span className="text-pink-400 font-bold">Lire l’avis →</span>
-            </a>
-          ))}
-        </section>
-
-        <section className="mt-10 bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-          <h2 className="text-4xl font-bold mb-6 text-pink-500">
-            Comparatif rapide des AI Companions
-          </h2>
-
-          <div className="overflow-x-auto">
-            <table className="w-full text-left">
-              <thead>
-                <tr className="border-b border-zinc-700">
-                  <th className="py-3">Plateforme</th>
-                  <th className="py-3">Note</th>
-                  <th className="py-3">Spécialité</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                {aiOffers.map((offer) => (
-                  <tr key={offer.slug} className="border-b border-zinc-800">
-                    <td className="py-4">{offer.name}</td>
-                    <td>{offer.rating}/5</td>
-                    <td>{offer.keywords.slice(0, 2).join(", ")}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <section className="mt-10 bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-          <h2 className="text-4xl font-bold mb-6 text-pink-500">
-            AI Companions au Québec : guide complet
-          </h2>
-
-          <p className="text-gray-300 mb-6">
-            Les AI Companions forment une catégorie récente de divertissement numérique au Québec. Ces
-            plateformes permettent aux utilisateurs de discuter avec des
-            personnages virtuels avancés, de découvrir des conversations
-            personnalisées et d’explorer une nouvelle catégorie de
-            divertissement numérique.
-          </p>
-
-          <p className="text-gray-300 mb-6">
-            Parmi les plateformes que nous comparons figurent Joi AI, OurDream
-            AI, Candy AI, DarLink AI et Lovescape. Chacune possède ses propres
-            avantages selon que l'utilisateur recherche une conversation
-            naturelle, un compagnon virtuel ou une expérience immersive.
-          </p>
-
-          <p className="text-gray-300">
-            NightRank AI compare régulièrement les meilleures plateformes
-            accessibles au Québec et au Canada afin d'aider les visiteurs à
-            choisir la solution la plus adaptée.
-          </p>
-        </section>
-
-        <section className="mt-10 bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-          <h2 className="text-3xl font-bold mb-6">
-            Classement complet des AI Girlfriends
-          </h2>
-
-          <p className="text-gray-300 mb-6">
-            Pour comparer les plateformes en détail, consultez notre page pilier
-            dédiée aux meilleures AI Girlfriends au Québec en 2026.
-          </p>
-
-          <a
-            href="/blog/top-5-ai-girlfriends-quebec-2026"
-            className="inline-block bg-pink-600 hover:bg-pink-700 px-6 py-3 rounded-xl font-bold"
-          >
-            Voir le Top 5 AI Girlfriends
-          </a>
-        </section>
-
-        <section className="mt-10 bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-          <h2 className="text-4xl font-bold mb-8 text-pink-500">
-            Questions fréquentes
-          </h2>
-
-          <div className="space-y-8">
-            <Faq
-              question="Quelle est la meilleure AI Girlfriend au Québec ?"
-              answer="Joi AI et OurDream AI obtiennent notre meilleure note, tandis que Candy AI complète le trio de tête de notre sélection."
-            />
-
-            <Faq
-              question="Les AI Companions sont-ils disponibles au Canada ?"
-              answer="Oui, les plateformes présentées sur NightRank AI sont accessibles depuis le Québec et le Canada."
-            />
-
-            <Faq
-              question="Quelle alternative à Character AI ?"
-              answer="Candy AI, Joi AI, DarLink AI et OurDream AI sont parmi les meilleures alternatives disponibles."
-            />
-          </div>
-        </section>
-      </div>
-    </main>
-  );
-}
-
-function Faq({
-  question,
-  answer,
-}: {
-  question: string;
-  answer: string;
-}) {
-  return (
-    <div>
-      <h3 className="text-2xl font-bold mb-2">{question}</h3>
-      <p className="text-gray-300">{answer}</p>
-    </div>
-  );
+  return <ComparisonPage
+    breadcrumb="Compagnons IA Québec" eyebrow="Comparatif compagnons IA Québec • Guide éditorial"
+    title="Meilleurs" highlightedTitle="compagnons IA au Québec"
+    introduction="Les plateformes de compagnons virtuels ne proposent pas toutes la même expérience. NightRank AI compare cinq services selon la qualité conversationnelle, la personnalisation, le roleplay, l’immersion, la clarté des prix et les contrôles de confidentialité."
+    topLabel="Classement NightRank AI" topHeading="Notre Top 5 des compagnons virtuels IA" offers={offers}
+    analysisEyebrow="Analyse éditoriale détaillée" analysisHeading="Quel compagnon IA choisir au Québec?"
+    analysisIntro="Le meilleur service dépend de l’expérience recherchée : conversation simple, personnage très personnalisé, scénario de roleplay ou découverte de différents styles. La gestion des données et le modèle payant doivent faire partie du choix."
+    guideEyebrow="Guide de sélection" guideHeading="Comment comparer un compagnon IA?"
+    guideSteps={[
+      { title: "Définir le type d’interaction", text: "Choisissez entre conversation générale, personnalisation poussée, narration ou jeu de rôle." },
+      { title: "Tester la cohérence", text: "Profitez de l’accès initial pour évaluer la mémoire, la pertinence et la stabilité des réponses." },
+      { title: "Examiner la confidentialité", text: "Lisez quelles données sont conservées et comment supprimer les conversations et le compte." },
+      { title: "Comparer les limites payantes", text: "Vérifiez les messages, médias, crédits, renouvellements et restrictions de chaque forfait." },
+    ]}
+    practicalEyebrow="Données et utilisation" practicalHeading="Utiliser un compagnon IA avec discernement"
+    practicalIntro="Un personnage virtuel peut produire une impression de proximité, mais il reste un logiciel génératif. Gardez des limites claires et protégez vos informations."
+    practicalItems={[
+      { title: "Données personnelles", text: "N’entrez aucune adresse, donnée bancaire, pièce d’identité ou information confidentielle." },
+      { title: "Réponses générées", text: "Une IA peut inventer des faits ou répondre de manière incohérente; ne la traitez pas comme une source fiable." },
+      { title: "Temps d’utilisation", text: "Désactivez les notifications ou fixez une limite si le service prend une place excessive." },
+      { title: "Suppression du compte", text: "Repérez la procédure de suppression et les règles de conservation avant de vous abonner." },
+    ]}
+    methodHeading="Comment NightRank AI évalue les compagnons IA"
+    methodText="Notre analyse considère la fluidité de la conversation, la personnalisation, la cohérence, l’interface, la transparence des prix et les contrôles de confidentialité. Ce marché évolue rapidement : nos notes sont éditoriales et décrivent une expérience observée, pas une garantie permanente."
+    criteria={[
+      { title: "Conversation", text: "Fluidité, cohérence et variété des réponses." },
+      { title: "Personnalisation", text: "Réglages des personnages, styles et scénarios." },
+      { title: "Confidentialité", text: "Contrôle des conversations, données et suppression." },
+      { title: "Valeur", text: "Clarté des limites gratuites et des fonctions payantes." },
+    ]}
+    faqHeading="FAQ sur les compagnons IA au Québec" faqs={faqs}
+    finalParagraphs={[
+      "Joi AI constitue notre choix global pour une découverte équilibrée. OurDream AI se distingue par ses options de personnalisation, alors que Candy AI mise davantage sur la variété et une marque déjà connue.",
+      "DarLink AI convient mieux aux scénarios et au jeu de rôle. Lovescape complète la sélection comme alternative immersive pour les utilisateurs qui souhaitent comparer une autre approche.",
+      "Testez d’abord la qualité des conversations, puis vérifiez le prix et la politique de confidentialité. Ne partagez aucune information sensible et gardez à l’esprit qu’un compagnon IA reste un logiciel, pas une personne réelle.",
+    ]}
+    relatedLinks={[
+      { href: "/blog/top-5-ai-girlfriends-quebec-2026", label: "Guide des AI Girlfriends au Québec" },
+      { href: "/comparatifs", label: "Tous les comparatifs NightRank AI" },
+      { href: "/comparatifs/meilleurs-sites-webcams-quebec", label: "Meilleurs sites webcams au Québec" },
+      { href: "/comparatifs/top-rencontres-adultes-quebec", label: "Rencontres adultes au Québec" },
+    ]}
+  />;
 }

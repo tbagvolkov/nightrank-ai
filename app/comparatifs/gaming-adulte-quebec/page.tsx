@@ -1,301 +1,70 @@
-export const metadata = {
-  title: "Gaming adulte au Québec 2026 | NightRank AI",
-  description:
-    "Comparatif complet des meilleures offres gaming adulte au Québec et au Canada : Sex Emulator, Hentai Heroes et Comix Harem.",
-  alternates: {
-    canonical: "/comparatifs/gaming-adulte-quebec",
-  },
+import type { Metadata } from "next";
+import ComparisonPage, { type ComparisonOffer } from "@/components/comparatifs/ComparisonPage";
+
+export const metadata: Metadata = {
+  title: "Meilleurs jeux pour adultes au Québec | Comparatif NightRank AI",
+  description: "Comparez Sex Emulator, Hentai Heroes et Comix Harem : gameplay, univers, progression, modèle économique et accessibilité au Québec.",
+  alternates: { canonical: "https://nightrankai.com/comparatifs/gaming-adulte-quebec" },
+  openGraph: { title: "Meilleurs jeux pour adultes au Québec", description: "Comparatif éditorial de trois expériences de gaming adulte accessibles au Québec et au Canada.", url: "https://nightrankai.com/comparatifs/gaming-adulte-quebec", siteName: "NightRank AI", locale: "fr_CA", type: "article" },
 };
 
-const offers = [
-  {
-    rank: "1",
-    name: "Sex Emulator",
-    rating: "4.7/5",
-    tag: "Meilleur choix simulation",
-    url: "https://t.asxem.link/197466/9294/0?aff_sub5=SF_006OG000004lmDN",
-    desc: "Offre gaming adulte orientée simulation interactive et expérience immersive.",
-    strengths: ["Simulation interactive", "Expérience immersive", "Bon choix gaming adulte"],
-  },
-  {
-    rank: "2",
-    name: "Hentai Heroes",
-    rating: "4.5/5",
-    tag: "Meilleur univers hentai",
-    url: "https://t.anadw.link/197466/6562/35432?aff_sub5=SF_006OG000004lmDN",
-    desc: "Jeu adulte inspiré de l’univers hentai avec progression, collection et gameplay.",
-    strengths: ["Univers hentai", "Progression", "Collection de personnages"],
-  },
-  {
-    rank: "3",
-    name: "Comix Harem",
-    rating: "4.4/5",
-    tag: "Meilleur style comics",
-    url: "https://t.anadw.link/197466/7930/0?aff_sub5=SF_006OG000004lmDN",
-    desc: "Offre gaming adulte inspirée des comics, avec une approche visuelle et collection.",
-    strengths: ["Style comics", "Expérience visuelle", "Alternative à Hentai Heroes"],
-  },
+const offers: ComparisonOffer[] = [
+  { position: 1, name: "Sex Emulator", rating: "4.7/5", badge: "Meilleure simulation", badgeColor: "from-yellow-500 to-amber-600", best: "Simulation interactive et expérience immédiate", description: "Sex Emulator mise sur une expérience de simulation interactive. Son approche convient aux adultes qui privilégient l’expérimentation et une prise en main plus directe qu’un jeu de collection traditionnel.", image: "/offres/sexemulator.png", imageAlt: "Sex Emulator dans le comparatif gaming adulte Québec", affiliate: "https://t.asxem.link/197466/9294/0?aff_sub5=SF_006OG000004lmDN", review: "/offres/sexemulator", strengths: ["Concept de simulation interactif", "Prise en main relativement directe", "Expérience distincte des jeux de collection"], limits: "L’intérêt dépend fortement du goût pour la simulation. Les fonctions, limites techniques et options payantes doivent être vérifiées sur le service.", pricing: "Le modèle d’accès et les fonctions premium peuvent évoluer. Consultez le prix, les conditions et la compatibilité de votre appareil avant tout achat.", ideal: "Les adultes qui recherchent d’abord une simulation interactive plutôt qu’une longue progression ou une collection de personnages." },
+  { position: 2, name: "Hentai Heroes", rating: "4.5/5", badge: "Meilleure progression", badgeColor: "from-fuchsia-500 to-purple-700", best: "Univers anime, collection et progression", description: "Hentai Heroes combine un univers inspiré de l’animation japonaise avec des mécanismes de progression et de collection. L’expérience vise davantage la continuité et le développement d’un compte dans le temps.", image: "/offres/hentaiheroes.png", imageAlt: "Hentai Heroes dans le classement des jeux adultes", affiliate: "https://t.anadw.link/197466/6562/35432?aff_sub5=SF_006OG000004lmDN", review: "/offres/hentaiheroes", strengths: ["Progression structurée", "Collection de personnages", "Univers visuel facilement identifiable"], limits: "Le style hentai est une niche précise et la progression peut demander du temps. Certains mécanismes peuvent encourager des visites ou achats répétés.", pricing: "L’accès peut comprendre des éléments gratuits et des achats facultatifs. Examinez la monnaie virtuelle, les bonus et les limites avant de dépenser.", ideal: "Les joueurs adultes qui aiment la progression, les objectifs récurrents et la collection dans un univers de style anime." },
+  { position: 3, name: "Comix Harem", rating: "4.4/5", badge: "Meilleur style comics", badgeColor: "from-blue-500 to-indigo-700", best: "Univers illustré et collection narrative", description: "Comix Harem propose une direction artistique inspirée des bandes dessinées et une expérience orientée collection. Il constitue une alternative visuelle pour les joueurs moins attirés par l’esthétique anime classique.", image: "/offres/comixharem.png", imageAlt: "Comix Harem dans le comparatif des jeux pour adultes", affiliate: "https://t.anadw.link/197466/7930/0?aff_sub5=SF_006OG000004lmDN", review: "/offres/comixharem", strengths: ["Identité visuelle de style comics", "Progression et collection", "Alternative à l’univers anime"], limits: "Le public visé reste spécialisé et la répétition de certaines actions peut ne pas convenir aux joueurs recherchant un jeu très dynamique.", pricing: "Vérifiez les achats intégrés, les ressources virtuelles et les éventuelles offres temporaires directement dans le jeu.", ideal: "Les adultes qui préfèrent l’esthétique comics et souhaitent une expérience de collection avec une présentation différente." },
+];
+
+const faqs = [
+  { question: "Quel est le meilleur jeu adulte de ce comparatif?", answer: "Sex Emulator arrive premier pour son approche de simulation. Hentai Heroes convient mieux à la progression et à la collection, tandis que Comix Harem se démarque par son esthétique comics." },
+  { question: "Ces jeux sont-ils accessibles au Québec?", answer: "Ils sont généralement accessibles depuis un navigateur au Canada. La disponibilité, la compatibilité et les moyens de paiement peuvent toutefois évoluer." },
+  { question: "Peut-on jouer gratuitement?", answer: "Certaines expériences proposent un accès ou des fonctions gratuites, mais la progression, les ressources ou des contenus supplémentaires peuvent faire appel à des achats." },
+  { question: "Faut-il installer une application?", answer: "Cela dépend du service. Vérifiez si le jeu fonctionne directement dans votre navigateur et évitez tout téléchargement provenant d’une source non officielle." },
+  { question: "Comment contrôler ses dépenses?", answer: "Fixez un budget, examinez le coût des monnaies virtuelles et désactivez les achats rapides lorsque cette option existe." },
+  { question: "NightRank AI héberge-t-il ces jeux?", answer: "Non. NightRank AI publie des comparatifs et redirige les visiteurs adultes vers les plateformes partenaires." },
 ];
 
 export default function Page() {
-  return (
-    <main className="min-h-screen bg-black text-white">
-      <section className="max-w-[1400px] mx-auto px-6 md:px-10 py-12">
-
-        <a href="/comparatifs" className="text-pink-400">
-          ← Retour aux comparatifs
-        </a>
-
-        <div className="mt-10 mb-12 bg-gradient-to-br from-zinc-950 to-pink-950/30 border border-zinc-800 rounded-3xl p-8 md:p-12">
-          <p className="text-pink-400 font-semibold mb-4">
-            Comparatif gaming adulte Québec • 2026
-          </p>
-
-          <h1 className="text-5xl md:text-7xl font-bold text-pink-500 mb-6">
-            Gaming adulte au Québec
-          </h1>
-
-          <p className="text-xl text-gray-300 max-w-4xl">
-            Le gaming adulte est une catégorie complémentaire aux webcams et aux
-            rencontres. NightRank AI compare ici trois offres adaptées aux
-            visiteurs adultes du Québec et du Canada : Sex Emulator, Hentai
-            Heroes et Comix Harem.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-6 mb-14">
-          {offers.map((offer) => (
-            <a
-              key={offer.name}
-              href={offer.url}
-              target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
-              className="bg-zinc-900 border border-zinc-800 rounded-3xl p-7 hover:border-pink-500 transition"
-            >
-              <p className="text-pink-400 text-sm mb-2">
-                #{offer.rank} — {offer.tag}
-              </p>
-
-              <h2 className="text-3xl font-bold mb-3">{offer.name}</h2>
-
-              <p className="text-yellow-400 mb-4">★★★★★ {offer.rating}</p>
-
-              <p className="text-gray-400 mb-6">{offer.desc}</p>
-
-              <span className="inline-block bg-pink-600 px-6 py-3 rounded-xl font-bold">
-                Visiter {offer.name}
-              </span>
-            </a>
-          ))}
-        </div>
-
-        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
-          <h2 className="text-3xl font-bold mb-6">
-            Tableau comparatif rapide
-          </h2>
-
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse">
-              <thead>
-                <tr className="border-b border-zinc-700 text-pink-400">
-                  <th className="py-4 pr-4">Offre</th>
-                  <th className="py-4 pr-4">Note</th>
-                  <th className="py-4 pr-4">Meilleur pour</th>
-                  <th className="py-4 pr-4">Type</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr className="border-b border-zinc-800">
-                  <td className="py-4 pr-4 font-bold">Sex Emulator</td>
-                  <td className="py-4 pr-4">4.7/5</td>
-                  <td className="py-4 pr-4">Simulation interactive</td>
-                  <td className="py-4 pr-4">Gaming adulte</td>
-                </tr>
-
-                <tr className="border-b border-zinc-800">
-                  <td className="py-4 pr-4 font-bold">Hentai Heroes</td>
-                  <td className="py-4 pr-4">4.5/5</td>
-                  <td className="py-4 pr-4">Progression et collection</td>
-                  <td className="py-4 pr-4">Gaming hentai</td>
-                </tr>
-
-                <tr>
-                  <td className="py-4 pr-4 font-bold">Comix Harem</td>
-                  <td className="py-4 pr-4">4.4/5</td>
-                  <td className="py-4 pr-4">Univers comics</td>
-                  <td className="py-4 pr-4">Gaming comics</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <section className="grid lg:grid-cols-3 gap-6 mb-12">
-          {offers.map((offer) => (
-            <div
-              key={offer.name}
-              className="bg-zinc-900 border border-zinc-800 rounded-3xl p-7"
-            >
-              <h2 className="text-3xl font-bold text-pink-500 mb-4">
-                {offer.name}
-              </h2>
-
-              <p className="text-gray-300 mb-5">{offer.desc}</p>
-
-              <ul className="space-y-3 text-gray-300 mb-6">
-                {offer.strengths.map((item) => (
-                  <li key={item}>✅ {item}</li>
-                ))}
-              </ul>
-
-              <a
-                href={offer.url}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block bg-pink-600 px-6 py-3 rounded-xl font-bold"
-              >
-                Voir {offer.name}
-              </a>
-            </div>
-          ))}
-        </section>
-
-        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
-          <h2 className="text-3xl font-bold mb-6">
-            Pourquoi ajouter le gaming adulte sur NightRank AI ?
-          </h2>
-
-          <p className="text-gray-300 mb-4">
-            Le gaming adulte permet de diversifier l’expérience du visiteur.
-            Contrairement aux webcams ou aux sites de rencontres, les offres
-            gaming mettent davantage l’accent sur l’interactivité, la
-            progression, la collection et l’univers visuel.
-          </p>
-
-          <p className="text-gray-300 mb-4">
-            Sex Emulator se positionne davantage comme une simulation
-            interactive. Hentai Heroes attire plutôt les visiteurs intéressés par
-            l’univers hentai, la progression et la collection. Comix Harem
-            complète la sélection avec une identité plus proche des comics et du
-            divertissement visuel.
-          </p>
-
-          <p className="text-gray-300">
-            NightRank AI ne propose pas directement de jeux adultes sur son site.
-            Le site agit comme guide indépendant, comparateur et portail
-            d’affiliation vers des plateformes partenaires réservées aux adultes
-            de 18 ans et plus.
-          </p>
-        </section>
-
-        <section className="grid md:grid-cols-2 gap-6 mb-12">
-          <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-            <h2 className="text-3xl font-bold mb-5">
-              Mots-clés locaux ciblés
-            </h2>
-
-            <ul className="space-y-3 text-gray-300">
-              <li>• gaming adulte Québec</li>
-              <li>• jeux adultes Canada</li>
-              <li>• sex emulator avis</li>
-              <li>• hentai heroes avis Québec</li>
-              <li>• comix harem avis</li>
-            </ul>
-          </div>
-
-          <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-            <h2 className="text-3xl font-bold mb-5">
-              Pages liées
-            </h2>
-
-            <div className="grid grid-cols-1 gap-3 text-pink-400">
-              <a href="/offres/sexemulator">Avis Sex Emulator</a>
-              <a href="/offres/hentaiheroes">Avis Hentai Heroes</a>
-              <a href="/offres/comixharem">Avis Comix Harem</a>
-              <a href="/comparatifs/meilleurs-sites-webcams-quebec">
-                Comparatif webcams Québec
-              </a>
-              <a href="/comparatifs/top-rencontres-adultes-quebec">
-                Comparatif rencontres Québec
-              </a>
-            </div>
-          </div>
-        </section>
-
-        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
-          <h2 className="text-3xl font-bold mb-6">
-            FAQ — gaming adulte au Québec
-          </h2>
-
-          <h3 className="text-xl font-bold mb-2">
-            Quel est le meilleur jeu adulte à essayer ?
-          </h3>
-          <p className="text-gray-300 mb-6">
-            Sex Emulator est notre choix principal pour les visiteurs qui veulent
-            une expérience plus interactive. Hentai Heroes et Comix Harem sont
-            de bonnes alternatives selon les préférences visuelles.
-          </p>
-
-          <h3 className="text-xl font-bold mb-2">
-            Hentai Heroes est-il différent de Comix Harem ?
-          </h3>
-          <p className="text-gray-300 mb-6">
-            Oui. Hentai Heroes est davantage orienté univers hentai et
-            progression, tandis que Comix Harem propose une identité visuelle
-            inspirée des comics.
-          </p>
-
-          <h3 className="text-xl font-bold mb-2">
-            Le gaming adulte peut-il compléter les webcams et le dating ?
-          </h3>
-          <p className="text-gray-300 mb-6">
-            Oui. Pour un site comme NightRank AI, le gaming adulte ajoute une
-            catégorie différente qui peut intéresser des visiteurs qui ne
-            cherchent pas uniquement des webcams ou des rencontres.
-          </p>
-
-          <h3 className="text-xl font-bold mb-2">
-            NightRank AI héberge-t-il les jeux ?
-          </h3>
-          <p className="text-gray-300">
-            Non. NightRank AI présente uniquement des avis, guides et liens vers
-            des offres partenaires.
-          </p>
-        </section>
-
-        <section className="text-center bg-gradient-to-br from-pink-900/40 to-zinc-950 border border-pink-900 rounded-3xl p-10">
-          <h2 className="text-4xl font-bold mb-5">
-            Notre choix recommandé
-          </h2>
-
-          <p className="text-gray-300 mb-8 max-w-3xl mx-auto">
-            Pour commencer dans la catégorie gaming adulte, Sex Emulator est
-            notre choix principal. Hentai Heroes et Comix Harem sont deux
-            alternatives intéressantes pour les visiteurs qui préfèrent les
-            univers hentai ou comics.
-          </p>
-
-          <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a
-              href="https://t.asxem.link/197466/9294/0?aff_sub5=SF_006OG000004lmDN"
-              target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
-              className="bg-pink-600 px-8 py-4 rounded-xl font-bold"
-            >
-              Voir Sex Emulator
-            </a>
-
-            <a
-              href="/comparatifs"
-              className="border border-pink-500 px-8 py-4 rounded-xl font-bold"
-            >
-              Voir tous les comparatifs
-            </a>
-          </div>
-        </section>
-
-      </section>
-    </main>
-  );
+  return <ComparisonPage
+    breadcrumb="Gaming adulte Québec" eyebrow="Comparatif gaming adulte Québec • Guide éditorial"
+    title="Meilleurs jeux pour" highlightedTitle="adultes au Québec"
+    introduction="Simulation interactive, progression de style anime ou collection inspirée des comics : ces expériences ne répondent pas au même besoin. NightRank AI les compare selon leur univers, leur prise en main, leur modèle économique et leur accessibilité au Québec."
+    topLabel="Classement NightRank AI" topHeading="Notre Top 3 du gaming adulte" offers={offers}
+    analysisEyebrow="Analyse éditoriale détaillée" analysisHeading="Quel jeu pour adultes choisir?"
+    analysisIntro="Le choix dépend surtout du type de gameplay recherché. Une simulation privilégie l’interaction immédiate, tandis qu’un jeu de collection valorise la progression, les objectifs récurrents et l’attachement à un univers visuel."
+    guideEyebrow="Guide de sélection" guideHeading="Comment comparer un jeu adulte?"
+    guideSteps={[
+      { title: "Choisir un type de gameplay", text: "Distinguez la simulation interactive des jeux fondés sur la progression, la collection ou la narration." },
+      { title: "Vérifier la compatibilité", text: "Confirmez le fonctionnement sur votre navigateur, votre téléphone ou votre ordinateur avant de créer un compte." },
+      { title: "Comprendre les achats", text: "Repérez les monnaies virtuelles, bonus temporaires, abonnements et limites de progression gratuite." },
+      { title: "Contrôler le temps de jeu", text: "Les récompenses quotidiennes peuvent encourager des visites fréquentes; définissez vos propres limites." },
+    ]}
+    practicalEyebrow="Budget et accès" practicalHeading="Comprendre le modèle économique"
+    practicalIntro="L’accès gratuit ne signifie pas que toutes les fonctions le sont. Les jeux peuvent proposer des ressources virtuelles, des accélérations ou des contenus facultatifs."
+    practicalItems={[
+      { title: "Accès initial", text: "Vérifiez ce qui est réellement jouable avant tout paiement." },
+      { title: "Monnaie virtuelle", text: "Comparez le prix réel des ressources et leur utilité dans la progression." },
+      { title: "Offres temporaires", text: "Une réduction n’est utile que si l’achat correspond à votre budget et à votre usage." },
+      { title: "Sécurité du compte", text: "Utilisez un mot de passe unique et évitez d’enregistrer un paiement sans nécessité." },
+    ]}
+    methodHeading="Comment NightRank AI évalue le gaming adulte"
+    methodText="Nous examinons la clarté du concept, la prise en main, la progression, la qualité générale de l’univers visuel, la transparence des achats et l’accessibilité sur les appareils courants. Les notes sont éditoriales et ne constituent pas une garantie de satisfaction."
+    criteria={[
+      { title: "Gameplay", text: "Clarté des mécaniques et intérêt de l’expérience." },
+      { title: "Progression", text: "Rythme, objectifs, collection et répétitivité." },
+      { title: "Compatibilité", text: "Fonctionnement sur navigateur et appareils mobiles." },
+      { title: "Monétisation", text: "Lisibilité des achats, monnaies et fonctions premium." },
+    ]}
+    faqHeading="FAQ sur le gaming adulte au Québec" faqs={faqs}
+    finalParagraphs={[
+      "Sex Emulator est notre choix principal pour une simulation interactive et une expérience plus immédiate. Son positionnement est différent des jeux centrés sur la collection.",
+      "Hentai Heroes s’adresse davantage aux joueurs intéressés par une progression régulière et un univers anime. Comix Harem constitue l’alternative orientée comics et collection narrative.",
+      "Avant de commencer, vérifiez la compatibilité, le modèle économique et les règles du service. Un budget et une limite de temps permettent de profiter de l’expérience de façon plus responsable.",
+    ]}
+    relatedLinks={[
+      { href: "/comparatifs", label: "Tous les comparatifs NightRank AI" },
+      { href: "/comparatifs/meilleurs-sites-webcams-quebec", label: "Meilleurs sites webcams au Québec" },
+      { href: "/comparatifs/top-rencontres-adultes-quebec", label: "Rencontres adultes au Québec" },
+      { href: "/ai", label: "Meilleurs compagnons IA au Québec" },
+    ]}
+  />;
 }
