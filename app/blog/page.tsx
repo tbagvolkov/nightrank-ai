@@ -173,8 +173,24 @@ const datingArticles = [
 
 const gamingArticles = [
   {
-    title: "Gaming adulte au Québec",
-    slug: "gaming-adulte-quebec",
+    title: "Sex Emulator : avis et jeu PC adulte en 2026",
+    slug: "sex-emulator-jeu-pc-adulte",
+  },
+  {
+    title: "Hentai Heroes : avis et progression au Québec",
+    slug: "hentai-heroes-avis-quebec",
+  },
+  {
+    title: "Harem Villa : avis sur le jeu PC et mobile",
+    slug: "harem-villa-avis-quebec",
+  },
+  {
+    title: "Comix Harem : avis sur le jeu adulte comics",
+    slug: "comix-harem-avis-quebec",
+  },
+  {
+    title: "Pornstar Harem : avis, progression et clubs",
+    slug: "pornstar-harem-avis-quebec",
   },
 ];
 const allArticles = [
@@ -256,8 +272,10 @@ export default function BlogPage() {
         <BlogSection
           id="gaming"
           title="🎮 Gaming adulte"
-          description="Guides sur les offres gaming adulte et les expériences interactives présentées sur NightRank AI."
+          description="Guides consacrés aux jeux PC adultes, jeux sur navigateur, expériences gratuites, progression et compatibilité mobile."
           articles={gamingArticles}
+          ctaHref="/comparatifs/gaming-adulte-quebec"
+          ctaLabel="Comparer les 5 jeux →"
         />
       </div>
     </main>

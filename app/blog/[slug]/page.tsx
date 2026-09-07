@@ -1,6 +1,38 @@
 import { notFound } from "next/navigation";
+import GamingGuide from "@/components/GamingGuide";
+import { gamingGuideBySlug } from "@/lib/gamingGuides";
 
 const articles = [
+  {
+    title: "Sex Emulator : avis et jeu PC adulte en 2026",
+    slug: "sex-emulator-jeu-pc-adulte",
+    description: "Avis sur Sex Emulator : simulation, accès sur PC, fonctionnement, prix et alternatives parmi les jeux adultes en ligne.",
+    category: "Gaming",
+  },
+  {
+    title: "Hentai Heroes : avis, progression et accès au Québec",
+    slug: "hentai-heroes-avis-quebec",
+    description: "Guide Hentai Heroes au Québec : jeu hentai sur navigateur, progression, collection, modèle gratuit et alternatives.",
+    category: "Gaming",
+  },
+  {
+    title: "Harem Villa : avis sur le jeu PC et mobile",
+    slug: "harem-villa-avis-quebec",
+    description: "Test de Harem Villa : puzzle de fusion, rénovation, romance, accès gratuit sur PC, Android et iOS.",
+    category: "Gaming",
+  },
+  {
+    title: "Comix Harem : avis sur le jeu adulte de style comics",
+    slug: "comix-harem-avis-quebec",
+    description: "Avis Comix Harem : univers comics, collection, progression, accès sur navigateur et comparaison avec Hentai Heroes.",
+    category: "Gaming",
+  },
+  {
+    title: "Pornstar Harem : avis, progression et clubs",
+    slug: "pornstar-harem-avis-quebec",
+    description: "Guide Pornstar Harem : collection, expérience, clubs, fonctions sociales et précautions pour jouer en ligne.",
+    category: "Gaming",
+  },
   {
     title: "Compagnons IA et vie privée : protéger ses données au Québec",
     slug: "compagnons-ia-vie-privee-quebec",
@@ -230,6 +262,11 @@ export async function generateMetadata({
 }
 
 function ArticleContent({ slug }: { slug: string }) {
+  const gamingGuide = gamingGuideBySlug[slug];
+  if (gamingGuide) {
+    return <GamingGuide guide={gamingGuide} />;
+  }
+
   if (slug === "compagnons-ia-vie-privee-quebec") {
     const privacyFaqs = [
       {

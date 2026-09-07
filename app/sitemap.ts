@@ -57,6 +57,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "choisir-site-rencontre",
     "adultfriendfinder-vs-sexmessenger",
     "dating-canada",
+
+    "sex-emulator-jeu-pc-adulte",
+    "hentai-heroes-avis-quebec",
+    "harem-villa-avis-quebec",
+    "comix-harem-avis-quebec",
+    "pornstar-harem-avis-quebec",
   ];
 
   const blogPages = blogSlugs.map((slug) =>
