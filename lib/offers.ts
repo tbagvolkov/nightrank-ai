@@ -110,6 +110,34 @@ export const offers: Offer[] = [
   },
 
   {
+    slug: "fling",
+    name: "Fling",
+    category: "dating",
+    rating: 4.7,
+    affiliate: "https://t.aslr1.com/197466/7646/0?po=6456&aff_sub5=SF_006OG000004lmDN",
+    image: "/offres/fling.svg",
+    description: "Plateforme généraliste qui réunit découverte de profils, correspondances, messagerie et fonctions vidéo.",
+    pros: ["Fonctions variées", "Messagerie et vidéo", "Alternative généraliste complète"],
+    cons: ["Certaines fonctions peuvent être payantes", "Activité locale à vérifier"],
+    keywords: ["Fling Québec", "site de rencontre adulte", "rencontre en ligne Canada"],
+    cities: true,
+  },
+
+  {
+    slug: "waystomeet",
+    name: "WaysToMeet",
+    category: "dating",
+    rating: 4.6,
+    affiliate: "https://t.aslr1.com/197466/10091/0?po=6456&aff_sub5=SF_006OG000004lmDN",
+    image: "/offres/waystomeet.svg",
+    description: "Plateforme axée sur le clavardage, les appels, les lettres et la vérification annoncée des membres.",
+    pros: ["Plusieurs formats de communication", "Vérification annoncée", "Système anti-arnaque mis de l’avant"],
+    cons: ["Mesures de vérification sans garantie absolue", "Fonctions premium à vérifier"],
+    keywords: ["WaysToMeet Québec", "rencontre vérifiée", "site dating Canada"],
+    cities: true,
+  },
+
+  {
     slug: "sexmessenger",
     name: "Sex Messenger",
     category: "dating",

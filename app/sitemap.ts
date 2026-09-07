@@ -57,6 +57,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "choisir-site-rencontre",
     "adultfriendfinder-vs-sexmessenger",
     "dating-canada",
+    "fling-avis-quebec",
+    "waystomeet-avis-quebec",
 
     "sex-emulator-jeu-pc-adulte",
     "hentai-heroes-avis-quebec",

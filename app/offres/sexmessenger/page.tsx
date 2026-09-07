@@ -1,7 +1,9 @@
+import { datingRatings } from "@/lib/datingRatings";
+
 export const metadata = {
   title: "Sex Messenger avis 2026 Québec | NightRank AI",
   description:
-    "Avis complet sur Sex Messenger au Québec : avantages, inconvénients, note NightRank AI, FAQ et comparaison avec AdultFriendFinder et BBW Fun.",
+    "Avis complet sur Sex Messenger au Québec : avantages, note NightRank AI, FAQ et place dans notre Top 5 dating.",
   alternates: { canonical: "/offres/sexmessenger" },
 };
 
@@ -45,7 +47,7 @@ export default function SexMessengerPage() {
         <section className="grid md:grid-cols-4 gap-6 mb-12">
           <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-6">
             <p className="text-pink-400 mb-2">Note globale</p>
-            <h2 className="text-4xl font-bold">4.5/5</h2>
+            <h2 className="text-4xl font-bold">{datingRatings.sexmessenger}</h2>
             <p className="text-yellow-400 mt-3">★★★★★</p>
           </div>
 
@@ -165,7 +167,7 @@ export default function SexMessengerPage() {
 
                 <tr>
                   <td className="py-4 pr-4 font-bold">Note globale</td>
-                  <td className="py-4 pr-4">4.5/5</td>
+                  <td className="py-4 pr-4">{datingRatings.sexmessenger}</td>
                   <td className="py-4 pr-4">Bonne option dating direct</td>
                 </tr>
               </tbody>

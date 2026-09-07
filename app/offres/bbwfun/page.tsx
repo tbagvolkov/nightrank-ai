@@ -1,7 +1,9 @@
+import { datingRatings } from "@/lib/datingRatings";
+
 export const metadata = {
   title: "BBW Fun avis 2026 Québec | NightRank AI",
   description:
-    "Avis complet sur BBW Fun au Québec : avantages, inconvénients, note NightRank AI, FAQ et comparaison avec AdultFriendFinder et Sex Messenger.",
+    "Avis complet sur BBW Fun au Québec : avantages, note NightRank AI, FAQ et place dans notre Top 5 dating.",
   alternates: { canonical: "/offres/bbwfun" },
 };
 
@@ -49,7 +51,7 @@ export default function BBWFunPage() {
 
           <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-6">
             <p className="text-pink-400 mb-2">Note globale</p>
-            <h2 className="text-4xl font-bold">4.4/5</h2>
+            <h2 className="text-4xl font-bold">{datingRatings.bbwfun}</h2>
             <p className="text-yellow-400 mt-3">★★★★★</p>
           </div>
 
@@ -170,7 +172,7 @@ export default function BBWFunPage() {
 
                 <tr>
                   <td className="py-4 pr-4 font-bold">Note globale</td>
-                  <td className="py-4 pr-4">4.4/5</td>
+                  <td className="py-4 pr-4">{datingRatings.bbwfun}</td>
                   <td className="py-4 pr-4">Excellent choix niche</td>
                 </tr>
               </tbody>
@@ -217,7 +219,7 @@ export default function BBWFunPage() {
             </h2>
 
             <p className="text-gray-300 mb-6">
-              Comparez nos trois plateformes dating recommandées pour le Québec.
+              Comparez les cinq plateformes dating de notre classement québécois.
             </p>
 
             <a

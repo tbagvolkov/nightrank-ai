@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">WaysToMeet</title><desc id="desc">Visuel temporaire premium WaysToMeet</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071827"/><stop offset=".55" stop-color="#0b5270"/><stop offset="1" stop-color="#15b8ba"/></linearGradient></defs>
+  <rect width="1200" height="630" rx="40" fill="url(#g)"/><g fill="none" stroke="#fff" opacity=".12"><circle cx="160" cy="150" r="240" stroke-width="4"/><circle cx="1040" cy="500" r="300" stroke-width="4"/><path d="M0 520C250 360 430 650 680 480s330-80 520-250" stroke-width="8"/></g>
+  <g transform="translate(600 205)" fill="#fff" opacity=".22"><circle cx="-65" cy="0" r="58"/><circle cx="65" cy="0" r="58"/><path d="M-130 140c5-85 55-125 130-125s125 40 130 125Z"/></g>
+  <text x="600" y="405" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="106" font-weight="800">WaysToMeet</text><text x="600" y="470" text-anchor="middle" fill="#bafcff" font-family="Arial,sans-serif" font-size="30" letter-spacing="7">ÉCHANGER • DÉCOUVRIR</text>
+</svg>

@@ -142,6 +142,14 @@ const webcamArticles = [
 
 const datingArticles = [
   {
+    title: "Fling : avis, fonctions et accès au Québec",
+    slug: "fling-avis-quebec",
+  },
+  {
+    title: "WaysToMeet : avis, vérification et accès au Québec",
+    slug: "waystomeet-avis-quebec",
+  },
+  {
     title: "AdultFriendFinder vs Sex Messenger",
     slug: "adultfriendfinder-vs-sexmessenger",
   },

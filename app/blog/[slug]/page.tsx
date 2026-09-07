@@ -1,8 +1,23 @@
 import { notFound } from "next/navigation";
 import GamingGuide from "@/components/GamingGuide";
 import { gamingGuideBySlug } from "@/lib/gamingGuides";
+import DatingGuide from "@/components/DatingGuide";
+import { datingGuideBySlug } from "@/lib/datingGuides";
+import { datingRatings } from "@/lib/datingRatings";
 
 const articles = [
+  {
+    title: "Fling : avis, fonctions et accès au Québec",
+    slug: "fling-avis-quebec",
+    description: "Avis sur Fling au Québec : profils, messagerie, vidéo, inscription et précautions avant de choisir une option payante.",
+    category: "Dating",
+  },
+  {
+    title: "WaysToMeet : avis, vérification et accès au Québec",
+    slug: "waystomeet-avis-quebec",
+    description: "Guide WaysToMeet au Québec : vérification des membres, appels, clavardage, partage de médias et accès premium.",
+    category: "Dating",
+  },
   {
     title: "Sex Emulator : avis et jeu PC adulte en 2026",
     slug: "sex-emulator-jeu-pc-adulte",
@@ -262,6 +277,11 @@ export async function generateMetadata({
 }
 
 function ArticleContent({ slug }: { slug: string }) {
+  const datingGuide = datingGuideBySlug[slug];
+  if (datingGuide) {
+    return <DatingGuide guide={datingGuide} />;
+  }
+
   const gamingGuide = gamingGuideBySlug[slug];
   if (gamingGuide) {
     return <GamingGuide guide={gamingGuide} />;
@@ -4546,10 +4566,11 @@ if (slug === "candy-ai-quebec") {
           </p>
 
           <p className="text-gray-300 mb-4">
-            Certains sites sont généralistes, comme AdultFriendFinder. D’autres
-            sont plus directs, comme Sex Messenger. D’autres encore ciblent une
-            niche plus précise, comme BBW Fun. Le bon choix dépend donc surtout
-            de l’intention du visiteur.
+            Certains sites sont généralistes, comme AdultFriendFinder et Fling.
+            WaysToMeet se distingue davantage par ses outils de communication et
+            son discours sur la vérification, Sex Messenger mise sur des échanges
+            directs et BBW Fun cible une niche précise. Le bon choix dépend donc
+            surtout de l’intention du visiteur.
           </p>
 
           <p className="text-gray-300">
@@ -4558,11 +4579,21 @@ if (slug === "candy-ai-quebec") {
           </p>
         </section>
 
-        <section className="grid lg:grid-cols-3 gap-6 mb-10">
+        <section className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 mb-10">
           <OfferCard
             title="AdultFriendFinder"
             text="Le choix généraliste pour les visiteurs qui veulent une plateforme dating adulte connue."
             href="/offres/adultfriendfinder"
+          />
+          <OfferCard
+            title="Fling"
+            text="Une plateforme généraliste qui combine découverte, correspondances, messages et fonctions vidéo."
+            href="/blog/fling-avis-quebec"
+          />
+          <OfferCard
+            title="WaysToMeet"
+            text="Une option axée sur les échanges, les appels et la vérification annoncée des membres."
+            href="/blog/waystomeet-avis-quebec"
           />
           <OfferCard
             title="Sex Messenger"
@@ -4583,16 +4614,16 @@ if (slug === "candy-ai-quebec") {
 
           <p className="text-gray-300 mb-4">
             Une plateforme généraliste est souvent plus simple pour commencer,
-            car elle couvre une audience large. C’est le rôle d’AdultFriendFinder
-            dans notre sélection. Elle permet de découvrir l’univers dating adulte
-            sans être limité à une niche trop précise.
+            car elle couvre plusieurs intentions. AdultFriendFinder reste notre
+            premier choix global; Fling constitue une alternative très proche qui
+            ajoute notamment des fonctions de correspondance et de vidéo.
           </p>
 
           <p className="text-gray-300 mb-4">
-            Une plateforme orientée messagerie, comme Sex Messenger, peut
-            convenir aux visiteurs qui préfèrent une expérience plus directe. Ce
-            type d’offre est moins généraliste, mais peut être plus simple à
-            comprendre pour certains utilisateurs.
+            WaysToMeet et Sex Messenger privilégient davantage la communication.
+            Le premier met en avant plusieurs formats d’échange et la vérification
+            des membres; le second propose une approche plus directe centrée sur
+            la messagerie.
           </p>
 
           <p className="text-gray-300">
@@ -4611,8 +4642,9 @@ if (slug === "candy-ai-quebec") {
             Quel est le meilleur site de rencontre adulte au Québec ?
           </h3>
           <p className="text-gray-300 mb-6">
-            AdultFriendFinder est notre choix généraliste, Sex Messenger est plus
-            direct et BBW Fun est une alternative niche.
+            AdultFriendFinder demeure notre choix général. Fling suit de près,
+            WaysToMeet privilégie les échanges vérifiés, Sex Messenger la
+            simplicité et BBW Fun une recherche spécialisée.
           </p>
 
           <h3 className="text-xl font-bold mb-2">
@@ -4702,8 +4734,8 @@ if (slug === "adultfriendfinder-vs-sexmessenger") {
 
               <tr>
                 <td className="py-4 pr-4 font-bold">Note NightRank AI</td>
-                <td className="py-4 pr-4">4.8/5</td>
-                <td className="py-4 pr-4">4.6/5</td>
+                <td className="py-4 pr-4">{datingRatings.adultfriendfinder}</td>
+                <td className="py-4 pr-4">{datingRatings.sexmessenger}</td>
               </tr>
             </tbody>
           </table>
