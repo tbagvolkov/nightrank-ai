@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "Comparatifs adultes au Québec : Webcam, IA, Dating et Gaming | NightRank AI",
+  title: "Comparatifs webcam, IA et rencontres | NightRank AI",
   description:
     "Explorez les comparatifs NightRank AI consacrés aux plateformes webcams, AI Companions, rencontres adultes et jeux pour adultes accessibles au Québec et au Canada.",
   keywords: [

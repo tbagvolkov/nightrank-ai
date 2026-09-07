@@ -196,11 +196,25 @@ export async function generateMetadata({
 
   if (!article) return {};
 
+  const canonicalOverrides: Record<string, string> = {
+    "meilleurs-sites-webcams-quebec":
+      "/comparatifs/meilleurs-sites-webcams-quebec",
+    "top-5-webcams-quebec-2026":
+      "/comparatifs/meilleurs-sites-webcams-quebec",
+    "top-5-ai-girlfriends-quebec-2026": "/ai",
+    "gaming-adulte-quebec": "/comparatifs/gaming-adulte-quebec",
+    "rencontres-adultes-montreal": "/dating/montreal",
+    "rencontres-adultes-quebec": "/dating/quebec",
+    "rencontres-adultes-laval": "/dating/laval",
+    "rencontres-adultes-gatineau": "/dating/gatineau",
+    "rencontres-adultes-sherbrooke": "/dating/sherbrooke",
+  };
+
   return {
     title: `${article.title} | NightRank AI`,
     description: article.description,
     alternates: {
-      canonical: `/blog/${slug}`,
+      canonical: canonicalOverrides[slug] ?? `/blog/${slug}`,
     },
   };
 }

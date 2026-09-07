@@ -40,15 +40,17 @@ export async function generateMetadata({
 }) {
   const { city: citySlug } = await params;
   const city = cities.find((c) => c.slug === citySlug);
+  const localContent = priorityCityContent[citySlug];
 
   if (!city) notFound();
 
   return {
-    title: `Rencontres adultes ${city.name} 2026 | NightRank AI`,
+    title: `Rencontres adultes à ${city.name} en 2026`,
     description: `Découvrez les meilleurs sites de rencontres adultes à ${city.name} : AdultFriendFinder, Sex Messenger et BBW Fun. Comparatif local pour les adultes du Québec et du Canada.`,
     alternates: {
       canonical: `/dating/${citySlug}`,
     },
+    robots: localContent ? { index: true, follow: true } : { index: false, follow: true },
   };
 }
 

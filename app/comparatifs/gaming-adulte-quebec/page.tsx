@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ComparisonPage, { type ComparisonOffer } from "@/components/comparatifs/ComparisonPage";
 
 export const metadata: Metadata = {
-  title: "Meilleurs jeux pour adultes au Québec | Comparatif NightRank AI",
+  title: "Meilleurs jeux pour adultes au Québec en 2026",
   description: "Comparez Sex Emulator, Hentai Heroes et Comix Harem : gameplay, univers, progression, modèle économique et accessibilité au Québec.",
   alternates: { canonical: "https://nightrankai.com/comparatifs/gaming-adulte-quebec" },
   openGraph: { title: "Meilleurs jeux pour adultes au Québec", description: "Comparatif éditorial de trois expériences de gaming adulte accessibles au Québec et au Canada.", url: "https://nightrankai.com/comparatifs/gaming-adulte-quebec", siteName: "NightRank AI", locale: "fr_CA", type: "article" },

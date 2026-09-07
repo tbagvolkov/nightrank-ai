@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ComparisonPage, { type ComparisonOffer } from "@/components/comparatifs/ComparisonPage";
 
 export const metadata: Metadata = {
-  title: "Meilleurs sites de rencontres adultes au Québec | NightRank AI",
+  title: "Meilleurs sites de rencontres adultes au Québec",
   description: "Comparatif détaillé des sites de rencontres adultes accessibles au Québec : AdultFriendFinder, Sex Messenger et BBW Fun, avec avis et conseils.",
   alternates: { canonical: "https://nightrankai.com/comparatifs/top-rencontres-adultes-quebec" },
   openGraph: { title: "Meilleurs sites de rencontres adultes au Québec", description: "Comparez trois plateformes selon leur communauté, leur messagerie, leur spécialisation et leur confidentialité.", url: "https://nightrankai.com/comparatifs/top-rencontres-adultes-quebec", siteName: "NightRank AI", locale: "fr_CA", type: "article" },

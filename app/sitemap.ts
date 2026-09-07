@@ -19,7 +19,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     makeUrl("/ai", 0.95, "weekly"),
     makeUrl("/cams", 0.9, "weekly"),
     makeUrl("/dating", 0.9, "weekly"),
-    makeUrl("/gaming", 0.9, "weekly"),
     makeUrl("/comparatifs", 0.9, "weekly"),
     makeUrl("/blog", 0.9, "weekly"),
   ];
@@ -38,15 +37,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ].map((page) => makeUrl(page, 0.75, "monthly"));
 
   const blogSlugs = [
-    "top-5-ai-girlfriends-quebec-2026",
     "joi-ai-quebec",
     "ourdream-ai-quebec",
     "candy-ai-quebec",
     "darlink-ai-quebec",
     "lovescape-quebec",
 
-    "top-5-webcams-quebec-2026",
-    "meilleurs-sites-webcams-quebec",
     "cam-to-cam-quebec",
     "jerkmate-quebec",
     "livejasmin-quebec",
@@ -60,13 +56,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "choisir-site-rencontre",
     "adultfriendfinder-vs-sexmessenger",
     "dating-canada",
-    "rencontres-adultes-montreal",
-    "rencontres-adultes-quebec",
-    "rencontres-adultes-laval",
-    "rencontres-adultes-gatineau",
-    "rencontres-adultes-sherbrooke",
-
-    "gaming-adulte-quebec",
   ];
 
   const blogPages = blogSlugs.map((slug) =>
@@ -95,11 +84,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "gaming-adulte-quebec",
   ].map((slug) => makeUrl(`/comparatifs/${slug}`, 0.85, "weekly"));
 
-  const webcamPages = cities.map((city) =>
+  const priorityCities = cities.filter((city) =>
+    ["montreal", "quebec", "laval", "gatineau", "sherbrooke"].includes(city.slug)
+  );
+
+  const webcamPages = priorityCities.map((city) =>
     makeUrl(`/webcam/${city.slug}`, 0.7, "monthly")
   );
 
-  const datingPages = cities.map((city) =>
+  const datingPages = priorityCities.map((city) =>
     makeUrl(`/dating/${city.slug}`, 0.7, "monthly")
   );
 

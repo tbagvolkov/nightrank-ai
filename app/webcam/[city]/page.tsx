@@ -40,15 +40,17 @@ export async function generateMetadata({
 }) {
   const { city: citySlug } = await params;
   const city = cities.find((c) => c.slug === citySlug);
+  const localContent = priorityCityContent[citySlug];
 
   if (!city) notFound();
 
   return {
-    title: `Webcam ${city.name} 2026 | Meilleurs sites webcams | NightRank AI`,
+    title: `Webcam ${city.name} : meilleurs sites en 2026`,
     description: `Découvrez les meilleurs sites webcams à ${city.name} : Jerkmate, LiveJasmin et BongaCams. Comparatif local pour les adultes du Québec et du Canada.`,
     alternates: {
       canonical: `/webcam/${citySlug}`,
     },
+    robots: localContent ? { index: true, follow: true } : { index: false, follow: true },
   };
 }
 

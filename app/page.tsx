@@ -3,7 +3,7 @@ import AgeGate from "./AgeGate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "NightRank AI | Meilleurs sites webcams, AI et rencontres adultes au Québec",
+  title: "Comparatifs adultes au Québec | NightRank AI",
   description:
     "Comparez les meilleures plateformes webcams, AI companions, rencontres adultes et jeux interactifs au Québec et au Canada. Guides, avis et comparatifs indépendants.",
   keywords: [
