@@ -81,7 +81,7 @@ const sites = [
     note: "4.5/5",
     best: "Variété de catégories et salons publics",
     desc: "Une plateforme internationale reconnue pour son grand nombre de diffusions, ses catégories variées et son modèle orienté salons publics.",
-    image: "/images/webcams/bongacams-quebec.webp",
+    image: "/offres/bongacams-premium.webp",
     imageAlt:
       "Présentation de BongaCams dans le classement webcam Québec et Canada",
     visit: "/offres/bongacams",
@@ -107,7 +107,7 @@ const sites = [
     note: "4.4/5",
     best: "Expérience établie et approche traditionnelle",
     desc: "Une plateforme webcam établie qui conserve une approche plus classique, principalement centrée sur les échanges personnalisés.",
-    image: "/images/webcams/imlive-quebec.webp",
+    image: "/offres/imlive-premium.webp",
     imageAlt:
       "Présentation de ImLive, plateforme webcam classique disponible au Canada",
     visit:

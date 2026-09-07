@@ -68,7 +68,7 @@ export const offers: Offer[] = [
     rating: 4.5,
     affiliate:
       "https://t.acrsmartcam.com/197466/7683/0?po=6533&aff_sub5=SF_006OG000004lmDN",
-    image: "/offres/bongacams.png",
+    image: "/offres/bongacams-premium.webp",
     description:
       "Plateforme webcam connue pour sa grande variété de profils et de catégories, utile pour comparer plusieurs styles.",
     pros: [
