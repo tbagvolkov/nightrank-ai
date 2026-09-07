@@ -196,8 +196,8 @@ export default function ComparisonPage({
                   index === 0 ? "border-yellow-500/60 lg:col-span-2" : "border-zinc-800 hover:border-pink-500/60"
                 }`}
               >
-                <div className={`grid ${index === 0 ? "md:grid-cols-[0.9fr_1.1fr]" : "md:grid-cols-[0.85fr_1.15fr]"}`}>
-                  <div className="relative min-h-[300px] overflow-hidden bg-gradient-to-br from-pink-950 via-zinc-950 to-black">
+                <div className={`grid ${index === 0 ? "md:grid-cols-[0.9fr_1.1fr]" : "grid-rows-[280px_auto]"}`}>
+                  <div className={`relative overflow-hidden bg-gradient-to-br from-pink-950 via-zinc-950 to-black ${index === 0 ? "min-h-[300px]" : "min-h-[280px]"}`}>
                     {offer.image ? (
                       <Image
                         src={offer.image}
@@ -216,7 +216,7 @@ export default function ComparisonPage({
                         </div>
                       </div>
                     )}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/5 to-transparent md:bg-gradient-to-r md:from-transparent md:to-zinc-950/40" />
+                    <div className={`absolute inset-0 bg-gradient-to-t from-black via-black/5 to-transparent ${index === 0 ? "md:bg-gradient-to-r md:from-transparent md:to-zinc-950/40" : ""}`} />
                     <div className="absolute left-4 top-4 rounded-xl border border-white/20 bg-black/70 px-4 py-2 text-xl font-black backdrop-blur">
                       #{offer.position}
                     </div>
