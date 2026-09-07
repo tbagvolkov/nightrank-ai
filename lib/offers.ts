@@ -190,7 +190,7 @@ export const offers: Offer[] = [
     rating: 4.8,
     affiliate:
       "https://t.vlmai-1.com/197466/7875?aff_sub5=SF_006OG000004lmDN",
-    image: "/offres/joiai.png",
+    image: "/offres/joiai-premium.webp",
     description:
       "Plateforme AI Companion orientée conversation virtuelle, utile pour découvrir les AI Girlfriends accessibles au Québec.",
     pros: [
@@ -213,7 +213,7 @@ export const offers: Offer[] = [
     rating: 4.8,
     affiliate:
       "https://t.vlmai-1.com/197466/7710?aff_sub5=SF_006OG000004lmDN",
-    image: "/offres/ourdreamai.png",
+    image: "/offres/ourdreamai-premium.webp",
     description:
       "AI Companion complet, axé sur les conversations personnalisées et les personnages virtuels.",
     pros: [
@@ -236,7 +236,7 @@ export const offers: Offer[] = [
     rating: 4.7,
     affiliate:
       "https://t.vlmai-1.com/197466/7793?aff_sub5=SF_006OG000004lmDN",
-    image: "/offres/candyai.png",
+    image: "/offres/candyai-premium.webp",
     description:
       "Plateforme AI Girlfriend populaire avec conversations personnalisées et personnages virtuels.",
     pros: [
@@ -259,7 +259,7 @@ export const offers: Offer[] = [
     rating: 4.7,
     affiliate:
       "https://t.vlmai-1.com/197466/10344/0?aff_sub5=SF_006OG000004lmDN",
-    image: "/offres/darlinkai.png",
+    image: "/offres/darlinkai-premium.webp",
     description:
       "Plateforme AI Companion orientée roleplay IA, AI Girlfriend et conversations personnalisées.",
     pros: [
