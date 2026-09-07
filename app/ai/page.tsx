@@ -63,6 +63,7 @@ export default function AIPage() {
       "Testez d’abord la qualité des conversations, puis vérifiez le prix et la politique de confidentialité. Ne partagez aucune information sensible et gardez à l’esprit qu’un compagnon IA reste un logiciel, pas une personne réelle.",
     ]}
     relatedLinks={[
+      { href: "/blog/compagnons-ia-vie-privee-quebec", label: "Protéger ses données avec un compagnon IA" },
       { href: "/blog/top-5-ai-girlfriends-quebec-2026", label: "Guide des AI Girlfriends au Québec" },
       { href: "/comparatifs", label: "Tous les comparatifs NightRank AI" },
       { href: "/comparatifs/meilleurs-sites-webcams-quebec", label: "Meilleurs sites webcams au Québec" },

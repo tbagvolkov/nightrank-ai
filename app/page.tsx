@@ -293,8 +293,8 @@ export default function Home() {
             <h3 className="font-bold mb-5">✍️ DERNIERS GUIDES</h3>
 
             <div className="space-y-4 text-sm">
-              <a href="/blog/top-5-webcams-quebec-2026" className="block hover:text-pink-400">
-                Top 5 Webcams Québec 2026
+              <a href="/blog/compagnons-ia-vie-privee-quebec" className="block hover:text-pink-400">
+                Compagnons IA et vie privée
               </a>
               <a href="/ai" className="block hover:text-pink-400">
                 OurDream AI Québec

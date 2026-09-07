@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ].map((page) => makeUrl(page, 0.75, "monthly"));
 
   const blogSlugs = [
+    "compagnons-ia-vie-privee-quebec",
     "joi-ai-quebec",
     "ourdream-ai-quebec",
     "candy-ai-quebec",

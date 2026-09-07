@@ -2,6 +2,13 @@ import { notFound } from "next/navigation";
 
 const articles = [
   {
+    title: "Compagnons IA et vie privée : protéger ses données au Québec",
+    slug: "compagnons-ia-vie-privee-quebec",
+    description:
+      "Guide pratique pour utiliser un compagnon IA avec plus de discrétion : conversations, photos, compte, paiement et suppression des données.",
+    category: "AI",
+  },
+  {
     title: "Meilleurs sites webcams au Québec en 2026",
     slug: "meilleurs-sites-webcams-quebec",
     description:
@@ -211,7 +218,10 @@ export async function generateMetadata({
   };
 
   return {
-    title: `${article.title} | NightRank AI`,
+    title:
+      slug === "compagnons-ia-vie-privee-quebec"
+        ? "Compagnons IA : protéger ses données au Québec"
+        : `${article.title} | NightRank AI`,
     description: article.description,
     alternates: {
       canonical: canonicalOverrides[slug] ?? `/blog/${slug}`,
@@ -220,6 +230,248 @@ export async function generateMetadata({
 }
 
 function ArticleContent({ slug }: { slug: string }) {
+  if (slug === "compagnons-ia-vie-privee-quebec") {
+    const privacyFaqs = [
+      {
+        question: "Une conversation avec un compagnon IA est-elle privée?",
+        answer:
+          "Il ne faut pas la considérer comme une conversation totalement privée. Le service peut traiter ou conserver certains messages selon sa politique, ses réglages et ses obligations. Il est préférable de ne jamais y écrire un renseignement que vous ne voudriez pas voir associé à votre identité.",
+      },
+      {
+        question: "Peut-on envoyer une photo personnelle à un compagnon IA?",
+        answer:
+          "Une photo peut révéler le visage, le domicile, le travail, la localisation ou des métadonnées. Utilisez plutôt une image créée pour cet usage et évitez les photos intimes, les documents et les images montrant des tiers.",
+      },
+      {
+        question: "Supprimer l’application efface-t-il le compte?",
+        answer:
+          "Pas nécessairement. Désinstaller une application ne ferme généralement pas le compte. Il faut rechercher la fonction de suppression du compte, vérifier les abonnements actifs et conserver la confirmation de la demande.",
+      },
+      {
+        question: "Quel courriel utiliser pour un service de compagnon IA?",
+        answer:
+          "Une adresse secondaire réservée aux inscriptions de loisirs limite les liens avec vos comptes personnels ou professionnels. Elle doit néanmoins être protégée par un mot de passe unique et, si possible, une authentification multifacteur.",
+      },
+      {
+        question: "NightRank AI reçoit-il les conversations des plateformes comparées?",
+        answer:
+          "Non. NightRank AI est un guide comparatif indépendant et n’héberge pas les conversations réalisées sur les services externes. Chaque plateforme applique sa propre politique de confidentialité.",
+      },
+    ];
+
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              headline: "Compagnons IA et vie privée : protéger ses données au Québec",
+              description:
+                "Guide pratique pour protéger ses conversations, photos, renseignements personnels et paiements lors de l’utilisation d’un compagnon IA.",
+              datePublished: "2026-09-07",
+              dateModified: "2026-09-07",
+              inLanguage: "fr-CA",
+              author: { "@type": "Organization", name: "NightRank AI" },
+              publisher: { "@type": "Organization", name: "NightRank AI" },
+              mainEntityOfPage:
+                "https://nightrankai.com/blog/compagnons-ia-vie-privee-quebec",
+            }).replace(/</g, "\\u003c"),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: privacyFaqs.map((faq) => ({
+                "@type": "Question",
+                name: faq.question,
+                acceptedAnswer: { "@type": "Answer", text: faq.answer },
+              })),
+            }).replace(/</g, "\\u003c"),
+          }}
+        />
+
+        <section className="mb-10 grid gap-5 md:grid-cols-3">
+          {[
+            ["Avant l’inscription", "Vérifier les données demandées, le prix et la méthode de suppression."],
+            ["Pendant l’utilisation", "Limiter les détails personnels, les photos et les confidences identifiantes."],
+            ["Avant de partir", "Annuler le paiement, supprimer le compte et conserver la confirmation."],
+          ].map(([title, text], index) => (
+            <div key={title} className="rounded-3xl border border-pink-900/60 bg-zinc-950 p-7">
+              <p className="mb-3 text-sm font-bold text-pink-400">ÉTAPE {index + 1}</p>
+              <h2 className="mb-3 text-2xl font-bold">{title}</h2>
+              <p className="leading-7 text-gray-300">{text}</p>
+            </div>
+          ))}
+        </section>
+
+        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+          <h2 className="text-3xl font-bold mb-6">Pourquoi un compagnon IA mérite des précautions particulières</h2>
+          <p className="text-gray-300 mb-4 leading-8">
+            Un compagnon virtuel encourage souvent une conversation longue, personnelle et spontanée. Cette proximité peut pousser un utilisateur à raconter sa journée, ses relations, ses préférences, son lieu de travail ou ses difficultés. Pris séparément, chaque détail paraît banal. Ensemble, ils peuvent former un portrait très précis de la personne.
+          </p>
+          <p className="text-gray-300 mb-4 leading-8">
+            Le risque ne vient donc pas uniquement du nom ou du numéro de carte. Une combinaison d’horaires, de ville, de profession, de photos et d’habitudes peut aussi devenir identifiable. La Commission d’accès à l’information du Québec rappelle que la protection des renseignements doit être pensée pendant tout leur cycle de vie, de la collecte jusqu’à leur destruction.
+          </p>
+          <p className="text-gray-300 leading-8">
+            Ce guide ne classe pas les plateformes et ne remplace pas leur politique de confidentialité. Il fournit plutôt une méthode concrète pour décider quoi partager, quels réglages examiner et comment quitter un service proprement.
+          </p>
+        </section>
+
+        <section className="bg-zinc-950 border border-zinc-800 rounded-3xl p-8 mb-10">
+          <h2 className="text-3xl font-bold mb-6">Les renseignements à ne pas confier au personnage</h2>
+          <div className="grid gap-5 md:grid-cols-2">
+            {[
+              ["Identité", "Nom complet, date de naissance, adresse, numéro de téléphone et documents officiels."],
+              ["Finances", "Numéro de carte, compte bancaire, revenu précis, mots de passe et réponses de sécurité."],
+              ["Travail", "Nom de l’employeur, horaire détaillé, documents internes et renseignements sur des collègues."],
+              ["Entourage", "Photos, coordonnées, problèmes personnels ou confidences concernant une autre personne."],
+              ["Localisation", "Adresse actuelle, trajets habituels, lieux fréquentés et périodes d’absence du domicile."],
+              ["Santé", "Diagnostics, traitements, dossiers médicaux ou renseignements permettant de vous reconnaître."],
+            ].map(([title, text]) => (
+              <div key={title} className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6">
+                <h3 className="mb-3 text-xl font-bold text-pink-400">{title}</h3>
+                <p className="leading-7 text-gray-300">{text}</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-6 text-gray-300 leading-8">
+            Une règle simple aide à décider : remplacez mentalement le compagnon IA par un formulaire public. Si vous refuseriez d’y inscrire l’information, ne la placez pas non plus dans la conversation.
+          </p>
+        </section>
+
+        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+          <h2 className="text-3xl font-bold mb-6">Photos et contenus générés : quatre vérifications</h2>
+          <ol className="space-y-6 text-gray-300">
+            <li><strong className="text-white">1. Examiner l’arrière-plan.</strong> Une fenêtre, une carte d’employé, une plaque, un uniforme ou une enveloppe peut révéler votre identité ou votre adresse.</li>
+            <li><strong className="text-white">2. Éviter le visage et les signes distinctifs.</strong> Les tatouages, bijoux, cicatrices et décors récurrents peuvent permettre une reconnaissance.</li>
+            <li><strong className="text-white">3. Ne pas envoyer l’image d’une autre personne.</strong> Son consentement et sa vie privée comptent également.</li>
+            <li><strong className="text-white">4. Lire les règles applicables aux médias.</strong> Vérifiez si le service explique la conservation, la suppression et l’utilisation des images téléversées ou générées.</li>
+          </ol>
+          <div className="mt-7 rounded-2xl border border-amber-500/30 bg-amber-950/20 p-6 text-amber-100">
+            Une image supprimée de l’écran n’est pas nécessairement effacée immédiatement de tous les systèmes. Ne téléversez jamais une photo si sa divulgation pourrait vous causer un préjudice sérieux.
+          </div>
+        </section>
+
+        <section className="bg-zinc-950 border border-zinc-800 rounded-3xl p-8 mb-10">
+          <h2 className="text-3xl font-bold mb-6">Créer un compte plus discret et plus sécuritaire</h2>
+          <h3 className="text-2xl font-bold text-pink-400 mb-3">Utiliser une adresse courriel secondaire</h3>
+          <p className="text-gray-300 mb-6 leading-8">
+            Une adresse distincte évite de relier directement l’inscription à votre travail, à vos réseaux sociaux ou à vos échanges personnels. N’utilisez pas dans cette adresse votre nom complet, votre année de naissance ou votre employeur.
+          </p>
+          <h3 className="text-2xl font-bold text-pink-400 mb-3">Choisir un mot de passe unique</h3>
+          <p className="text-gray-300 mb-6 leading-8">
+            Ne réutilisez jamais le mot de passe de votre courriel, de Facebook ou de votre banque. Le Centre canadien pour la cybersécurité recommande des mots de passe ou phrases de passe uniques et l’utilisation prudente d’un gestionnaire de mots de passe. Activez l’authentification multifacteur lorsqu’elle est proposée.
+          </p>
+          <h3 className="text-2xl font-bold text-pink-400 mb-3">Réduire les permissions</h3>
+          <p className="text-gray-300 leading-8">
+            Refusez l’accès permanent au microphone, à la caméra, aux contacts et à la localisation lorsque ces fonctions ne sont pas nécessaires. Sur un appareil partagé, évitez l’enregistrement automatique du mot de passe et désactivez les aperçus de notifications sensibles.
+          </p>
+        </section>
+
+        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+          <h2 className="text-3xl font-bold mb-6">Lire une politique de confidentialité sans être spécialiste</h2>
+          <p className="text-gray-300 mb-6 leading-8">
+            Une politique longue ne garantit pas une bonne protection. Recherchez des réponses précises aux questions suivantes avant de partager un contenu personnel :
+          </p>
+          <ul className="space-y-4 text-gray-300">
+            <li>✓ Quelles données sont collectées : messages, images, voix, appareil ou localisation?</li>
+            <li>✓ Dans quel but sont-elles utilisées et pendant combien de temps?</li>
+            <li>✓ Les conversations peuvent-elles servir à améliorer ou entraîner des systèmes?</li>
+            <li>✓ Quels fournisseurs ou partenaires peuvent recevoir des données?</li>
+            <li>✓ Dans quel pays les renseignements peuvent-ils être traités?</li>
+            <li>✓ Comment demander l’accès, la correction ou la suppression?</li>
+          </ul>
+          <p className="mt-6 text-gray-300 leading-8">
+            Au Québec, la Loi 25 a renforcé plusieurs obligations relatives à la protection des renseignements personnels. Cela ne signifie toutefois pas que chaque service étranger offre automatiquement les mêmes garanties pratiques. L’utilisateur doit vérifier l’entreprise qui exploite le service et les recours réellement disponibles.
+          </p>
+        </section>
+
+        <section className="bg-zinc-950 border border-zinc-800 rounded-3xl p-8 mb-10">
+          <h2 className="text-3xl font-bold mb-6">Paiement, essai gratuit et renouvellement</h2>
+          <p className="text-gray-300 mb-4 leading-8">
+            Avant de commencer un essai, notez le prix après la période gratuite, la devise, la fréquence de facturation et la procédure d’annulation. Un compte supprimé et un abonnement annulé ne sont pas toujours la même chose.
+          </p>
+          <p className="text-gray-300 mb-4 leading-8">
+            Vérifiez aussi le libellé qui apparaîtra sur le relevé, les éventuels crédits virtuels et leur date d’expiration. Conservez une capture des conditions et du message d’annulation. Après la fermeture, surveillez le relevé suivant afin de détecter un prélèvement inattendu.
+          </p>
+          <p className="text-gray-300 leading-8">
+            Ne transmettez jamais vos renseignements bancaires dans la conversation avec le personnage. Utilisez uniquement la page de paiement officielle du service, sur une connexion sécurisée.
+          </p>
+        </section>
+
+        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+          <h2 className="text-3xl font-bold mb-6">Comment supprimer correctement un compte</h2>
+          <div className="space-y-5 text-gray-300 leading-8">
+            <p><strong className="text-white">1.</strong> Annulez d’abord l’abonnement dans le site, l’App Store ou Google Play, selon l’endroit où il a été acheté.</p>
+            <p><strong className="text-white">2.</strong> Supprimez les conversations et médias lorsque le service offre cette commande.</p>
+            <p><strong className="text-white">3.</strong> Utilisez ensuite la fonction « supprimer le compte », qui est différente de la simple déconnexion.</p>
+            <p><strong className="text-white">4.</strong> Conservez le courriel ou la capture confirmant la demande, sans conserver de contenu intime.</p>
+            <p><strong className="text-white">5.</strong> Si aucune fonction n’est visible, utilisez le contact de confidentialité indiqué dans la politique et demandez quelle information est nécessaire pour traiter la requête.</p>
+          </div>
+          <p className="mt-6 text-gray-300 leading-8">
+            La désinstallation de l’application retire seulement le logiciel de l’appareil. Elle ne prouve ni l’annulation du paiement, ni la fermeture du compte, ni l’effacement des renseignements détenus par l’entreprise.
+          </p>
+        </section>
+
+        <section className="bg-gradient-to-br from-pink-950/40 to-zinc-950 border border-pink-900 rounded-3xl p-8 mb-10">
+          <h2 className="text-3xl font-bold mb-6">La vérification en 60 secondes avant de s’inscrire</h2>
+          <div className="grid gap-4 md:grid-cols-2 text-gray-200">
+            <p>□ L’entreprise qui exploite le service est identifiable.</p>
+            <p>□ La politique explique le traitement des conversations.</p>
+            <p>□ La suppression du compte est documentée.</p>
+            <p>□ Le prix, la devise et le renouvellement sont clairs.</p>
+            <p>□ Un mot de passe unique sera utilisé.</p>
+            <p>□ Aucun contenu identifiant ne sera partagé.</p>
+          </div>
+        </section>
+
+        <section className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 mb-10">
+          <h2 className="text-3xl font-bold mb-6">Questions fréquentes</h2>
+          <div className="space-y-7">
+            {privacyFaqs.map((faq) => (
+              <div key={faq.question}>
+                <h3 className="text-xl font-bold text-pink-400 mb-2">{faq.question}</h3>
+                <p className="text-gray-300 leading-7">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="bg-zinc-950 border border-zinc-800 rounded-3xl p-8 mb-10">
+          <h2 className="text-3xl font-bold mb-6">Sources publiques et portée du guide</h2>
+          <p className="text-gray-300 mb-6 leading-8">
+            Ce contenu éducatif s’appuie sur les principes généraux publiés par des autorités québécoises et canadiennes. Il ne constitue pas un avis juridique et ne prétend pas certifier une plateforme particulière.
+          </p>
+          <ul className="space-y-4 text-pink-400">
+            <li><a className="hover:text-pink-300" href="https://www.cai.gouv.qc.ca/uploads/pdfs/CAI_DOC_Reflex_IA_RP.pdf" target="_blank" rel="noreferrer">Commission d’accès à l’information — IA et protection des renseignements personnels ↗</a></li>
+            <li><a className="hover:text-pink-300" href="https://www.cai.gouv.qc.ca/protection-renseignements-personnels/sujets-et-domaines-dinteret/principaux-changements-loi-25" target="_blank" rel="noreferrer">Commission d’accès à l’information — principaux changements de la Loi 25 ↗</a></li>
+            <li><a className="hover:text-pink-300" href="https://www.cyber.gc.ca/en/guidance/best-practices-passphrases-and-passwords-itsap30032" target="_blank" rel="noreferrer">Centre canadien pour la cybersécurité — mots de passe et phrases de passe ↗</a></li>
+          </ul>
+        </section>
+
+        <section className="grid gap-5 md:grid-cols-2 mb-10">
+          <a href="/ai" className="rounded-3xl border border-pink-800 bg-pink-950/20 p-7 hover:border-pink-500 transition">
+            <p className="text-sm font-bold text-pink-400 mb-2">COMPARATIF</p>
+            <h2 className="text-2xl font-bold mb-3">Comparer les compagnons IA au Québec</h2>
+            <p className="text-gray-300">Consultez les fonctionnalités, limites et positionnements des cinq services analysés.</p>
+          </a>
+          <a href="/company/privacy" className="rounded-3xl border border-zinc-800 bg-zinc-950 p-7 hover:border-pink-500 transition">
+            <p className="text-sm font-bold text-pink-400 mb-2">NIGHTRANK AI</p>
+            <h2 className="text-2xl font-bold mb-3">Notre politique de confidentialité</h2>
+            <p className="text-gray-300">Comprenez comment NightRank AI traite les données liées à son propre site.</p>
+          </a>
+        </section>
+
+        <FinalCta title="Comparer les compagnons IA" href="/ai" />
+      </>
+    );
+  }
+
   if (slug === "meilleurs-sites-webcams-quebec") {
     return (
       <>

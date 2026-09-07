@@ -64,6 +64,10 @@ export const metadata: Metadata = {
 
 const aiArticles = [
   {
+    title: "Compagnons IA et vie privée : protéger ses données au Québec",
+    slug: "compagnons-ia-vie-privee-quebec",
+  },
+  {
     title: "Top 5 AI Girlfriends Québec 2026 : comparatif complet",
     slug: "top-5-ai-girlfriends-quebec-2026",
   },
