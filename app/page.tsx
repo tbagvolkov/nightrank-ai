@@ -56,8 +56,8 @@ const topPlatforms = [
   ["Jerkmate", "4.8/5", "/offres/jerkmate"],
   ["LiveJasmin", "4.7/5", "/offres/livejasmin"],
   ["BongaCams", "4.5/5", "/offres/bongacams"],
-  ["OurDream AI", "4.8/5", "/blog/ourdream-ai-quebec"],
   ["Joi AI", "4.8/5", "/blog/joi-ai-quebec"],
+  ["OurDream AI", "4.8/5", "/blog/ourdream-ai-quebec"],
 ];
 
 const webcams = [
@@ -68,19 +68,25 @@ const webcams = [
 
 const dating = [
   ["AdultFriendFinder", "4.7/5", "Communauté adulte internationale.", "/offres/adultfriendfinder"],
+  ["Fling", "4.7/5", "Profils, messagerie et fonctions vidéo.", "/blog/fling-avis-quebec", "/offres/fling-premium.webp"],
+  ["WaysToMeet", "4.6/5", "Plusieurs formats de communication.", "/blog/waystomeet-avis-quebec", "/offres/waystomeet-premium.webp"],
   ["Sex Messenger", "4.5/5", "Messagerie adulte et rencontres rapides.", "/offres/sexmessenger"],
   ["BBW Fun", "4.4/5", "Dating niche orienté BBW.", "/offres/bbwfun"],
 ];
 
 const gaming = [
   ["Sex Emulator", "4.7/5", "Simulation adulte interactive.", "/offres/sexemulator"],
-  ["Hentai Heroes", "4.5/5", "Jeu adulte avec progression.", "/offres/hentaiheroes"],
+  ["Hentai Heroes", "4.6/5", "Jeu adulte avec progression.", "/offres/hentaiheroes"],
+  ["Harem Villa", "4.6/5", "Puzzle, histoire et rénovation.", "/blog/harem-villa-avis-quebec", "/offres/haremvilla.webp"],
   ["Comix Harem", "4.4/5", "Univers comics et collection.", "/offres/comixharem"],
+  ["Pornstar Harem", "4.3/5", "Collection et fonctions sociales.", "/blog/pornstar-harem-avis-quebec", "/offres/pornstarharem.webp"],
 ];
 
 const aiCompanions = [
-  ["OurDream AI", "4.8/5", "Compagnon IA complet et personnalisable.", "/blog/ourdream-ai-quebec"],
   ["Joi AI", "4.8/5", "Assistant conversationnel IA moderne.", "/blog/joi-ai-quebec"],
+  ["OurDream AI", "4.8/5", "Compagnon IA complet et personnalisable.", "/blog/ourdream-ai-quebec", "/offres/ourdreamai-premium.webp"],
+  ["Candy AI", "4.7/5", "Choix varié de personnages virtuels.", "/blog/candy-ai-quebec", "/offres/candyai-premium.webp"],
+  ["DarLink AI", "4.7/5", "Expérience narrative et jeux de rôle.", "/blog/darlink-ai-quebec", "/offres/darlinkai-premium.webp"],
   ["Lovescape", "4.5/5", "Expérience immersive de compagnon virtuel.", "/blog/lovescape-quebec"],
 ];
 
@@ -92,18 +98,18 @@ export default function Home() {
       <AgeGate />
 
       <nav className="sticky top-0 z-50 border-b border-zinc-900 bg-black/95 backdrop-blur">
-        <div className="max-w-[1800px] mx-auto px-6 py-5 flex justify-between items-center">
+        <div className="max-w-[1800px] mx-auto px-4 md:px-6 py-4 flex flex-col md:flex-row md:justify-between md:items-center gap-4">
           <a href="/" className="text-3xl font-bold text-pink-500">
             ♛ NightRank <span className="text-white">AI</span>
           </a>
 
-          <div className="hidden md:flex gap-8 text-sm text-gray-300">
-            <a href="/cams" className="hover:text-pink-400">Webcams</a>
-            <a href="/dating" className="hover:text-pink-400">Rencontres</a>
-            <a href="/gaming" className="hover:text-pink-400">Gaming</a>
-            <a href="/ai" className="hover:text-pink-400">AI</a>
-            <a href="/comparatifs" className="hover:text-pink-400">Comparatifs</a>
-            <a href="/blog" className="hover:text-pink-400">Blog</a>
+          <div className="flex w-full md:w-auto flex-wrap justify-center gap-2 md:gap-3 text-base text-gray-200" aria-label="Navigation principale">
+            <NavLink href="/cams" label="Webcams" />
+            <NavLink href="/dating" label="Rencontres" />
+            <NavLink href="/gaming" label="Gaming" />
+            <NavLink href="/ai" label="Compagnons IA" />
+            <NavLink href="/comparatifs" label="Comparatifs" />
+            <NavLink href="/blog" label="Blog" />
           </div>
         </div>
       </nav>
@@ -136,7 +142,7 @@ export default function Home() {
             <h3 className="font-bold mb-4">⭐ MEILLEURE NOTE</h3>
             <p className="text-6xl font-bold text-pink-500">4.8/5</p>
             <p className="text-yellow-400 text-2xl mt-3">★★★★★</p>
-            <p className="text-gray-400 text-sm mt-3">Note moyenne basée sur nos comparatifs.</p>
+            <p className="text-gray-400 text-sm mt-3">Meilleure note attribuée dans nos comparatifs.</p>
           </div>
 
           <div className="bg-zinc-950/90 border border-zinc-800 rounded-2xl p-5">
@@ -151,7 +157,7 @@ export default function Home() {
         </aside>
 
         <div>
-          <section className="relative min-h-[560px] rounded-3xl overflow-hidden border border-zinc-800">
+          <section className="relative min-h-[540px] rounded-3xl overflow-hidden border border-pink-500/30 shadow-2xl shadow-pink-950/30">
             <img
               src="/hero.jpg"
               alt="NightRank AI Québec"
@@ -162,8 +168,8 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/40" />
 
             <div className="relative z-10 max-w-4xl px-8 md:px-16 py-20">
-              <p className="inline-block border border-pink-500 text-pink-400 rounded-full px-5 py-2 font-bold mb-8">
-                LE GUIDE ADULTE #1 AU QUÉBEC
+              <p className="inline-block bg-black/70 border border-pink-500 text-pink-300 rounded-full px-5 py-2 font-bold mb-8">
+                GUIDE QUÉBÉCOIS INDÉPENDANT • 18+
               </p>
 
               <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-7">
@@ -183,20 +189,20 @@ export default function Home() {
                 <span className="bg-black/60 border border-zinc-700 px-4 py-3 rounded-xl">🤖 Section AI</span>
               </div>
 
-              <div className="flex flex-wrap gap-4">
-                <a href="/comparatifs/meilleurs-sites-webcams-quebec" className="bg-pink-600 hover:bg-pink-700 px-8 py-4 rounded-xl font-bold text-center">
+              <div className="grid sm:grid-cols-2 gap-4 max-w-2xl">
+                <a href="/comparatifs/meilleurs-sites-webcams-quebec" className="bg-pink-600 hover:bg-pink-700 px-8 py-4 rounded-xl font-bold text-center text-lg min-h-14">
                   📹 Voir les webcams
                 </a>
 
-                <a href="/comparatifs/top-rencontres-adultes-quebec" className="border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center">
+                <a href="/comparatifs/top-rencontres-adultes-quebec" className="bg-black/70 border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center text-lg min-h-14">
                   ❤️ Rencontres adultes
                 </a>
 
-                <a href="/gaming" className="border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center">
+                <a href="/gaming" className="bg-black/70 border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center text-lg min-h-14">
                   🎮 Gaming adulte
                 </a>
 
-                <a href="/ai" className="border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center">
+                <a href="/ai" className="bg-black/70 border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center text-lg min-h-14">
                   🤖 AI Companions
                 </a>
               </div>
@@ -346,13 +352,13 @@ export default function Home() {
 
             <CategoryCard
               title="Rencontres Adultes"
-              text="Comparez AdultFriendFinder, Sex Messenger et BBW Fun afin d’identifier les options de rencontres adultes les plus pertinentes."
+              text="Comparez AdultFriendFinder, Fling, WaysToMeet, Sex Messenger et BBW Fun selon vos préférences."
               href="/comparatifs/top-rencontres-adultes-quebec"
             />
 
             <CategoryCard
               title="Gaming Adulte"
-              text="Nous analysons plusieurs jeux adultes populaires incluant Sex Emulator, Hentai Heroes et Comix Harem."
+              text="Comparez Sex Emulator, Hentai Heroes, Harem Villa, Comix Harem et Pornstar Harem selon leur gameplay."
               href="/comparatifs/gaming-adulte-quebec"
             />
 
@@ -428,7 +434,7 @@ export default function Home() {
 
             <Faq
               question="Quel est le meilleur AI Companion au Québec ?"
-              answer="Joi AI et OurDream AI partagent actuellement notre meilleure note. Joi AI se distingue pour la conversation, tandis qu’OurDream AI constitue notre choix global le plus complet."
+              answer="Joi AI et OurDream AI partagent actuellement notre meilleure note. Joi AI occupe la première place pour son équilibre général, tandis qu’OurDream AI se distingue par la personnalisation."
             />
 
             <Faq
@@ -602,7 +608,7 @@ function OfferBox({
       </h2>
 
       <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
-        {items.map(([name, rating, desc, url]) => {
+        {items.map(([name, rating, desc, url, explicitImage]) => {
           const imageName = name
             .toLowerCase()
             .replace(/\s+/g, "")
@@ -616,7 +622,7 @@ function OfferBox({
             >
               <div className="h-64 rounded-2xl overflow-hidden border border-zinc-700 mb-5 bg-black">
                 <img
-                  src={`/offres/${imageName}.png`}
+                  src={explicitImage || `/offres/${imageName}.png`}
                   alt={name}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                 />
@@ -642,6 +648,17 @@ function OfferBox({
         })}
       </div>
     </section>
+  );
+}
+
+function NavLink({ href, label }: { href: string; label: string }) {
+  return (
+    <a
+      href={href}
+      className="shrink-0 rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-3 hover:border-pink-500 hover:text-pink-300 transition-colors"
+    >
+      {label}
+    </a>
   );
 }
 

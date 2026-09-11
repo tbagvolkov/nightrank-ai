@@ -1,7 +1,7 @@
 type AuthorBoxProps = {
-  published: string;
-  updated: string;
-  readingTime: string;
+  published?: string;
+  updated?: string;
+  readingTime?: string;
 };
 
 export default function AuthorBox({
@@ -31,17 +31,23 @@ export default function AuthorBox({
 
         <div className="space-y-2 text-gray-300">
 
-          <p>
-            📅 <strong>Publié :</strong> {published}
-          </p>
+          {published && (
+            <p>
+              📅 <strong>Publié :</strong> {published}
+            </p>
+          )}
 
-          <p>
-            🔄 <strong>Mis à jour :</strong> {updated}
-          </p>
+          {updated && (
+            <p>
+              🔄 <strong>Mis à jour :</strong> {updated}
+            </p>
+          )}
 
-          <p>
-            ⏱️ <strong>Temps de lecture :</strong> {readingTime}
-          </p>
+          {readingTime && (
+            <p>
+              ⏱️ <strong>Temps de lecture :</strong> {readingTime}
+            </p>
+          )}
 
           <a
             href="/company/methodology"

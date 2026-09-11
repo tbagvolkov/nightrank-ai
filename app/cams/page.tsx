@@ -7,10 +7,10 @@ import FAQSchema from "@/components/seo/FAQSchema";
 import AuthorBox from "@/components/seo/AuthorBox";
 
 export const metadata: Metadata = {
-  title: "Meilleurs sites webcams au Québec en 2026 | NightRank AI",
+  title: "Sites webcams au Québec : guides et plateformes | NightRank AI",
 
   description:
-    "Comparez les meilleurs sites webcams accessibles au Québec et au Canada : Jerkmate, LiveJasmin et BongaCams. Avis, classement, guides cam live et pages locales.",
+    "Explorez les plateformes webcams accessibles au Québec et au Canada, nos avis, nos guides cam live et nos pages locales avant de consulter le Top 5 détaillé.",
 
   keywords: [
     "webcam Québec",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Meilleurs sites webcams au Québec en 2026",
+    title: "Sites webcams au Québec : guides et plateformes",
     description:
       "Classement, avis et comparatifs des meilleures plateformes cam live accessibles au Québec et au Canada.",
     url: "https://nightrankai.com/cams",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Meilleurs sites webcams au Québec",
+    title: "Sites webcams au Québec : guides et plateformes",
     description:
       "Découvrez notre classement des meilleures plateformes webcam accessibles au Québec.",
   },
@@ -129,7 +129,7 @@ export default function CamsPage() {
           </p>
 
           <h1 className="text-5xl md:text-6xl font-bold text-pink-500 mb-6">
-            Meilleurs sites webcams au Québec en 2026
+            Sites webcams au Québec : guides et plateformes
           </h1>
 
           <p className="text-xl text-gray-300 max-w-4xl leading-relaxed mb-6">
@@ -200,10 +200,9 @@ export default function CamsPage() {
             </h2>
 
             <p className="text-gray-300 max-w-4xl leading-relaxed">
-              Le classement ci-dessous est alimenté par notre base centralisée.
-              Lorsqu’une nouvelle plateforme webcam est ajoutée dans
-              <code className="text-pink-400"> lib/offers.ts</code>, elle peut
-              apparaître automatiquement sur cette page.
+              Ce classement est régulièrement actualisé afin d’intégrer les
+              plateformes pertinentes et de conserver des évaluations
+              cohérentes avec notre comparatif détaillé.
             </p>
           </div>
 
@@ -472,11 +471,7 @@ export default function CamsPage() {
           </div>
         </section>
 
-        <AuthorBox
-          published="10 juillet 2026"
-          updated="10 juillet 2026"
-          readingTime="8 min"
-        />
+        <AuthorBox />
 
         {/* CTA FINAL */}
 

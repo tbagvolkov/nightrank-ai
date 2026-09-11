@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Meilleurs sites de rencontres adultes au Québec en 2026 | NightRank AI",
 
   description:
-    "Comparez les meilleurs sites de rencontres adultes accessibles au Québec et au Canada : AdultFriendFinder, Sex Messenger et BBW Fun. Avis, classement et guides locaux.",
+    "Comparez cinq sites de rencontres adultes accessibles au Québec et au Canada, dont AdultFriendFinder, Fling et WaysToMeet. Avis, classement et guides locaux.",
 
   keywords: [
     "rencontre adulte Québec",
@@ -205,10 +205,9 @@ export default function DatingPage() {
             </h2>
 
             <p className="text-gray-300 max-w-4xl leading-relaxed">
-              Ce classement est alimenté automatiquement par notre base
-              centralisée. Lorsqu’une nouvelle offre dating est ajoutée dans
-              <code className="text-pink-400"> lib/offers.ts</code>, elle peut
-              apparaître sur cette page sans recréer tout le contenu.
+              Ce classement est régulièrement actualisé afin d’intégrer les
+              plateformes pertinentes et de conserver des évaluations
+              cohérentes avec notre comparatif détaillé.
             </p>
           </div>
 
@@ -537,11 +536,7 @@ export default function DatingPage() {
           </div>
         </section>
 
-        <AuthorBox
-          published="10 juillet 2026"
-          updated="10 juillet 2026"
-          readingTime="9 min"
-        />
+        <AuthorBox />
 
         {/* CTA FINAL */}
 

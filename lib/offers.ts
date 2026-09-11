@@ -173,7 +173,7 @@ export const offers: Offer[] = [
     pros: [
       "Positionnement niche",
       "Bonne alternative spécialisée",
-      "Commission revshare intéressante",
+      "Communauté spécialisée et recherche plus ciblée",
     ],
     cons: [
       "Audience plus ciblée",
