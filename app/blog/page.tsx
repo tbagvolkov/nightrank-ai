@@ -99,7 +99,7 @@ const webcamArticles = [
     slug: "top-5-webcams-quebec-2026",
   },
   {
-    title: "Meilleurs sites webcams au Québec",
+    title: "Comment choisir un site webcam au Québec en 2026",
     slug: "meilleurs-sites-webcams-quebec",
   },
   {

@@ -250,21 +250,7 @@ export default function LiveJasminPage() {
           </div>
         </section>
 
-        <section className="grid md:grid-cols-2 gap-6 mb-10">
-          <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-            <h2 className="text-3xl font-bold mb-5">
-              Recherches fréquentes
-            </h2>
-
-            <ul className="space-y-3 text-gray-300">
-              <li>• livejasmin avis</li>
-              <li>• livejasmin québec</li>
-              <li>• livejasmin canada</li>
-              <li>• livejasmin review</li>
-              <li>• webcam premium québec</li>
-            </ul>
-          </div>
-
+        <section className="mb-10">
           <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
             <h2 className="text-3xl font-bold mb-5">
               Pages liées
