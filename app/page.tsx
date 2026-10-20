@@ -1,5 +1,4 @@
 import { cities } from "./data";
-import AgeGate from "./AgeGate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -95,8 +94,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-black text-white">
-      <AgeGate />
-
       <nav className="sticky top-0 z-50 border-b border-zinc-900 bg-black/95 backdrop-blur">
         <div className="max-w-[1800px] mx-auto px-4 md:px-6 py-4 flex flex-col md:flex-row md:justify-between md:items-center gap-4">
           <a href="/" className="text-3xl font-bold text-pink-500">
@@ -106,7 +103,7 @@ export default function Home() {
           <div className="flex w-full md:w-auto flex-wrap justify-center gap-2 md:gap-3 text-base text-gray-200" aria-label="Navigation principale">
             <NavLink href="/cams" label="Webcams" />
             <NavLink href="/dating" label="Rencontres" />
-            <NavLink href="/gaming" label="Gaming" />
+            <NavLink href="/comparatifs/gaming-adulte-quebec" label="Gaming" />
             <NavLink href="/ai" label="Compagnons IA" />
             <NavLink href="/comparatifs" label="Comparatifs" />
             <NavLink href="/blog" label="Blog" />
@@ -198,7 +195,7 @@ export default function Home() {
                   ❤️ Rencontres adultes
                 </a>
 
-                <a href="/gaming" className="bg-black/70 border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center text-lg min-h-14">
+                <a href="/comparatifs/gaming-adulte-quebec" className="bg-black/70 border border-pink-500 hover:bg-pink-500/10 px-8 py-4 rounded-xl font-bold text-center text-lg min-h-14">
                   🎮 Gaming adulte
                 </a>
 

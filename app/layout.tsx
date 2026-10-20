@@ -40,11 +40,6 @@ export default function RootLayout({
     name: "NightRank AI",
     url: "https://nightrankai.com",
     inLanguage: "fr-CA",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: "https://nightrankai.com/blog?search={search_term_string}",
-      "query-input": "required name=search_term_string",
-    },
   };
 
   return (

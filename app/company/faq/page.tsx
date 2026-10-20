@@ -4,6 +4,7 @@ export const metadata = {
   title: "FAQ | NightRank AI",
   description:
     "Questions fréquentes sur NightRank AI, nos comparatifs, nos liens affiliés, nos contenus et notre fonctionnement.",
+  alternates: { canonical: "https://nightrankai.com/company/faq" },
 };
 
 const faqs = [

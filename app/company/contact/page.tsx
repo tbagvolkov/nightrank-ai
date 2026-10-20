@@ -3,6 +3,7 @@ export const metadata = {
   title: "Contact | NightRank AI",
   description:
     "Contactez NightRank AI pour une question, une suggestion, un partenariat ou une demande liée au site.",
+  alternates: { canonical: "https://nightrankai.com/company/contact" },
 };
 
 export default function ContactPage() {

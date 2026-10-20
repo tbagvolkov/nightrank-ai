@@ -59,12 +59,20 @@ export const metadata: Metadata = {
 
 const datingOffers = getOffersByCategory("dating");
 
+const datingReviewRoutes: Record<string, string> = {
+  fling: "/blog/fling-avis-quebec",
+  waystomeet: "/blog/waystomeet-avis-quebec",
+};
+
+const getDatingReviewRoute = (slug: string) =>
+  datingReviewRoutes[slug] ?? `/offres/${slug}`;
+
 const faqItems = [
   {
     question:
       "Quel est le meilleur site de rencontres adultes au Québec en 2026 ?",
     answer:
-      "AdultFriendFinder occupe actuellement la première place de notre classement général grâce à sa notoriété et à son audience importante. Sex Messenger convient davantage aux échanges directs, tandis que BBW Fun cible une audience plus spécialisée.",
+      "AdultFriendFinder occupe actuellement la première place de notre classement général grâce à sa notoriété et à son audience importante. Fling constitue une alternative généraliste, WaysToMeet met l’accent sur plusieurs formats de communication, Sex Messenger privilégie les échanges directs et BBW Fun cible une audience plus spécialisée.",
   },
   {
     question:
@@ -112,7 +120,7 @@ export default function DatingPage() {
         title="Meilleurs sites de rencontres adultes au Québec en 2026"
         items={datingOffers.map((offer) => ({
           name: offer.name,
-          url: `https://nightrankai.com/offres/${offer.slug}`,
+          url: `https://nightrankai.com${getDatingReviewRoute(offer.slug)}`,
         }))}
       />
 
@@ -253,7 +261,7 @@ export default function DatingPage() {
 
                 <div className="grid gap-3">
                   <a
-                    href={`/offres/${offer.slug}`}
+                    href={getDatingReviewRoute(offer.slug)}
                     className="w-full text-center border border-pink-500 text-pink-400 hover:bg-pink-500/10 py-3 rounded-xl font-bold"
                   >
                     Lire notre avis
@@ -312,7 +320,7 @@ export default function DatingPage() {
 
                     <td className="py-5">
                       <a
-                        href={`/offres/${offer.slug}`}
+                        href={getDatingReviewRoute(offer.slug)}
                         className="text-pink-400 hover:text-pink-300 font-bold"
                       >
                         Lire →

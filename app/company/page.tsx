@@ -3,6 +3,7 @@ export const metadata = {
   title: "À propos | NightRank AI",
   description:
     "Découvrez NightRank AI, notre mission, notre méthode de comparaison, nos critères éditoriaux et notre engagement de transparence.",
+  alternates: { canonical: "https://nightrankai.com/company" },
 };
 
 const values = [

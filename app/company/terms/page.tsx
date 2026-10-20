@@ -3,6 +3,7 @@ export const metadata = {
   title: "Conditions d’utilisation | NightRank AI",
   description:
     "Consultez les conditions d’utilisation de NightRank AI, incluant les limites de responsabilité, les liens externes, le contenu informatif et l’accès réservé aux adultes.",
+  alternates: { canonical: "https://nightrankai.com/company/terms" },
 };
 
 export default function TermsPage() {

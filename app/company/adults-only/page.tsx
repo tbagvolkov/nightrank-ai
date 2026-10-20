@@ -3,6 +3,7 @@ export const metadata = {
   title: "18+ | NightRank AI",
   description:
     "NightRank AI est réservé aux adultes. Cette page explique notre position concernant l’accès 18+, la responsabilité et l’utilisation des plateformes présentées.",
+  alternates: { canonical: "https://nightrankai.com/company/adults-only" },
 };
 
 export default function AdultsOnlyPage() {

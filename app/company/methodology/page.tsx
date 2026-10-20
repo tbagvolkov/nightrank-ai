@@ -2,6 +2,7 @@ export const metadata = {
   title: "Notre méthodologie | NightRank AI",
   description:
     "Découvrez comment NightRank AI analyse, compare et évalue les plateformes webcams, rencontres adultes, AI Companions et gaming adulte.",
+  alternates: { canonical: "https://nightrankai.com/company/methodology" },
 };
 
 const criteria = [

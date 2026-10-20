@@ -325,7 +325,7 @@ export const offers: Offer[] = [
     slug: "hentaiheroes",
     name: "Hentai Heroes",
     category: "gaming",
-    rating: 4.5,
+    rating: 4.6,
     affiliate:
       "https://t.anadw.link/197466/6562/35432?aff_sub5=SF_006OG000004lmDN",
     image: "/offres/hentaiheroes.png",

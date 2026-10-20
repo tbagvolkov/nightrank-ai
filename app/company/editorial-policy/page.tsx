@@ -3,6 +3,9 @@ export const metadata = {
   title: "Politique éditoriale | NightRank AI",
   description:
     "Découvrez la politique éditoriale de NightRank AI : transparence, indépendance, mises à jour, comparatifs et responsabilité.",
+  alternates: {
+    canonical: "https://nightrankai.com/company/editorial-policy",
+  },
 };
 
 const principles = [

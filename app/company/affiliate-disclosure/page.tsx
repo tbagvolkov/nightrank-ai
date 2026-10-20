@@ -3,6 +3,9 @@ export const metadata = {
   title: "Divulgation des liens affiliés | NightRank AI",
   description:
     "Découvrez comment NightRank AI utilise les liens affiliés, comment les commissions fonctionnent et notre engagement de transparence éditoriale.",
+  alternates: {
+    canonical: "https://nightrankai.com/company/affiliate-disclosure",
+  },
 };
 
 export default function AffiliateDisclosurePage() {

@@ -3,6 +3,7 @@ export const metadata = {
   title: "DMCA | NightRank AI",
   description:
     "Politique DMCA de NightRank AI concernant les droits d'auteur et les demandes de retrait de contenu.",
+  alternates: { canonical: "https://nightrankai.com/company/dmca" },
 };
 
 export default function DMCAPage() {

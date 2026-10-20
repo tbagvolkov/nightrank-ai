@@ -45,6 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "lovescape-quebec",
 
     "cam-to-cam-quebec",
+    "meilleurs-sites-webcams-quebec",
     "jerkmate-quebec",
     "livejasmin-quebec",
     "bongacams-quebec",

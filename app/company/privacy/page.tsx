@@ -3,6 +3,7 @@ export const metadata = {
   title: "Politique de confidentialité | NightRank AI",
   description:
     "Découvrez comment NightRank AI traite les informations, les liens externes, les cookies, les données de navigation et la confidentialité des visiteurs.",
+  alternates: { canonical: "https://nightrankai.com/company/privacy" },
 };
 
 export default function PrivacyPage() {
