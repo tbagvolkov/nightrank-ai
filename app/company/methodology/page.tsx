@@ -1,3 +1,5 @@
+import BreadcrumbSchema from "@/components/seo/BreadcrumbSchema";
+
 export const metadata = {
   title: "Notre méthodologie | NightRank AI",
   description:
@@ -64,6 +66,16 @@ const categories = [
 export default function MethodologyPage() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-14">
+      <BreadcrumbSchema
+        items={[
+          { name: "Accueil", url: "https://nightrankai.com" },
+          { name: "Trust Center", url: "https://nightrankai.com/company" },
+          {
+            name: "Méthodologie",
+            url: "https://nightrankai.com/company/methodology",
+          },
+        ]}
+      />
       <div className="max-w-6xl mx-auto">
         <a href="/company" className="text-pink-400 hover:text-pink-300">
           ← Retour Trust Center
@@ -216,9 +228,10 @@ export default function MethodologyPage() {
           </p>
 
           <p className="text-gray-300">
-            La présence d’un lien affilié ne signifie pas automatiquement qu’une
-            plateforme sera mieux classée. Nous cherchons à garder une structure
-            éditoriale cohérente, utile et transparente.
+            Une relation d’affiliation ne garantit ni l’inclusion d’une
+            plateforme, ni une meilleure note, ni une position supérieure. Une
+            plateforme sans programme d’affiliation peut aussi être mentionnée
+            lorsqu’elle est utile à la comparaison.
           </p>
         </section>
 
@@ -243,9 +256,9 @@ export default function MethodologyPage() {
                 Les liens affiliés influencent-ils les classements ?
               </h3>
               <p className="text-gray-300">
-                Les liens affiliés peuvent soutenir le site, mais notre objectif
-                est de conserver une présentation claire et utile pour les
-                visiteurs.
+                Ils financent potentiellement le site, mais ne garantissent
+                aucune position. Les critères de la page restent applicables,
+                qu’un programme d’affiliation soit disponible ou non.
               </p>
             </div>
 

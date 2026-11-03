@@ -21,7 +21,7 @@ const values = [
   },
   {
     title: "Mise à jour",
-    text: "Le secteur évolue vite. Nos guides sont pensés pour être révisés et améliorés régulièrement.",
+    text: "Le secteur évolue vite. Nous corrigeons les informations devenues inexactes et révisons les pages lorsqu’un changement important est identifié.",
   },
 ];
 
@@ -66,6 +66,10 @@ export default function CompanyPage() {
             NightRank AI est un guide comparatif indépendant dédié aux
             plateformes webcams, rencontres adultes, gaming adulte et AI
             Companions accessibles au Québec et au Canada.
+          </p>
+
+          <p className="mt-4 text-sm font-semibold uppercase tracking-wide text-gray-400">
+            Publication : équipe éditoriale NightRank AI
           </p>
         </section>
 
@@ -156,6 +160,11 @@ export default function CompanyPage() {
             Cette commission ne change pas le prix pour l'utilisateur. Notre
             objectif reste de présenter les plateformes de manière claire,
             structurée et utile.
+          </p>
+
+          <p className="text-gray-300 mt-4">
+            Une relation commerciale ne garantit ni l’inclusion d’une plateforme,
+            ni une meilleure note, ni une position supérieure dans un classement.
           </p>
         </section>
 

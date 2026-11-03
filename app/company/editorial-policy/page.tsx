@@ -19,7 +19,7 @@ const principles = [
   },
   {
     title: "Cohérence",
-    text: "Nous appliquons une structure similaire pour comparer les plateformes d’une même catégorie.",
+    text: "Nous appliquons des critères comparables aux plateformes d’une même catégorie et distinguons les faits, les déclarations des marques et nos évaluations éditoriales.",
   },
   {
     title: "Responsabilité",
@@ -114,6 +114,38 @@ export default function EditorialPolicyPage() {
           </div>
         </section>
 
+        <section className="mt-10 grid md:grid-cols-3 gap-6">
+          <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+            <h2 className="text-2xl font-bold text-pink-500 mb-4">
+              Sources
+            </h2>
+            <p className="text-gray-300">
+              Nous privilégions les pages officielles, conditions, politiques
+              de confidentialité et informations publiques des plateformes.
+            </p>
+          </div>
+
+          <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+            <h2 className="text-2xl font-bold text-pink-500 mb-4">
+              Vérification
+            </h2>
+            <p className="text-gray-300">
+              Lorsqu’une affirmation provient d’une plateforme et ne peut pas
+              être vérifiée indépendamment, nous cherchons à l’indiquer comme telle.
+            </p>
+          </div>
+
+          <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+            <h2 className="text-2xl font-bold text-pink-500 mb-4">
+              Limites
+            </h2>
+            <p className="text-gray-300">
+              Les prix, fonctions, disponibilités et conditions peuvent changer.
+              Le site officiel reste la référence au moment de l’inscription.
+            </p>
+          </div>
+        </section>
+
         <section className="mt-10">
           <h2 className="text-4xl font-bold text-pink-500 mb-6">
             Nos principes éditoriaux
@@ -201,9 +233,9 @@ export default function EditorialPolicyPage() {
           </p>
 
           <p className="text-gray-300">
-            La présence d’un lien affilié ne dispense pas le visiteur de comparer
-            les options, de lire les conditions officielles et de choisir selon
-            ses propres besoins.
+            Une commission, un accès offert ou une relation commerciale ne
+            garantit pas une meilleure note ni une position supérieure. Tout
+            contenu sponsorisé, s’il existe, doit être identifié comme tel.
           </p>
         </section>
 
@@ -218,9 +250,9 @@ export default function EditorialPolicyPage() {
                 Les contenus sont-ils sponsorisés ?
               </h3>
               <p className="text-gray-300">
-                Certains liens peuvent être affiliés, mais les pages sont
-                structurées pour présenter les informations de façon claire et
-                utile.
+                Certains liens sont affiliés. Un contenu payé ou commandité
+                serait identifié explicitement; un lien affilié seul ne signifie
+                pas que l’article est sponsorisé.
               </p>
             </div>
 

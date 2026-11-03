@@ -5950,6 +5950,8 @@ function OfferCard({
 }
 
 function FinalCta({ title, href }: { title: string; href: string }) {
+  const isExternal = href.startsWith("http");
+
   return (
     <section className="text-center bg-gradient-to-br from-pink-900/40 to-zinc-950 border border-pink-900 rounded-3xl p-10">
       <h2 className="text-4xl font-bold mb-5">{title}</h2>
@@ -5957,7 +5959,12 @@ function FinalCta({ title, href }: { title: string; href: string }) {
         Continuez votre lecture avec nos comparatifs détaillés, nos avis et nos
         guides locaux Québec-first.
       </p>
-      <a href={href} className="bg-pink-600 px-8 py-4 rounded-xl font-bold">
+      <a
+        href={href}
+        target={isExternal ? "_blank" : undefined}
+        rel={isExternal ? "nofollow sponsored noopener noreferrer" : undefined}
+        className="bg-pink-600 px-8 py-4 rounded-xl font-bold"
+      >
         Continuer →
       </a>
     </section>

@@ -2,7 +2,7 @@ import BreadcrumbSchema from "@/components/seo/BreadcrumbSchema";
 export const metadata = {
   title: "Contact | NightRank AI",
   description:
-    "Contactez NightRank AI pour une question, une suggestion, un partenariat ou une demande liée au site.",
+    "Contactez l’équipe éditoriale NightRank AI pour une correction, une suggestion, un partenariat clairement identifié ou une question liée au site.",
   alternates: { canonical: "https://nightrankai.com/company/contact" },
 };
 
@@ -40,9 +40,9 @@ export default function ContactPage() {
           </h1>
 
           <p className="text-gray-300 text-lg max-w-3xl">
-            Vous pouvez contacter NightRank AI pour une question, une correction,
-            une suggestion, une demande de partenariat ou une information liée à
-            nos guides et comparatifs.
+            Vous pouvez contacter l’équipe éditoriale NightRank AI pour une
+            correction, une suggestion, une demande de partenariat clairement
+            identifiée ou une question liée à nos guides et comparatifs.
           </p>
         </section>
 
@@ -53,14 +53,15 @@ export default function ContactPage() {
             </h2>
 
             <p className="text-gray-300 mb-6">
-              Pour le moment, le contact se fait par courriel.
+              Pour le moment, le contact se fait par courriel. L’adresse est
+              utilisée pour les échanges éditoriaux et les signalements.
             </p>
 
             <a
-              href="mailto:contact@nightrankai.com"
+              href="mailto:nightrankai@gmail.com"
               className="inline-block bg-pink-600 hover:bg-pink-700 px-6 py-3 rounded-xl font-bold"
             >
-              contact@nightrankai.com
+              nightrankai@gmail.com
             </a>
           </div>
 
@@ -77,6 +78,24 @@ export default function ContactPage() {
               <li>• Signalement d’un problème technique</li>
             </ul>
           </div>
+        </section>
+
+        <section className="mt-10 bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-3xl font-bold text-pink-500 mb-5">
+            Corrections et partenariats
+          </h2>
+
+          <p className="text-gray-300 mb-4">
+            Pour accélérer une correction, indiquez l’URL concernée, l’information
+            à vérifier et, si possible, une source officielle. Les corrections
+            factuelles sont examinées indépendamment de toute relation commerciale.
+          </p>
+
+          <p className="text-gray-300">
+            Les propositions commerciales doivent être clairement identifiées.
+            Un partenariat, une commission ou un accès offert ne garantit ni une
+            note, ni une recommandation, ni une position dans un classement.
+          </p>
         </section>
 
         <section className="mt-10 bg-zinc-900 border border-zinc-800 rounded-3xl p-8">

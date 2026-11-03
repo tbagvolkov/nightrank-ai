@@ -51,13 +51,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "bongacams-quebec",
     "imlive-quebec",
     "liveprivates-quebec",
+    "top-5-webcams-quebec-2026",
     "jerkmate-vs-livejasmin",
     "bongacams-vs-jerkmate",
     "livejasmin-vs-bongacams",
 
+    "top-5-ai-girlfriends-quebec-2026",
+
     "choisir-site-rencontre",
     "adultfriendfinder-vs-sexmessenger",
     "dating-canada",
+    "rencontres-adultes-quebec",
+    "rencontres-adultes-montreal",
+    "rencontres-adultes-laval",
+    "rencontres-adultes-sherbrooke",
+    "rencontres-adultes-gatineau",
     "fling-avis-quebec",
     "waystomeet-avis-quebec",
 

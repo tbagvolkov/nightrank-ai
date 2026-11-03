@@ -92,7 +92,8 @@ export default function AffiliateDisclosurePage() {
           <p className="text-gray-300 mb-4">
             NightRank AI cherche à présenter les plateformes de manière claire,
             structurée et utile. Les commissions d’affiliation peuvent soutenir
-            le site, mais elles ne doivent pas remplacer une analyse cohérente.
+            le fonctionnement du site, mais elles n’achètent ni une note, ni une
+            recommandation, ni une position dans un classement.
           </p>
 
           <p className="text-gray-300 mb-4">
@@ -104,6 +105,24 @@ export default function AffiliateDisclosurePage() {
           <p className="text-gray-300">
             Les classements et notes publiés sur NightRank AI sont des repères
             éditoriaux, pas des garanties absolues.
+          </p>
+        </section>
+
+        <section className="mt-10 bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-4xl font-bold text-pink-500 mb-6">
+            Identification des liens et contenus payés
+          </h2>
+
+          <p className="text-gray-300 mb-4">
+            Les boutons menant vers certains partenaires peuvent utiliser des
+            liens de suivi affiliés. Sur le plan technique, ces liens sont
+            marqués comme liens commerciaux pour les moteurs de recherche.
+          </p>
+
+          <p className="text-gray-300">
+            Un article sponsorisé ou un placement payé, s’il est publié, doit
+            être clairement signalé. La simple présence d’un lien affilié ne
+            signifie pas qu’une marque a rédigé ou approuvé notre contenu.
           </p>
         </section>
 
@@ -174,9 +193,10 @@ export default function AffiliateDisclosurePage() {
                 Les commissions influencent-elles les avis ?
               </h3>
               <p className="text-gray-300">
-                Notre objectif est de garder une structure de comparaison utile,
-                claire et cohérente. Les visiteurs doivent toujours comparer les
-                options et lire les conditions officielles.
+                Non automatiquement. Une commission ne garantit ni l’inclusion,
+                ni une meilleure note, ni une position supérieure. Les visiteurs
+                doivent toujours comparer les options et lire les conditions
+                officielles.
               </p>
             </div>
 
